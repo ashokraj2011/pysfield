@@ -6,7 +6,11 @@
   },
   "source": {
     "branch": "sflow/config",
-    "commit": "fa25759cdf6f09cbaee6520fc6fb474374d40906"
+    "commit": "6d000ae6a352853eb0bae73e688b51863a723d1e"
+  },
+  "history": {
+    "branch": "sflow/config-history/6d000ae6a352853eb0bae73e688b51863a723d1e",
+    "commit": "6d000ae6a352853eb0bae73e688b51863a723d1e"
   },
   "files": {
     ".github/agents/architect.agent.md": "c17746841c5afad787e9a33c8a97aa6de15bf44a798d541f1d4c61659485d872",
@@ -24,9 +28,10 @@
     ".github/agents/product-owner.agent.md": "86fc702216b2e84cd7ed65ff7ea05b569af345180e9cac6ac14fa5d8bf8526ce",
     ".github/agents/qa.agent.md": "e4b50c0b7fa8c2cc84d9cfd5794a9406d91216a024e4b44200b276032d1822ad",
     "singularity/agent-mappings.yml": "1b39a4f4caa3242749889a291e2259a361c815712bd762abde3db3cbe9f8a688",
+    "singularity/capabilities.yml": "c82ea821bed0b2fcdd4ae68f9d7eefa0c6fff88fd60ab4b45228abf8e793f905",
     "singularity/impact.yml": "e91000c4f19ba8f8c08812ebea1d3e825919f5b31dadd1f3e22f1749e3b05313",
     "singularity/modelTiers.yml": "9c829dea6676d1ad6066197a582125ec049a7e42c62300736ec83cb2ba563449",
-    "singularity/portfolio.yml": "8cc535b09f44c4b06d8d4cdfe7d60f70b729fa1f3841f50cf378f20bc6028b24",
+    "singularity/portfolio.yml": "c241abc7901ed69528385d1f0d705f801f5fb9bc051eb75680abba77297aa0d8",
     "singularity/prompts/copilot-planning.md": "4128acc6930949e4ba1e50e8b8c7c4f7beb23f4361c2e8428475b081712b77db",
     "singularity/prompts/worldmodel-builder.md": "cd93d41ccc98e4ccc09550c60cc79ad6c5a6004d7f8ea66cec596640ab73ffb4",
     "singularity/templates/benchmark/conformance.md": "41484584d35ff0c2e214e8f9592b105bba95bc36b38dba919754b54380851a2b",
@@ -128,7 +133,7 @@
     "singularity/templates/spec-driven/plan.md": "e8af98405a723a55c572c705e34a5b2fc05a11b3efe632e169ba6becf6c1a04f",
     "singularity/templates/spec-driven/release.md": "ce6e1d1995c68158f4209063b3cb954eceab8576e1c8db76bfaed27a805a8908",
     "singularity/templates/spec-driven/spec.md": "27424a624b1dab57323fd7482ac62708bd42d11ba42e41c102f94e15182fe485",
-    "singularity/workflow.yml": "ad577dcec271a6996a9e360dd08f35f42f6a31458c6f94b601a34baac42b64bc"
+    "singularity/workflow.yml": "988c2a002f6598e63e10f4c25a6f9f25fb0c32a43de384ee913ce05ffc9e917d"
   },
   "assets": {
     ".github/agents/architect.agent.md": {
@@ -206,6 +211,11 @@
       "object": "701949f4a8a4ab0da2175415071aaf5298202da4",
       "mode": "100644"
     },
+    "singularity/capabilities.yml": {
+      "sha256": "c82ea821bed0b2fcdd4ae68f9d7eefa0c6fff88fd60ab4b45228abf8e793f905",
+      "object": "cc0516ca073686f787217b0d349cf7cdf060d6f2",
+      "mode": "100644"
+    },
     "singularity/impact.yml": {
       "sha256": "e91000c4f19ba8f8c08812ebea1d3e825919f5b31dadd1f3e22f1749e3b05313",
       "object": "ca5caa426515a71bf583c5fe0fa0743e53d651d5",
@@ -217,8 +227,8 @@
       "mode": "100644"
     },
     "singularity/portfolio.yml": {
-      "sha256": "8cc535b09f44c4b06d8d4cdfe7d60f70b729fa1f3841f50cf378f20bc6028b24",
-      "object": "390debe1e666fe0a320222a574994db96dfc279c",
+      "sha256": "c241abc7901ed69528385d1f0d705f801f5fb9bc051eb75680abba77297aa0d8",
+      "object": "6435a6e45dd39bc952c0d35973a4791852949916",
       "mode": "100644"
     },
     "singularity/prompts/copilot-planning.md": {
@@ -727,8 +737,8 @@
       "mode": "100644"
     },
     "singularity/workflow.yml": {
-      "sha256": "ad577dcec271a6996a9e360dd08f35f42f6a31458c6f94b601a34baac42b64bc",
-      "object": "357eca9505997069407bafa5ac2d0baeac7c655a",
+      "sha256": "988c2a002f6598e63e10f4c25a6f9f25fb0c32a43de384ee913ce05ffc9e917d",
+      "object": "f607aa03d1b8228b7dae000ea4355fc80537d8a0",
       "mode": "100644"
     }
   }
