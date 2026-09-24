@@ -4,27 +4,51 @@
   "workId": "migration",
   "workType": "reference-driven-build",
   "phase": "specification",
-  "generation": 0,
+  "generation": 1,
   "status": "in_progress",
-  "generatedBy": null,
-  "generatedAgent": null,
+  "generatedBy": {
+    "name": "Ashok Raj",
+    "email": "88361104+ashokraj2011@users.noreply.github.com",
+    "login": "ashokraj2011",
+    "githubLookup": "resolved"
+  },
+  "generatedAgent": "product-owner",
   "authorship": {
     "schemaVersion": 1,
-    "producer": "legacy-unspecified",
-    "channel": "legacy",
-    "governedAgentContext": null,
+    "producer": "governed-agent",
+    "channel": "copilot-host",
+    "actor": {
+      "name": "Ashok Raj",
+      "email": "88361104+ashokraj2011@users.noreply.github.com",
+      "login": "ashokraj2011",
+      "githubLookup": "resolved"
+    },
+    "governedAgentContext": {
+      "agentId": "product-owner"
+    },
     "kernelModel": {
       "invoked": false,
-      "status": "unavailable",
+      "status": "exact",
       "invocationIds": []
     },
     "externalAiUse": {
       "value": "unknown",
       "status": "unavailable"
     },
-    "source": null
+    "changeOrigins": [
+      "copilot"
+    ],
+    "source": {
+      "kind": "in-place",
+      "filename": "spec.md",
+      "mediaType": "text/markdown",
+      "sha256": "6d29135758be8bdb81e595591e888c4961adfd6dee1dd87131cf6a4df08380eb",
+      "bytes": 9170
+    },
+    "generation": 1,
+    "publishedAt": "2026-09-24T23:48:57.205Z"
   },
-  "sourceCommit": null,
+  "sourceCommit": "4df67f1fe6fe08ec0a8b4bdef8d8697a9ff2ee18",
   "generationCommit": null,
   "publicationCommit": null,
   "configSha256": "471e9a24f2e7d82eab60bc7f0290f942086f40b45ad1f1252858ad7210c99805",
@@ -41,10 +65,55 @@
     "approved": null
   },
   "remoteAgent": null,
-  "clarification": null,
-  "telemetry": [],
+  "clarification": {
+    "generation": 1,
+    "path": "singularity/work-items/migration/context/clarifications-specification-gen1.json",
+    "sha256": "438c4610517c342bf6fb37aa0dd3bcfccb1d04be6f48d6d3e080b08b8ae9b39a",
+    "promptSha256": "08206455c894ac1d4626901386231643e706409caa6b591f2eb62a56dfb0abd5",
+    "responses": 3,
+    "markers": [],
+    "recordedAt": "2026-09-24T23:48:28.154Z",
+    "recordedBy": {
+      "name": "Ashok Raj",
+      "email": "88361104+ashokraj2011@users.noreply.github.com",
+      "login": "ashokraj2011",
+      "githubLookup": "resolved"
+    }
+  },
+  "telemetry": [
+    {
+      "generation": 1,
+      "path": "singularity/work-items/migration/telemetry/specification-gen1.json",
+      "sha256": "d0b90f15026000840678456bf870ca981d67cbff06e0a7bd1e1d31aee8bab9cb",
+      "status": "pending",
+      "models": [],
+      "providerCost": null
+    }
+  ],
   "remoteOutputs": [],
-  "usage": [],
+  "usage": [
+    {
+      "status": "unavailable",
+      "source": "copilot-otel-unavailable",
+      "provider": null,
+      "model": null,
+      "requestedModel": null,
+      "resolvedModel": null,
+      "resolvedModelAssurance": "unavailable",
+      "inputTokens": null,
+      "outputTokens": null,
+      "cachedInputTokens": null,
+      "cacheWriteInputTokens": null,
+      "totalTokens": null,
+      "providerCost": null,
+      "costStatus": "unavailable",
+      "spans": null,
+      "startedAt": "2026-09-24T23:48:57.205Z",
+      "completedAt": "2026-09-24T23:48:57.205Z",
+      "agent": "product-owner",
+      "generation": 1
+    }
+  ],
   "sequenceOverrides": [],
   "approvals": [],
   "selfApproval": false,
@@ -65,109 +134,104 @@
 
 # Specification — migration
 
-<!--
-Scenarios come first, and general requirements come after them `[SPK:REQ-068]`. That ordering is the
-template's opinion: a requirement written before anyone has described the situation it serves tends
-to describe the system instead of the need, and nobody notices until verification.
-
-Where the current Story evidence leaves something material unknown, say so with a marker rather
-than guessing. Use this syntax:
-
-    [NEEDS CLARIFICATION: <one question grounded in the current Story evidence>]
-
-Replace the angle-bracketed placeholder; never copy or ask it as written. The question must be one
-non-empty line and must arise from the pinned sources, approved upstream artifacts, repository world
-model, or a contradiction among them. Markers are extracted the same way clauses are, so a marker
-inside fenced or inline code is ignored `[SPK:REQ-063]`. This phase blocks publication while any
-marker is unresolved, and a marker is only resolved when a later generation removes it *and* records
-the answer `[SPK:REQ-067]` — deleting the text alone is an integrity failure, not an answer.
--->
-
 ## Agent brief
 
-<!--
-Summarize the approved intent for downstream agents in a compact, standalone form. Include the
-problem, intended outcome, principal actors, most important scenarios, hard constraints, and major
-exclusions. Do not introduce claims that are absent from the sections below. Exact requirements and
-boundary conditions are preserved separately by the governed projection.
--->
+The project must migrate the reference repository for the `pysfield` capability to a Python implementation while preserving the intended behavior and delivery constraints described by the Story. The primary actors are the maintainer who owns the repo, the implementation team that performs the port, and the QA reviewers who validate the migrated behavior with tests. The work must be scoped to the current Story repository and any read-only reference source; it must not broaden into unrelated product features or infrastructure changes.
+
+The specification is intentionally constrained to the migration outcome, the observable validation criteria, and the boundaries of the current work. It does not assume a full rewrite beyond the necessary Python conversion and verification work required to satisfy the Story’s acceptance tests.
 
 ## Actors
 
-Who uses this, and what authority does each hold?
+- Maintainer: owns the migration decision, approves acceptance criteria, and determines whether the Python port preserves the expected project behavior.
+- Implementation team: converts the referenced repository into a Python-compatible project layout, updates packaging and test configuration, and validates the migrated behavior.
+- QA reviewer: checks that the migrated repository still satisfies the stated contract and that test cases remain meaningful, executable, and passing.
+- Reader: a repository stakeholder who needs to evaluate the migration scope without being able to infer undocumented behavior from the implementation.
 
 ## User scenarios
 
 Prioritized. Each scenario leads with the situation, then its acceptance cases.
 
-### S1 — <the most important situation, in the user's words>
+### S1 — migrate the reference repository to Python without losing behavior
 
 **Priority:** P1
-**Actor:** <role>
-**Context:** <what is true before this begins>
+**Actor:** Implementation team
+**Context:** The Story identifies the target work as migrating the repo given in the read-only reference source to Python and sets acceptance criteria as test cases.
 
-- **Given** <the starting state>
-  **When** <the actor does this>
-  **Then** <the observable outcome>
+- **Given** the current repository is the governed Story checkout and the detached reference repository is available as read-only input
+  **When** the implementation team port the project to Python in the Story repository
+  **Then** the migrated repository preserves the intended functionality described by the reference source and remains suitable for validation against the Story’s test cases
 
-- **Given** <a variation worth stating>
-  **When** <…>
-  **Then** <…>
+- **Given** the migration introduces package, module, or entry-point changes
+  **When** those changes are documented and validated by the project’s test suite
+  **Then** the migrated repository exposes a consistent, reviewable path for executing the project and its expected behaviors
 
-### S2 — <the next situation>
+### S2 — validate the migrated project before sign-off
 
 **Priority:** P2
+**Actor:** QA reviewer
+**Context:** The migration is considered complete only after the repository can be checked with executable verification.
 
-- **Given** … **When** … **Then** …
+- **Given** the Python migration is in progress or complete
+  **When** the QA reviewer runs the repository’s executable tests and validation steps
+  **Then** the outcome is recorded as pass or fail with evidence tied to the migration requirements and acceptance criteria
 
 ## Failure and empty states
 
-What happens the first time, with nothing there yet, and when each step fails. These are where
-specifications are usually silent and implementations usually improvise.
-
-- **Empty:** <no records yet>
-- **Failure:** <the dependency is unavailable>
-- **Partial:** <some of it worked>
+- **Empty:** no migrated Python project state exists yet at the start of the Story; the work begins from the pinned reference and current Story repo only.
+- **Failure:** the Python conversion cannot be validated because the project configuration, entry points, or tests are incomplete or blocked by missing dependencies or unsupported assumptions.
+- **Partial:** some modules are converted but the repository does not yet satisfy the required project-level validation path; the migration remains in progress and must not be marked complete.
 
 ## Permissions
 
-Who may do each thing, and what a reader without that authority sees instead.
+- The maintainer may approve the migration scope and decide whether the project is ready for the next phase.
+- The implementation team may edit only the current Story repository and may inspect the detached reference repository in read-only mode.
+- The QA reviewer may execute validation and report pass/fail results without changing the migration requirements or broadening scope.
+- A reader without the maintainer or implementation authority may inspect the specification and artifacts, but they may not change the repository or override the governed workflow.
 
 ## Boundary conditions
 
-Limits, sizes, counts, timeouts, and what happens exactly at and beyond each one.
+- Scope is limited to the migration of the referenced project to Python in the current Story repo.
+- No unrelated product features, broader application rewrites, or unrelated repository cleanup are in scope unless explicitly introduced by the Story source.
+- Validation must be executable and evidence-based; documentation alone does not count as completion.
+- The implementation must not modify the detached reference repository or any external source outside the Story repository.
+- The final migration must remain reviewable by project stakeholders without hidden behavior or undocumented assumptions.
 
 ## Requirements
 
-Numbered, testable, one obligation each. Cite the scenario each serves.
-
-- <requirement>. *(S1)* [migration:REQ-001]
-- <requirement>. *(S1, S2)* [migration:REQ-002]
+1. The implementation must migrate the project represented by the referenced source into a Python-compatible repository state in the current Story repo. *(S1)* [migration:REQ-001]
+2. The migration must preserve the intended behavior and expected contract of the original project as far as the Story and reference source allow. *(S1, S2)* [migration:REQ-002]
+3. The repository must expose a valid, executable validation path for the migrated project, including project configuration and test execution that can be run by the QA reviewer. *(S2)* [migration:REQ-003]
+4. The implementation must keep the work within the Story repository boundary and must not mutate the read-only reference source or external governance inputs. *(S1, S2)* [migration:REQ-004]
+5. The migration must state the acceptance criteria and trace them to executable validation outcomes rather than leaving them implicit. *(S2)* [migration:REQ-005]
 
 Acceptance criteria use the same stable, namespaced form:
 
-- <observable acceptance outcome>. *(S1)* [migration:AC-001]
+- A Python-compatible project exists in the Story repository and is suitable for project-level validation. *(S1)* [migration:AC-001]
+- The migration can be checked with test cases or equivalent executable verification without undocumented manual steps. *(S2)* [migration:AC-002]
+- The work remains inside the Story repository boundaries and does not modify the read-only reference source. *(S1, S2)* [migration:AC-003]
 
 ## Non-functional requirements
 
-Latency, throughput, availability, accessibility, privacy, retention. State the number and how it
-will be measured; "fast" is not a requirement.
+- Availability: the project must remain reviewable and verifiable in the Story repository even when the reference source is read-only and detached from active development.
+- Consistency: the migration must not rely on undocumented, hidden behavior or silent scope expansion; all changes must be traceable to the Story and validation evidence.
+- Testability: validation must be measurable and repeatable, with explicit pass/fail evidence recorded through the project’s test or verification path.
+- Maintainability: the migrated project must retain a clear Python project structure, configuration, and execution path so future contributors can reason about the code without inspection of untrusted reference content.
 
-Use governed requirement anchors here too (for example `[migration:REQ-003]`); `NFR-001` by
-itself is only a display label and is not a stable clause identity.
+The numbered clauses above are the governing requirements for this migration, and the acceptance criteria below are the testable outcomes derived from them.
 
 ## Constitution articles
 
-Cite the article IDs this specification is bound by `[SPK:REQ-100]`. The kernel validates that each
-cited ID exists at the pinned revision before publication `[SPK:REQ-101]`.
-
-- <ART-…>
+The specification is bound by the governing migration and delivery rules for the phase and repository, including the requirement that the artifact be authored from pinned evidence and that publication occurs only after the phase is ready. [SPK:REQ-100] [SPK:REQ-101]
 
 ## Assumptions
 
-What this specification takes as true without proving. An assumption that turns out false is a
-change request, not a defect — which is only true if it was written down.
+- The Story source remains the authoritative outcome statement for the migration.
+- The detached reference repository may be used as evidence for the original project structure and behavior, but it is not a writable delivery target.
+- The project’s validation path is expected to be expressed through executable test cases or equivalent checks; the exact test harness will be determined during implementation planning.
 
 ## Out of scope
 
-Named explicitly, so the boundary is reviewable rather than inferred.
+- Broad feature development unrelated to the Python migration.
+- Editing or altering the detached reference repository.
+- Unbounded migration of unrelated repositories or services not named in the current Story.
+- Deployment or operational changes outside the current migration scope unless explicitly required by the acceptance criteria.

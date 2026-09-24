@@ -1,0 +1,35 @@
+{
+  "artifact": {
+    "bytes": 10651,
+    "path": "singularity/work-items/migration/artifacts/specification/spec.md",
+    "role": "document",
+    "sha256": "6c69ad26df8cc25cd66c5d72ba5d0fe9fcce312f2071884b2f47096d3e7489a2"
+  },
+  "configuration": {
+    "revision": "50e0f08863997019665f5e292cc933cb74dd7cd7",
+    "sha256": "471e9a24f2e7d82eab60bc7f0290f942086f40b45ad1f1252858ad7210c99805"
+  },
+  "generation": 1,
+  "inputs": [],
+  "integritySha256": "30b913f528f6694f1b505abca36012d476c0f535e5526d550032ed6c8ecf28f2",
+  "phase": "specification",
+  "producer": {
+    "actor": "88361104+ashokraj2011@users.noreply.github.com",
+    "agent": "product-owner",
+    "kind": "governed-agent"
+  },
+  "publication": {
+    "branch": "migration",
+    "commit": null,
+    "publishedAt": "2026-09-24T23:48:57.205Z"
+  },
+  "schemaVersion": 1,
+  "subject": {
+    "id": "migration",
+    "kind": "story"
+  },
+  "template": {
+    "path": "singularity/work-items/migration/config/wfa/blobs/sha256/27424a624b1dab57323fd7482ac62708bd42d11ba42e41c102f94e15182fe485",
+    "sha256": "27424a624b1dab57323fd7482ac62708bd42d11ba42e41c102f94e15182fe485"
+  }
+}

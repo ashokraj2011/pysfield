@@ -2564,24 +2564,204 @@
       "rejectedAt": null,
       "rejectedBy": null,
       "rejectionReason": null,
-      "generation": 0,
-      "generatedBy": null,
-      "generatedAgent": null,
-      "authorship": [],
-      "usage": [],
-      "telemetry": [],
+      "generation": 1,
+      "generatedBy": {
+        "name": "Ashok Raj",
+        "email": "88361104+ashokraj2011@users.noreply.github.com",
+        "login": "ashokraj2011",
+        "githubLookup": "resolved"
+      },
+      "generatedAgent": "product-owner",
+      "authorship": [
+        {
+          "schemaVersion": 1,
+          "producer": "governed-agent",
+          "channel": "copilot-host",
+          "actor": {
+            "name": "Ashok Raj",
+            "email": "88361104+ashokraj2011@users.noreply.github.com",
+            "login": "ashokraj2011",
+            "githubLookup": "resolved"
+          },
+          "governedAgentContext": {
+            "agentId": "product-owner"
+          },
+          "kernelModel": {
+            "invoked": false,
+            "status": "exact",
+            "invocationIds": []
+          },
+          "externalAiUse": {
+            "value": "unknown",
+            "status": "unavailable"
+          },
+          "changeOrigins": [
+            "copilot"
+          ],
+          "source": {
+            "kind": "in-place",
+            "filename": "spec.md",
+            "mediaType": "text/markdown",
+            "sha256": "6d29135758be8bdb81e595591e888c4961adfd6dee1dd87131cf6a4df08380eb",
+            "bytes": 9170
+          },
+          "generation": 1,
+          "publishedAt": "2026-09-24T23:48:57.205Z"
+        }
+      ],
+      "usage": [
+        {
+          "status": "unavailable",
+          "source": "copilot-otel-unavailable",
+          "provider": null,
+          "model": null,
+          "requestedModel": null,
+          "resolvedModel": null,
+          "resolvedModelAssurance": "unavailable",
+          "inputTokens": null,
+          "outputTokens": null,
+          "cachedInputTokens": null,
+          "cacheWriteInputTokens": null,
+          "totalTokens": null,
+          "providerCost": null,
+          "costStatus": "unavailable",
+          "spans": null,
+          "startedAt": "2026-09-24T23:48:57.205Z",
+          "completedAt": "2026-09-24T23:48:57.205Z",
+          "agent": "product-owner",
+          "generation": 1
+        }
+      ],
+      "telemetry": [
+        {
+          "generation": 1,
+          "path": "singularity/work-items/migration/telemetry/specification-gen1.json",
+          "sha256": "d0b90f15026000840678456bf870ca981d67cbff06e0a7bd1e1d31aee8bab9cb",
+          "status": "pending",
+          "models": [],
+          "providerCost": null
+        }
+      ],
       "approvals": [],
-      "generationPublications": [],
+      "generationPublications": [
+        {
+          "generation": 1,
+          "publishedAt": "2026-09-24T23:48:57.205Z",
+          "changeSetDigest": null,
+          "resultDigest": "sha256:4881f7be4c3b9f9bf5a967bef661ca929894742b480974d390204a70842972b7",
+          "resultDigestVersion": 3,
+          "architectureIntent": null,
+          "architectureDecision": null,
+          "record": {
+            "path": "singularity/work-items/migration/context/generation-publications/specification-gen1.json",
+            "sha256": "sha256:b6f438d543782d4b4d9e6fa5846a06d73632d2d298767df001639be3895043ef"
+          }
+        }
+      ],
       "submissionArchitectureDecision": null,
       "designSourceSets": [],
       "artifactRegistrationRepairs": [],
-      "artifacts": [],
+      "artifacts": [
+        {
+          "path": "singularity/work-items/migration/artifacts/specification/spec.md",
+          "kind": "document",
+          "status": "pending",
+          "exists": true,
+          "size": 12832,
+          "sha256": "5521a6570a33b9c3766e18b5ce63ed853e30debf0235c85cd17bd66bfd3d7b5a",
+          "registeredAt": "2026-09-24T23:48:55.753Z",
+          "updatedAt": "2026-09-24T23:48:57.237Z"
+        }
+      ],
       "checks": [],
       "authoringBaseline": {
         "generation": 1,
         "path": "artifacts/specification/spec.md",
         "fingerprint": "sha256:44e30017acbca944ea86004f6c65e91987e768ed4b62befc46cff893710534a5",
         "bytes": 4622
+      },
+      "remoteOutputs": [],
+      "sidecars": [
+        {
+          "path": "singularity/work-items/migration/context/sidecars/specification-gen1-singularity-work-items-migration-artifacts-specification-spec.md.json",
+          "artifact": "singularity/work-items/migration/artifacts/specification/spec.md",
+          "integritySha256": "30b913f528f6694f1b505abca36012d476c0f535e5526d550032ed6c8ecf28f2"
+        }
+      ],
+      "clarifications": [
+        {
+          "generation": 1,
+          "path": "singularity/work-items/migration/context/clarifications-specification-gen1.json",
+          "sha256": "438c4610517c342bf6fb37aa0dd3bcfccb1d04be6f48d6d3e080b08b8ae9b39a",
+          "promptSha256": "08206455c894ac1d4626901386231643e706409caa6b591f2eb62a56dfb0abd5",
+          "responses": 3,
+          "markers": [],
+          "recordedAt": "2026-09-24T23:48:28.154Z",
+          "recordedBy": {
+            "name": "Ashok Raj",
+            "email": "88361104+ashokraj2011@users.noreply.github.com",
+            "login": "ashokraj2011",
+            "githubLookup": "resolved"
+          }
+        }
+      ],
+      "markers": [
+        {
+          "generation": 1,
+          "artifactPath": "singularity/work-items/migration/artifacts/specification/spec.md",
+          "artifactSha256": "6c69ad26df8cc25cd66c5d72ba5d0fe9fcce312f2071884b2f47096d3e7489a2",
+          "policySha256": "f52b980ffcaf26cf59e2d5c7fb15b38c1bb7fef7e37f4a81603bdfe0b55006ab",
+          "markerMode": "block",
+          "qualityMode": "enforce",
+          "open": [],
+          "findings": 0,
+          "recordedAt": "2026-09-24T23:48:57.205Z"
+        }
+      ],
+      "sourceCommit": "4df67f1fe6fe08ec0a8b4bdef8d8697a9ff2ee18",
+      "artifactSet": {
+        "schemaVersion": 1,
+        "resultType": "artifact-set-catalog",
+        "setId": "spec-driven-specification",
+        "primary": "singularity/work-items/migration/artifacts/specification/spec.md",
+        "members": [
+          {
+            "path": "singularity/work-items/migration/artifacts/specification/checklists/requirements.md",
+            "member": "checklists/requirements.md",
+            "role": "specification-quality",
+            "required": false,
+            "authority": "advisory",
+            "directory": false,
+            "exists": false,
+            "sha256": null,
+            "bytes": null,
+            "files": null
+          },
+          {
+            "path": "singularity/work-items/migration/artifacts/specification/spec.md",
+            "member": "spec.md",
+            "role": "specification",
+            "required": true,
+            "authority": "governed",
+            "directory": false,
+            "exists": true,
+            "sha256": "5521a6570a33b9c3766e18b5ce63ed853e30debf0235c85cd17bd66bfd3d7b5a",
+            "bytes": 12832,
+            "files": null
+          }
+        ],
+        "bundleSha256": "f5e0360692b19782825b81b4dd2bfc00dc0343c00c2b68e3960c285bb7bb65ad",
+        "missingRequired": [],
+        "generation": 1,
+        "preserved": [],
+        "changed": []
+      },
+      "specIndex": {
+        "generation": 1,
+        "path": "singularity/work-items/migration/context/spec-indexes/specification-gen1.json",
+        "clauses": 10,
+        "indexSha256": "5c5657f399e95d1d0ebbc69c62ea3165866a75589364f6ecf78d6386714adb17",
+        "sourceSha256": "5521a6570a33b9c3766e18b5ce63ed853e30debf0235c85cd17bd66bfd3d7b5a"
       }
     },
     "planning": {
@@ -2668,7 +2848,8 @@
       "designSourceSets": [],
       "artifactRegistrationRepairs": [],
       "artifacts": [],
-      "checks": []
+      "checks": [],
+      "remoteOutputs": []
     },
     "implementation": {
       "id": "implementation",
@@ -2760,7 +2941,8 @@
       "designSourceSets": [],
       "artifactRegistrationRepairs": [],
       "artifacts": [],
-      "checks": []
+      "checks": [],
+      "remoteOutputs": []
     },
     "convergence": {
       "id": "convergence",
@@ -2856,7 +3038,8 @@
       "designSourceSets": [],
       "artifactRegistrationRepairs": [],
       "artifacts": [],
-      "checks": []
+      "checks": [],
+      "remoteOutputs": []
     },
     "verification": {
       "id": "verification",
@@ -2957,7 +3140,8 @@
       "designSourceSets": [],
       "artifactRegistrationRepairs": [],
       "artifacts": [],
-      "checks": []
+      "checks": [],
+      "remoteOutputs": []
     },
     "release": {
       "id": "release",
@@ -3045,19 +3229,48 @@
       "designSourceSets": [],
       "artifactRegistrationRepairs": [],
       "artifacts": [],
-      "checks": []
+      "checks": [],
+      "remoteOutputs": []
     }
   },
   "usage": {
     "mode": "exact-or-unavailable",
     "totalTokens": 0,
-    "records": 0,
+    "records": 1,
     "exactRecords": 0,
-    "unavailableRecords": 0,
-    "byPhase": {},
-    "byAgent": {},
-    "byWorkType": {},
-    "byWorkItem": {}
+    "unavailableRecords": 1,
+    "byPhase": {
+      "specification": {
+        "records": 1,
+        "exactRecords": 0,
+        "unavailableRecords": 1,
+        "totalTokens": 0
+      }
+    },
+    "byAgent": {
+      "product-owner": {
+        "records": 1,
+        "exactRecords": 0,
+        "unavailableRecords": 1,
+        "totalTokens": 0
+      }
+    },
+    "byWorkType": {
+      "reference-driven-build": {
+        "records": 1,
+        "exactRecords": 0,
+        "unavailableRecords": 1,
+        "totalTokens": 0
+      }
+    },
+    "byWorkItem": {
+      "migration": {
+        "records": 1,
+        "exactRecords": 0,
+        "unavailableRecords": 1,
+        "totalTokens": 0
+      }
+    }
   },
   "telemetry": {
     "schemaVersion": 1,
@@ -3081,6 +3294,14 @@
       "event": "work_started",
       "phase": "specification",
       "detail": "Created reference-driven-build branch migration"
+    },
+    {
+      "at": "2026-09-24T23:48:57.278Z",
+      "actor": "ashokraj2011",
+      "agent": "product-owner",
+      "event": "phase_generated",
+      "phase": "specification",
+      "detail": "generation 1"
     }
   ],
   "measurement": {
@@ -3205,6 +3426,112 @@
         },
         "createdAt": "2026-09-24T23:44:55.178Z"
       }
+    },
+    {
+      "schemaVersion": 1,
+      "event": {
+        "schemaVersion": 1,
+        "eventId": "e07a7cb6-9d89-4fd7-88d1-db388484822c",
+        "type": "artifact-generated",
+        "subject": {
+          "kind": "story",
+          "id": "migration",
+          "branch": "migration"
+        },
+        "phaseId": "specification",
+        "generation": 1,
+        "actor": {
+          "name": "Ashok Raj",
+          "email": "88361104+ashokraj2011@users.noreply.github.com",
+          "login": "ashokraj2011",
+          "githubLookup": "resolved"
+        },
+        "agent": null,
+        "authorityGroup": null,
+        "payload": {
+          "decision": null,
+          "reviewPacketSha256": null
+        },
+        "sourceCommit": null,
+        "idempotencyKey": null,
+        "idempotencyHash": null,
+        "createdAt": "2026-09-24T23:48:56.244Z"
+      },
+      "ledgerIntent": {
+        "schemaVersion": 1,
+        "eventId": "e07a7cb6-9d89-4fd7-88d1-db388484822c",
+        "eventType": "artifact-generated",
+        "capabilityId": "py-sfield",
+        "subject": {
+          "branch": "migration",
+          "generation": 1,
+          "phase": "specification",
+          "workId": "migration",
+          "workType": "reference-driven-build"
+        },
+        "actor": {
+          "name": "Ashok Raj",
+          "email": "88361104+ashokraj2011@users.noreply.github.com",
+          "githubLogin": "ashokraj2011",
+          "identityAssurance": "configured-local"
+        },
+        "agent": null,
+        "authorityGroup": null,
+        "payload": {
+          "capabilityMapSha256": "c82ea821bed0b2fcdd4ae68f9d7eefa0c6fff88fd60ab4b45228abf8e793f905",
+          "capabilityPolicy": {
+            "protectedPaths": [],
+            "qualityCommands": [],
+            "requiredAuthorityGroups": [],
+            "requiredChecks": [],
+            "requiredWorldModelViews": []
+          },
+          "configPath": "singularity/workflow.yml",
+          "configSha256": "471e9a24f2e7d82eab60bc7f0290f942086f40b45ad1f1252858ad7210c99805",
+          "lifecycleEventId": "e07a7cb6-9d89-4fd7-88d1-db388484822c",
+          "lifecyclePayload": {
+            "decision": null,
+            "reviewPacketSha256": null
+          },
+          "templateSha256": "27424a624b1dab57323fd7482ac62708bd42d11ba42e41c102f94e15182fe485",
+          "lifecycleEvent": {
+            "schemaVersion": 1,
+            "eventId": "e07a7cb6-9d89-4fd7-88d1-db388484822c",
+            "type": "artifact-generated",
+            "subject": {
+              "kind": "story",
+              "id": "migration",
+              "branch": "migration"
+            },
+            "phaseId": "specification",
+            "generation": 1,
+            "actor": {
+              "name": "Ashok Raj",
+              "email": "88361104+ashokraj2011@users.noreply.github.com",
+              "login": "ashokraj2011",
+              "githubLookup": "resolved"
+            },
+            "agent": null,
+            "authorityGroup": null,
+            "payload": {
+              "decision": null,
+              "reviewPacketSha256": null
+            },
+            "sourceCommit": null,
+            "idempotencyKey": null,
+            "idempotencyHash": null,
+            "createdAt": "2026-09-24T23:48:56.244Z"
+          }
+        },
+        "createdAt": "2026-09-24T23:48:56.256Z"
+      }
     }
-  ]
+  ],
+  "repairBudgets": {},
+  "workIntervals": {
+    "schemaVersion": 1,
+    "current": null,
+    "history": [],
+    "escalations": []
+  }
 }

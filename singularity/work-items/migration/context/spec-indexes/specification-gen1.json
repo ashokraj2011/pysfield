@@ -1,0 +1,154 @@
+{
+  "clauses": [
+    {
+      "anchor": "[migration:REQ-001]",
+      "body": "2. The migration must preserve the intended behavior and expected contract of the original project as far as the Story and reference source allow. *(S1, S2)*",
+      "bodySha256": "bd7f7c66a5f1ab55596ee99bbe580b0885f32bb7dfcc3edb1ed88054772af1c7",
+      "dependsOn": [],
+      "id": "MIGRATION:REQ-001",
+      "namespace": "MIGRATION",
+      "number": 1,
+      "source": {
+        "line": 201,
+        "path": "singularity/work-items/migration/artifacts/specification/spec.md"
+      },
+      "type": "REQ"
+    },
+    {
+      "anchor": "[migration:REQ-002]",
+      "body": "3. The repository must expose a valid, executable validation path for the migrated project, including project configuration and test execution that can be run by the QA reviewer. *(S2)*",
+      "bodySha256": "4797be00fcd8967a4e7682f2cf9fa5b0dc90ab13d7dbeb5d09ed142a9070b36e",
+      "dependsOn": [],
+      "id": "MIGRATION:REQ-002",
+      "namespace": "MIGRATION",
+      "number": 2,
+      "source": {
+        "line": 202,
+        "path": "singularity/work-items/migration/artifacts/specification/spec.md"
+      },
+      "type": "REQ"
+    },
+    {
+      "anchor": "[migration:REQ-003]",
+      "body": "4. The implementation must keep the work within the Story repository boundary and must not mutate the read-only reference source or external governance inputs. *(S1, S2)*",
+      "bodySha256": "457cb862bbb9e4689146845a0c6dc70e6eb108ea021bbcef13afb574cffa45ea",
+      "dependsOn": [],
+      "id": "MIGRATION:REQ-003",
+      "namespace": "MIGRATION",
+      "number": 3,
+      "source": {
+        "line": 203,
+        "path": "singularity/work-items/migration/artifacts/specification/spec.md"
+      },
+      "type": "REQ"
+    },
+    {
+      "anchor": "[migration:REQ-004]",
+      "body": "5. The migration must state the acceptance criteria and trace them to executable validation outcomes rather than leaving them implicit. *(S2)*",
+      "bodySha256": "dd47eb0521d8b9e926a95178b7f23203d15915a7e301a6151c2f19281338bc8d",
+      "dependsOn": [],
+      "id": "MIGRATION:REQ-004",
+      "namespace": "MIGRATION",
+      "number": 4,
+      "source": {
+        "line": 204,
+        "path": "singularity/work-items/migration/artifacts/specification/spec.md"
+      },
+      "type": "REQ"
+    },
+    {
+      "anchor": "[migration:REQ-005]",
+      "body": "Acceptance criteria use the same stable, namespaced form:\n\n- A Python-compatible project exists in the Story repository and is suitable for project-level validation. *(S1)*",
+      "bodySha256": "96b529dbb69ff6387b4bcf38130653468be3e54c05a33c168430955554ad55e2",
+      "dependsOn": [],
+      "id": "MIGRATION:REQ-005",
+      "namespace": "MIGRATION",
+      "number": 5,
+      "source": {
+        "line": 205,
+        "path": "singularity/work-items/migration/artifacts/specification/spec.md"
+      },
+      "type": "REQ"
+    },
+    {
+      "anchor": "[migration:AC-001]",
+      "body": "- The migration can be checked with test cases or equivalent executable verification without undocumented manual steps. *(S2)*",
+      "bodySha256": "f8479d36b25f34e6a0d48d4ea77989e3121ca5b09d0a1e08666c886fc489b1e8",
+      "dependsOn": [],
+      "id": "MIGRATION:AC-001",
+      "namespace": "MIGRATION",
+      "number": 1,
+      "source": {
+        "line": 209,
+        "path": "singularity/work-items/migration/artifacts/specification/spec.md"
+      },
+      "type": "AC"
+    },
+    {
+      "anchor": "[migration:AC-002]",
+      "body": "- The work remains inside the Story repository boundaries and does not modify the read-only reference source. *(S1, S2)*",
+      "bodySha256": "86d9556d2feabe81d354902302449a967b74446b7607c44a6a237fb66c7dac9e",
+      "dependsOn": [],
+      "id": "MIGRATION:AC-002",
+      "namespace": "MIGRATION",
+      "number": 2,
+      "source": {
+        "line": 210,
+        "path": "singularity/work-items/migration/artifacts/specification/spec.md"
+      },
+      "type": "AC"
+    },
+    {
+      "anchor": "[migration:AC-003]",
+      "body": "## Non-functional requirements\n\n- Availability: the project must remain reviewable and verifiable in the Story repository even when the reference source is read-only and detached from active development.\n- Consistency: the migration must not rely on undocumented, hidden behavior or silent scope expansion; all changes must be traceable to the Story and validation evidence.\n- Testability: validation must be measurable and repeatable, with explicit pass/fail evidence recorded through the project’s test or verification path.\n- Maintainability: the migrated project must retain a clear Python project structure, configuration, and execution path so future contributors can reason about the code without inspection of untrusted reference content.\n\nThe numbered clauses above are the governing requirements for this migration, and the acceptance criteria below are the testable outcomes derived from them.\n\n## Constitution articles\n\nThe specification is bound by the governing migration and delivery rules for the phase and repository, including the requirement that the artifact be authored from pinned evidence and that publication occurs only after the phase is ready.",
+      "bodySha256": "3e7c3d79ed551c7a925a71607c79d0496b252d52a1eb0b497473f41d56bd03af",
+      "dependsOn": [],
+      "id": "MIGRATION:AC-003",
+      "namespace": "MIGRATION",
+      "number": 3,
+      "source": {
+        "line": 211,
+        "path": "singularity/work-items/migration/artifacts/specification/spec.md"
+      },
+      "type": "AC"
+    },
+    {
+      "anchor": "[SPK:REQ-100]",
+      "body": "",
+      "bodySha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "dependsOn": [],
+      "id": "SPK:REQ-100",
+      "namespace": "SPK",
+      "number": 100,
+      "source": {
+        "line": 224,
+        "path": "singularity/work-items/migration/artifacts/specification/spec.md"
+      },
+      "type": "REQ"
+    },
+    {
+      "anchor": "[SPK:REQ-101]",
+      "body": "## Assumptions\n\n- The Story source remains the authoritative outcome statement for the migration.\n- The detached reference repository may be used as evidence for the original project structure and behavior, but it is not a writable delivery target.\n- The project’s validation path is expected to be expressed through executable test cases or equivalent checks; the exact test harness will be determined during implementation planning.\n\n## Out of scope\n\n- Broad feature development unrelated to the Python migration.\n- Editing or altering the detached reference repository.\n- Unbounded migration of unrelated repositories or services not named in the current Story.\n- Deployment or operational changes outside the current migration scope unless explicitly required by the acceptance criteria.",
+      "bodySha256": "cf88facc70fcbd029141bb7931beb5cc0dcc53744545c9b98cc5e3f970248064",
+      "dependsOn": [],
+      "id": "SPK:REQ-101",
+      "namespace": "SPK",
+      "number": 101,
+      "source": {
+        "line": 224,
+        "path": "singularity/work-items/migration/artifacts/specification/spec.md"
+      },
+      "type": "REQ"
+    }
+  ],
+  "generation": 1,
+  "indexSha256": "5c5657f399e95d1d0ebbc69c62ea3165866a75589364f6ecf78d6386714adb17",
+  "phase": "specification",
+  "schemaVersion": 1,
+  "source": {
+    "bytes": 12832,
+    "path": "singularity/work-items/migration/artifacts/specification/spec.md",
+    "sha256": "5521a6570a33b9c3766e18b5ce63ed853e30debf0235c85cd17bd66bfd3d7b5a"
+  },
+  "workId": "migration"
+}

@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "workId": "migration",
+  "phase": "specification",
+  "generation": 1,
+  "mode": "required",
+  "promptPath": "singularity/work-items/migration/context/prompts/specification-gen1.md",
+  "promptSha256": "08206455c894ac1d4626901386231643e706409caa6b591f2eb62a56dfb0abd5",
+  "groundingRecordPath": "singularity/work-items/migration/context/specification-gen1.json",
+  "groundingRecordSha256": "70843ebb2ecc4d0d14dce7ec9ca832160ac83c28fd4b5b4f6fdae8466e490abc",
+  "responses": [
+    {
+      "id": "Q-001",
+      "question": "What is the intended migration outcome to preserve in Python?",
+      "answer": "Preserve the reference repo’s existing behavior and public contract",
+      "status": "answered",
+      "blocking": false
+    },
+    {
+      "id": "Q-002",
+      "question": "What should count as successful completion of the migration?",
+      "answer": "The project’s executable test suite passes",
+      "status": "answered",
+      "blocking": false
+    },
+    {
+      "id": "Q-003",
+      "question": "Should the migration stay strictly limited to the referenced repository and Story repo?",
+      "answer": "Yes, keep it strictly limited to the referenced repo and current Story repo",
+      "status": "answered",
+      "blocking": false
+    }
+  ],
+  "completed": true,
+  "recordedAt": "2026-09-24T23:48:28.154Z",
+  "recordedBy": {
+    "name": "Ashok Raj",
+    "email": "88361104+ashokraj2011@users.noreply.github.com",
+    "login": "ashokraj2011",
+    "githubLookup": "resolved"
+  },
+  "agent": "product-owner"
+}
