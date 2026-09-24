@@ -48,7 +48,166 @@
     "currentJiraKey": null,
     "branchCompletionPolicy": "pr",
     "requiredChecks": [],
-    "childBranches": []
+    "childBranches": [],
+    "submissions": [
+      {
+        "packetSha256": "cfb15f5a8ae9184fc0294dd27b1e030d3af0eb1b5691790eb76039ee43372acb",
+        "phase": "specification",
+        "generation": 1,
+        "branch": "migration",
+        "sourceTreeSha256": "sha256:f198707d9f33347039422f0f063d27c507eafa00484644c7f3fea06d13da58e7",
+        "path": "singularity/work-items/migration/submissions/specification/cfb15f5a8ae9184fc0294dd27b1e030d3af0eb1b5691790eb76039ee43372acb.json",
+        "submittedAt": "2026-09-24T23:50:13.180Z",
+        "projection": {
+          "schemaVersion": 2,
+          "workId": "migration",
+          "epicId": null,
+          "planId": null,
+          "jiraIssueId": "migration",
+          "initialJiraKey": null,
+          "currentJiraKey": null,
+          "canonicalBranch": "migration",
+          "submittedBranch": "migration",
+          "submissionCommit": "5ed8ea8985c2d313b81549ea03eb0636f5c6d3ec",
+          "sourceCommit": "5ed8ea8985c2d313b81549ea03eb0636f5c6d3ec",
+          "sourceTreeSha256": "sha256:f198707d9f33347039422f0f063d27c507eafa00484644c7f3fea06d13da58e7",
+          "phase": "specification",
+          "generation": 1,
+          "authorship": {
+            "schemaVersion": 1,
+            "producer": "governed-agent",
+            "channel": "copilot-host",
+            "actor": {
+              "name": "Ashok Raj",
+              "email": "88361104+ashokraj2011@users.noreply.github.com",
+              "login": "ashokraj2011",
+              "githubLookup": "resolved"
+            },
+            "governedAgentContext": {
+              "agentId": "product-owner"
+            },
+            "kernelModel": {
+              "invoked": false,
+              "status": "exact",
+              "invocationIds": []
+            },
+            "externalAiUse": {
+              "value": "unknown",
+              "status": "unavailable"
+            },
+            "changeOrigins": [
+              "copilot"
+            ],
+            "source": {
+              "kind": "in-place",
+              "filename": "spec.md",
+              "mediaType": "text/markdown",
+              "sha256": "6d29135758be8bdb81e595591e888c4961adfd6dee1dd87131cf6a4df08380eb",
+              "bytes": 9170
+            },
+            "generation": 1,
+            "publishedAt": "2026-09-24T23:48:57.205Z"
+          },
+          "artifacts": [
+            {
+              "path": "singularity/work-items/migration/artifacts/specification/spec.md",
+              "kind": "document",
+              "sha256": "bc19ea5b6e070132c4780cd984fc28c334a885d1e2fb00217946ede17086b78f",
+              "size": 12914,
+              "reference": {
+                "handle": "sfref:v1:story:migration:1c9381d265a75fb3a85561c254325313391249ae7461a60c449167c51fe39554",
+                "recordHash": "1c9381d265a75fb3a85561c254325313391249ae7461a60c449167c51fe39554"
+              }
+            }
+          ],
+          "references": [
+            {
+              "handle": "sfref:v1:story:migration:1c9381d265a75fb3a85561c254325313391249ae7461a60c449167c51fe39554",
+              "recordHash": "1c9381d265a75fb3a85561c254325313391249ae7461a60c449167c51fe39554",
+              "purpose": "review-evidence",
+              "required": true
+            }
+          ],
+          "agentBriefs": [],
+          "checks": [],
+          "usage": [
+            {
+              "status": "unavailable",
+              "source": "copilot-otel-unavailable",
+              "provider": null,
+              "model": null,
+              "requestedModel": null,
+              "resolvedModel": null,
+              "resolvedModelAssurance": "unavailable",
+              "inputTokens": null,
+              "outputTokens": null,
+              "cachedInputTokens": null,
+              "cacheWriteInputTokens": null,
+              "totalTokens": null,
+              "providerCost": null,
+              "costStatus": "unavailable",
+              "spans": null,
+              "startedAt": "2026-09-24T23:48:57.205Z",
+              "completedAt": "2026-09-24T23:48:57.205Z",
+              "agent": "product-owner",
+              "generation": 1
+            }
+          ],
+          "approvals": [],
+          "visualAssurance": null,
+          "submissionEvidence": {
+            "architectureIntent": null,
+            "architectureDecision": null,
+            "testExecutions": [],
+            "claimMaps": [],
+            "checksSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+            "artifactSetSha256": "1e82a640b65f41546eacc1e7f854b7daebfc2c10c7275375773c7708b8ae9b04"
+          },
+          "witnessReview": {
+            "enrollment": {
+              "schemaVersion": 1,
+              "mode": "disabled",
+              "witnessedClauses": {
+                "enabled": false,
+                "profiles": []
+              },
+              "testcaseExact": {
+                "mode": "disabled",
+                "profile": null,
+                "requiredAssurance": "unavailable",
+                "policySha256": "sha256:12b50a34a1f03338377ecd76f44b20cbee83e7b91a0b07392ef08e3d8fd60800"
+              },
+              "claimMapContractVersion": 2,
+              "cab": null,
+              "sgos": null,
+              "rollout": {
+                "id": "wel-v0.2-observe",
+                "version": 1,
+                "enrollment": "new-story-only"
+              },
+              "configurationAuthority": {
+                "repository": "https://github.com/ashokraj2011/pysfield.git",
+                "branch": "sflow/config",
+                "commit": "50e0f08863997019665f5e292cc933cb74dd7cd7",
+                "projectionSha256": "ad7a8327a9bd37a54eaeecf4c4157128f0ba90a15c189c6d4f7796d72d2c211d"
+              }
+            },
+            "enrollmentClassification": "enrolled",
+            "enrollmentReason": null,
+            "clauseMappings": [],
+            "testcaseObservations": []
+          },
+          "submittedAt": "2026-09-24T23:50:13.180Z",
+          "submittedBy": {
+            "name": "Ashok Raj",
+            "email": "88361104+ashokraj2011@users.noreply.github.com",
+            "login": "ashokraj2011",
+            "githubLookup": "resolved"
+          },
+          "status": "awaiting_review"
+        }
+      }
+    ]
   },
   "resolution": {
     "configSha256": "471e9a24f2e7d82eab60bc7f0290f942086f40b45ad1f1252858ad7210c99805",
@@ -2505,7 +2664,7 @@
       "label": "Specification",
       "order": 0,
       "defaultAgent": "product-owner",
-      "status": "in_progress",
+      "status": "awaiting_approval",
       "requiredArtifact": {
         "path": "artifacts/specification/spec.md",
         "kind": "requirements",
@@ -2558,7 +2717,7 @@
       },
       "qualityCommands": [],
       "startedAt": "2026-09-24T23:44:54.574Z",
-      "submittedAt": null,
+      "submittedAt": "2026-09-24T23:50:13.180Z",
       "approvedAt": null,
       "approvedBy": null,
       "rejectedAt": null,
@@ -2667,10 +2826,10 @@
           "kind": "document",
           "status": "pending",
           "exists": true,
-          "size": 12832,
-          "sha256": "5521a6570a33b9c3766e18b5ce63ed853e30debf0235c85cd17bd66bfd3d7b5a",
+          "size": 12914,
+          "sha256": "bc19ea5b6e070132c4780cd984fc28c334a885d1e2fb00217946ede17086b78f",
           "registeredAt": "2026-09-24T23:48:55.753Z",
-          "updatedAt": "2026-09-24T23:48:57.237Z"
+          "updatedAt": "2026-09-24T23:50:13.181Z"
         }
       ],
       "checks": [],
@@ -2762,7 +2921,10 @@
         "clauses": 10,
         "indexSha256": "5c5657f399e95d1d0ebbc69c62ea3165866a75589364f6ecf78d6386714adb17",
         "sourceSha256": "5521a6570a33b9c3766e18b5ce63ed853e30debf0235c85cd17bd66bfd3d7b5a"
-      }
+      },
+      "generationCommit": "5ed8ea8985c2d313b81549ea03eb0636f5c6d3ec",
+      "publicationCommit": "5ed8ea8985c2d313b81549ea03eb0636f5c6d3ec",
+      "validationVerdict": "not-required"
     },
     "planning": {
       "id": "planning",
@@ -3302,6 +3464,14 @@
       "event": "phase_generated",
       "phase": "specification",
       "detail": "generation 1"
+    },
+    {
+      "at": "2026-09-24T23:50:13.180Z",
+      "actor": "ashokraj2011",
+      "agent": "product-owner",
+      "event": "phase_submitted",
+      "phase": "specification",
+      "detail": "1 artifacts"
     }
   ],
   "measurement": {
@@ -3524,6 +3694,105 @@
           }
         },
         "createdAt": "2026-09-24T23:48:56.256Z"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "event": {
+        "schemaVersion": 1,
+        "eventId": "36746630-31b3-47d6-84e2-ca12ae46383f",
+        "type": "approval-requested",
+        "subject": {
+          "kind": "story",
+          "id": "migration",
+          "branch": "migration"
+        },
+        "phaseId": "specification",
+        "generation": 1,
+        "actor": {
+          "name": "Ashok Raj",
+          "email": "88361104+ashokraj2011@users.noreply.github.com",
+          "login": "ashokraj2011",
+          "githubLookup": "resolved"
+        },
+        "agent": "product-owner",
+        "authorityGroup": null,
+        "payload": {
+          "decision": null,
+          "reviewPacketSha256": null
+        },
+        "sourceCommit": null,
+        "idempotencyKey": null,
+        "idempotencyHash": null,
+        "createdAt": "2026-09-24T23:50:12.232Z"
+      },
+      "ledgerIntent": {
+        "schemaVersion": 1,
+        "eventId": "36746630-31b3-47d6-84e2-ca12ae46383f",
+        "eventType": "approval-requested",
+        "capabilityId": "py-sfield",
+        "subject": {
+          "branch": "migration",
+          "generation": 1,
+          "phase": "specification",
+          "workId": "migration",
+          "workType": "reference-driven-build"
+        },
+        "actor": {
+          "name": "Ashok Raj",
+          "email": "88361104+ashokraj2011@users.noreply.github.com",
+          "githubLogin": "ashokraj2011",
+          "identityAssurance": "configured-local"
+        },
+        "agent": "product-owner",
+        "authorityGroup": null,
+        "payload": {
+          "capabilityMapSha256": "c82ea821bed0b2fcdd4ae68f9d7eefa0c6fff88fd60ab4b45228abf8e793f905",
+          "capabilityPolicy": {
+            "protectedPaths": [],
+            "qualityCommands": [],
+            "requiredAuthorityGroups": [],
+            "requiredChecks": [],
+            "requiredWorldModelViews": []
+          },
+          "configPath": "singularity/workflow.yml",
+          "configSha256": "471e9a24f2e7d82eab60bc7f0290f942086f40b45ad1f1252858ad7210c99805",
+          "lifecycleEventId": "36746630-31b3-47d6-84e2-ca12ae46383f",
+          "lifecyclePayload": {
+            "decision": null,
+            "reviewPacketSha256": null
+          },
+          "templateSha256": "27424a624b1dab57323fd7482ac62708bd42d11ba42e41c102f94e15182fe485",
+          "lifecycleEvent": {
+            "schemaVersion": 1,
+            "eventId": "36746630-31b3-47d6-84e2-ca12ae46383f",
+            "type": "approval-requested",
+            "subject": {
+              "kind": "story",
+              "id": "migration",
+              "branch": "migration"
+            },
+            "phaseId": "specification",
+            "generation": 1,
+            "actor": {
+              "name": "Ashok Raj",
+              "email": "88361104+ashokraj2011@users.noreply.github.com",
+              "login": "ashokraj2011",
+              "githubLookup": "resolved"
+            },
+            "agent": "product-owner",
+            "authorityGroup": null,
+            "payload": {
+              "decision": null,
+              "reviewPacketSha256": null
+            },
+            "sourceCommit": null,
+            "idempotencyKey": null,
+            "idempotencyHash": null,
+            "createdAt": "2026-09-24T23:50:12.232Z"
+          }
+        },
+        "createdAt": "2026-09-24T23:50:12.245Z"
       }
     }
   ],

@@ -5,7 +5,7 @@
   "workType": "reference-driven-build",
   "phase": "specification",
   "generation": 1,
-  "status": "in_progress",
+  "status": "awaiting_approval",
   "generatedBy": {
     "name": "Ashok Raj",
     "email": "88361104+ashokraj2011@users.noreply.github.com",
@@ -49,8 +49,8 @@
     "publishedAt": "2026-09-24T23:48:57.205Z"
   },
   "sourceCommit": "4df67f1fe6fe08ec0a8b4bdef8d8697a9ff2ee18",
-  "generationCommit": null,
-  "publicationCommit": null,
+  "generationCommit": "5ed8ea8985c2d313b81549ea03eb0636f5c6d3ec",
+  "publicationCommit": "5ed8ea8985c2d313b81549ea03eb0636f5c6d3ec",
   "configSha256": "471e9a24f2e7d82eab60bc7f0290f942086f40b45ad1f1252858ad7210c99805",
   "sourceSha256": "37a8c3dfb518a1752d8ce6be137d465335fb0d6b0231466f7cdb86dc83373e8e",
   "template": {
