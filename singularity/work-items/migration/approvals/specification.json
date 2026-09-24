@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 2,
+  "phase": "specification",
+  "decisions": [
+    {
+      "decision": "approved",
+      "phase": "specification",
+      "at": "2026-09-24T23:55:14.267Z",
+      "actor": {
+        "name": "Ashok Raj",
+        "email": "88361104+ashokraj2011@users.noreply.github.com",
+        "login": "ashokraj2011",
+        "githubLookup": "resolved"
+      },
+      "agent": "product-owner",
+      "authorityGroup": "product-approvers",
+      "identityAssurance": "configured-local",
+      "channel": "terminal",
+      "generation": 1,
+      "artifactSha256": [
+        {
+          "path": "singularity/work-items/migration/artifacts/specification/spec.md",
+          "sha256": "bc19ea5b6e070132c4780cd984fc28c334a885d1e2fb00217946ede17086b78f"
+        }
+      ],
+      "artifactSet": "spec-driven-specification",
+      "bundleSha256": "f5e0360692b19782825b81b4dd2bfc00dc0343c00c2b68e3960c285bb7bb65ad",
+      "reviewPacketSha256": "cfb15f5a8ae9184fc0294dd27b1e030d3af0eb1b5691790eb76039ee43372acb",
+      "evidenceCommit": "07f60d4fef47eacf70336df208a578d8bb56604c",
+      "artifactSetSha256": "1e82a640b65f41546eacc1e7f854b7daebfc2c10c7275375773c7708b8ae9b04",
+      "architectureIntent": null,
+      "architectureDecision": null,
+      "checklist": [
+        {
+          "article": "completeness",
+          "decision": "satisfied"
+        },
+        {
+          "article": "ambiguity",
+          "decision": "satisfied"
+        },
+        {
+          "article": "consistency",
+          "decision": "satisfied"
+        },
+        {
+          "article": "verifiability",
+          "decision": "satisfied"
+        },
+        {
+          "article": "boundary-conditions",
+          "decision": "satisfied"
+        },
+        {
+          "article": "non-functional",
+          "decision": "satisfied"
+        }
+      ],
+      "checklistSha256": "f52b980ffcaf26cf59e2d5c7fb15b38c1bb7fef7e37f4a81603bdfe0b55006ab",
+      "selfApproval": true
+    }
+  ]
+}
