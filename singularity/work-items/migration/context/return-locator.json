@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "kind": "return-locator",
+  "workId": "migration",
+  "capabilityId": "py-sfield",
+  "originRepositoryId": "pysfield",
+  "repositories": [
+    {
+      "id": "pysfield",
+      "remote": "origin",
+      "required": true,
+      "url": "https://github.com/ashokraj2011/pysfield.git",
+      "fingerprint": "d45c32b23aec3b3189c4a9b18d28bf1aef18f85a9fd30050e8ab24a2b6648367",
+      "portability": "portable"
+    }
+  ],
+  "lifecycleRef": "refs/heads/migration",
+  "workBranchRef": "refs/heads/migration",
+  "configuration": {
+    "sha256": "471e9a24f2e7d82eab60bc7f0290f942086f40b45ad1f1252858ad7210c99805",
+    "branch": "sflow/config",
+    "commit": "50e0f08863997019665f5e292cc933cb74dd7cd7"
+  },
+  "cloneStrategy": "existing-or-clone",
+  "integritySha256": "a95ffe83bb0e416d412938c25708d45c79503c6cca6ca262b8eea78b32826792"
+}

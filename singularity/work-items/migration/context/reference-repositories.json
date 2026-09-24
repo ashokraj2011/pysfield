@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "kind": "story-reference-repository-set",
+  "workId": "migration",
+  "repositories": [
+    {
+      "schemaVersion": 1,
+      "id": "sfiled",
+      "repository": "https://github.com/ashokraj2011/sfield.git",
+      "repositorySha256": "sha256:4bcfa7a67c5e0e25a65d3fc64e747135b0c961b8822986b1ffe6a8bac56007f9",
+      "requestedBranch": "main",
+      "commit": "1b0c942f9b7d317199201533027bfd451d45a072",
+      "tree": "8903899b1cb029a227aa6414f487d44ca9489090",
+      "required": true,
+      "localPath": ".singularity-flow/reference-repositories/migration/sfiled",
+      "pinnedAt": "2026-09-24T23:44:37.123Z"
+    }
+  ],
+  "setSha256": "sha256:e6aceee521a334970f97edce6c319489cf54e109cc264f59e170fc12d0ae6a55"
+}
