@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "workId": "migration",
+  "workType": "reference-driven-build",
+  "phase": "implementation",
+  "generation": 1,
+  "mode": "enforce",
+  "recordedAt": "2026-09-25T00:18:58.156Z",
+  "renderedSha256": "7b316273f49bca23865f89d7c84cdfe1eac78d1415043294986afee03b7d2806",
+  "warnings": [],
+  "inputs": [
+    {
+      "phase": "specification",
+      "path": "artifacts/specification/spec.md",
+      "repositoryPath": "singularity/work-items/migration/artifacts/specification/spec.md",
+      "optional": false,
+      "maxBytes": null,
+      "status": "captured",
+      "producerStatus": "approved",
+      "producerGeneration": 1,
+      "approvedAt": "2026-09-24T23:55:14.267Z",
+      "approvedBy": "ashokraj2011",
+      "approvedSha256": "266a66df7f1ebcdb23d61c45e2729cd80745fa80858f1f3fafe2cefc55dc92e6",
+      "sha256": "266a66df7f1ebcdb23d61c45e2729cd80745fa80858f1f3fafe2cefc55dc92e6",
+      "bytes": 14791,
+      "source": {
+        "path": "singularity/work-items/migration/artifacts/specification/spec.md",
+        "rawSha256": "sha256:266a66df7f1ebcdb23d61c45e2729cd80745fa80858f1f3fafe2cefc55dc92e6"
+      },
+      "representation": {
+        "kind": "full",
+        "sha256": "sha256:6d29135758be8bdb81e595591e888c4961adfd6dee1dd87131cf6a4df08380eb",
+        "bytes": 9170,
+        "complete": true,
+        "expansionHandle": "sfref:v1:story:migration:1c9381d265a75fb3a85561c254325313391249ae7461a60c449167c51fe39554"
+      },
+      "injectedBytes": 9170,
+      "truncated": false,
+      "authoredBytes": 9170,
+      "managedBytesExcluded": 5621,
+      "projection": {
+        "kind": "full"
+      }
+    },
+    {
+      "phase": "planning",
+      "path": "artifacts/planning/plan.md",
+      "repositoryPath": "singularity/work-items/migration/artifacts/planning/plan.md",
+      "optional": false,
+      "maxBytes": null,
+      "status": "captured",
+      "producerStatus": "approved",
+      "producerGeneration": 1,
+      "approvedAt": "2026-09-25T00:05:43.226Z",
+      "approvedBy": "ashokraj2011",
+      "approvedSha256": "4ab43d2758492679038f672495d67cc28bc7376f53b3209d2869cd01c3d7873e",
+      "sha256": "4ab43d2758492679038f672495d67cc28bc7376f53b3209d2869cd01c3d7873e",
+      "bytes": 23216,
+      "source": {
+        "path": "singularity/work-items/migration/artifacts/planning/plan.md",
+        "rawSha256": "sha256:4ab43d2758492679038f672495d67cc28bc7376f53b3209d2869cd01c3d7873e"
+      },
+      "representation": {
+        "kind": "full",
+        "sha256": "sha256:8f52de7814129b20d85c13855c6af909e1848dd8689abf497afdc30fc5e77fea",
+        "bytes": 8580,
+        "complete": true,
+        "expansionHandle": "sfref:v1:story:migration:c3da33080344997514552260ff674e13ffb3dc95bbfbbb811ed06d705bacfa7d"
+      },
+      "injectedBytes": 8580,
+      "truncated": false,
+      "authoredBytes": 8580,
+      "managedBytesExcluded": 14636,
+      "projection": {
+        "kind": "full"
+      }
+    }
+  ]
+}

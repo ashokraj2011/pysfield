@@ -1,0 +1,46 @@
+{
+  "artifact": {
+    "bytes": 574,
+    "path": "tests/test_repository_boundary.py",
+    "role": "test",
+    "sha256": "c984e87d1c636b69ffded0d0a64ad7291b89a41769a906f98709b4ef5ca0d2fd"
+  },
+  "configuration": {
+    "revision": "50e0f08863997019665f5e292cc933cb74dd7cd7",
+    "sha256": "471e9a24f2e7d82eab60bc7f0290f942086f40b45ad1f1252858ad7210c99805"
+  },
+  "generation": 1,
+  "inputs": [
+    {
+      "kind": null,
+      "path": "artifacts/planning/plan.md",
+      "sha256": null
+    },
+    {
+      "kind": null,
+      "path": "artifacts/specification/spec.md",
+      "sha256": null
+    }
+  ],
+  "integritySha256": "d431fe7e804ab59c3ec4858dba187f1c8262bbee5f963a22b2067cdda7109017",
+  "phase": "implementation",
+  "producer": {
+    "actor": "88361104+ashokraj2011@users.noreply.github.com",
+    "agent": "developer",
+    "kind": "governed-agent"
+  },
+  "publication": {
+    "branch": "migration",
+    "commit": null,
+    "publishedAt": "2026-09-25T00:18:58.160Z"
+  },
+  "schemaVersion": 1,
+  "subject": {
+    "id": "migration",
+    "kind": "story"
+  },
+  "template": {
+    "path": "singularity/work-items/migration/config/wfa/blobs/sha256/61cd7cba79a0dd2914a25b53496b8bd9c575c36219597d65b8ec10010e801d9c",
+    "sha256": "61cd7cba79a0dd2914a25b53496b8bd9c575c36219597d65b8ec10010e801d9c"
+  }
+}

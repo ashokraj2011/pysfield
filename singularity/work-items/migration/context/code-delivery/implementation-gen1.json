@@ -1,0 +1,230 @@
+{
+  "schemaVersion": 2,
+  "kind": "code-delivery",
+  "workId": "migration",
+  "phase": "implementation",
+  "generation": 1,
+  "generationIntentId": "d959db00-72f0-4c88-9806-3aae5db825f4",
+  "changeSet": {
+    "path": "singularity/work-items/migration/context/code-delivery/implementation-gen1-changes.json",
+    "digest": "sha256:4c2c7517b891ccc41cdbb2d98c9769300412e4816bc67ffba3d76d4adfaf95d0",
+    "sourcePaths": [
+      ".gitignore",
+      "README.md",
+      "pyproject.toml",
+      "src/sfield/__init__.py",
+      "src/sfield/cli.py",
+      "src/sfield/core.py"
+    ],
+    "deletedSourcePaths": [],
+    "executableTestPaths": [
+      "tests/test_acceptance_traceability.py",
+      "tests/test_cli_entrypoints.py",
+      "tests/test_package_layout.py",
+      "tests/test_repository_boundary.py",
+      "tests/test_runtime_smoke.py"
+    ],
+    "supportingTestPaths": []
+  },
+  "changeClassification": {
+    "schemaVersion": 1,
+    "inference": "path-policy",
+    "declaredOrigins": [
+      "copilot"
+    ],
+    "generatedRoots": [],
+    "counts": {
+      "build-configuration": 1,
+      "product-source": 5,
+      "test-source": 5
+    },
+    "entries": [
+      {
+        "changeId": "sha256:b825ce361ce5d08e5e012eaa3159a8e4e8c31eb0e54f49cad57f6301d942dbad",
+        "status": "added",
+        "oldPath": null,
+        "newPath": ".gitignore",
+        "role": "product-source",
+        "generated": false,
+        "likelyOrigin": "authorship-declared",
+        "inference": "path-policy"
+      },
+      {
+        "changeId": "sha256:1864436af574cd95008b0ccf906e30e103bd52560f5bf018d5b7238e7fa654d3",
+        "status": "added",
+        "oldPath": null,
+        "newPath": "pyproject.toml",
+        "role": "build-configuration",
+        "generated": false,
+        "likelyOrigin": "authorship-declared",
+        "inference": "path-policy"
+      },
+      {
+        "changeId": "sha256:b074e85d9df8fc0b45b23c94607628940624d8cfa5408503edca11810cb68726",
+        "status": "added",
+        "oldPath": null,
+        "newPath": "src/sfield/__init__.py",
+        "role": "product-source",
+        "generated": false,
+        "likelyOrigin": "authorship-declared",
+        "inference": "path-policy"
+      },
+      {
+        "changeId": "sha256:116edf4ccf5daa4475f10b3ebf2b6c2bd4c7d35174ff06f46ac8e8a12a805c95",
+        "status": "added",
+        "oldPath": null,
+        "newPath": "src/sfield/cli.py",
+        "role": "product-source",
+        "generated": false,
+        "likelyOrigin": "authorship-declared",
+        "inference": "path-policy"
+      },
+      {
+        "changeId": "sha256:d5f6af3bb8c1bd4f9dffca3ef5f3674824c3395efef9d52b956b0aebc246ad0d",
+        "status": "added",
+        "oldPath": null,
+        "newPath": "src/sfield/core.py",
+        "role": "product-source",
+        "generated": false,
+        "likelyOrigin": "authorship-declared",
+        "inference": "path-policy"
+      },
+      {
+        "changeId": "sha256:1397cac378f5fe9387f4af5a28ab9be8f6464f19407458908bfa928797b73edc",
+        "status": "added",
+        "oldPath": null,
+        "newPath": "tests/test_acceptance_traceability.py",
+        "role": "test-source",
+        "generated": false,
+        "likelyOrigin": "authorship-declared",
+        "inference": "path-policy"
+      },
+      {
+        "changeId": "sha256:11194458ecf8fb6fee8a728253645812009a3f3350643ec2a862f4bc2775d199",
+        "status": "added",
+        "oldPath": null,
+        "newPath": "tests/test_cli_entrypoints.py",
+        "role": "test-source",
+        "generated": false,
+        "likelyOrigin": "authorship-declared",
+        "inference": "path-policy"
+      },
+      {
+        "changeId": "sha256:16211e89ff280786d6d2e466c433dba7eced6978b34e6db47b749528d5fc2052",
+        "status": "added",
+        "oldPath": null,
+        "newPath": "tests/test_package_layout.py",
+        "role": "test-source",
+        "generated": false,
+        "likelyOrigin": "authorship-declared",
+        "inference": "path-policy"
+      },
+      {
+        "changeId": "sha256:8d4521c1b0985acb9393fd9cfef679294f9ffdeb3f12830b07e3aa7f3f9aae35",
+        "status": "added",
+        "oldPath": null,
+        "newPath": "tests/test_repository_boundary.py",
+        "role": "test-source",
+        "generated": false,
+        "likelyOrigin": "authorship-declared",
+        "inference": "path-policy"
+      },
+      {
+        "changeId": "sha256:a6522a58f69869b01496938ed3b6846c189f0017860ec17ea38a87b189caa945",
+        "status": "added",
+        "oldPath": null,
+        "newPath": "tests/test_runtime_smoke.py",
+        "role": "test-source",
+        "generated": false,
+        "likelyOrigin": "authorship-declared",
+        "inference": "path-policy"
+      },
+      {
+        "changeId": "sha256:fcb8687412ffc04d499ae8414280cb7138bf2f9db5b5229bc0e054d76468c768",
+        "status": "modified",
+        "oldPath": "README.md",
+        "newPath": "README.md",
+        "role": "product-source",
+        "generated": false,
+        "likelyOrigin": "authorship-declared",
+        "inference": "path-policy"
+      }
+    ]
+  },
+  "traceability": {
+    "required": [
+      "MIGRATION:AC-001",
+      "MIGRATION:AC-002",
+      "MIGRATION:AC-003"
+    ],
+    "bound": [
+      "MIGRATION:AC-001",
+      "MIGRATION:AC-002",
+      "MIGRATION:AC-003"
+    ],
+    "missing": [],
+    "ambiguous": [],
+    "bindings": [
+      {
+        "clauseId": "MIGRATION:AC-001",
+        "testSource": "tests/test_acceptance_traceability.py",
+        "bindingAssurance": "namespace-qualified"
+      },
+      {
+        "clauseId": "MIGRATION:AC-001",
+        "testSource": "tests/test_cli_entrypoints.py",
+        "bindingAssurance": "namespace-qualified"
+      },
+      {
+        "clauseId": "MIGRATION:AC-001",
+        "testSource": "tests/test_package_layout.py",
+        "bindingAssurance": "namespace-qualified"
+      },
+      {
+        "clauseId": "MIGRATION:AC-002",
+        "testSource": "tests/test_acceptance_traceability.py",
+        "bindingAssurance": "namespace-qualified"
+      },
+      {
+        "clauseId": "MIGRATION:AC-002",
+        "testSource": "tests/test_runtime_smoke.py",
+        "bindingAssurance": "namespace-qualified"
+      },
+      {
+        "clauseId": "MIGRATION:AC-003",
+        "testSource": "tests/test_acceptance_traceability.py",
+        "bindingAssurance": "namespace-qualified"
+      },
+      {
+        "clauseId": "MIGRATION:AC-003",
+        "testSource": "tests/test_repository_boundary.py",
+        "bindingAssurance": "namespace-qualified"
+      }
+    ]
+  },
+  "testExecutions": [],
+  "tree": {
+    "workingStateDigest": "sha256:1dcfa0a018c04f0ad732a24ed8038744599178104be75be6e35184a86ba04be4",
+    "generationCommit": null,
+    "generationTree": null
+  },
+  "model": {
+    "task": "code",
+    "required": true,
+    "authorshipProducer": "governed-agent",
+    "minimumAssurance": "unavailable",
+    "mappingRevision": null,
+    "provider": null,
+    "requestedModel": null,
+    "resolvedModel": null,
+    "assurance": "unavailable",
+    "invocationIds": [],
+    "host": null,
+    "observationSource": null,
+    "observationIntegrity": "unverified-local",
+    "observedAt": null,
+    "generation": null
+  },
+  "status": "pending-tests",
+  "capturedAt": "2026-09-25T00:18:58.160Z"
+}
