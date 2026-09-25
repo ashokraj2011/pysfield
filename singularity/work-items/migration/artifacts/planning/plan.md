@@ -5,7 +5,7 @@
   "workType": "reference-driven-build",
   "phase": "planning",
   "generation": 1,
-  "status": "awaiting_approval",
+  "status": "approved",
   "generatedBy": {
     "name": "Ashok Raj",
     "email": "88361104+ashokraj2011@users.noreply.github.com",
@@ -107,8 +107,39 @@
     }
   ],
   "sequenceOverrides": [],
-  "approvals": [],
-  "selfApproval": false,
+  "approvals": [
+    {
+      "decision": "approved",
+      "phase": "planning",
+      "at": "2026-09-25T00:05:43.226Z",
+      "actor": {
+        "name": "Ashok Raj",
+        "email": "88361104+ashokraj2011@users.noreply.github.com",
+        "login": "ashokraj2011",
+        "githubLookup": "resolved"
+      },
+      "agent": "architect",
+      "authorityGroup": "architecture-reviewers",
+      "identityAssurance": "configured-local",
+      "channel": "terminal",
+      "generation": 1,
+      "artifactSha256": [
+        {
+          "path": "singularity/work-items/migration/artifacts/planning/plan.md",
+          "sha256": "32e3efffbe90529ee5a23477a421656f465875f700c9894c4a2eb164e6e885f0"
+        }
+      ],
+      "artifactSet": "spec-driven-planning",
+      "bundleSha256": "6ebfcd165d3c6d6e39972a01d165fcb6fd47bd5c764efd6a4b6cfeb828d2cd1d",
+      "reviewPacketSha256": "9aace879f6c882396ccd8d5259fe93a23ee9f3c3804024d67f9538ae522c8c3e",
+      "evidenceCommit": "b20c02e40351acdb9fea1f6ce78fbf6f21155ed0",
+      "artifactSetSha256": "46e08b9550dda6c0a1c3a5e4a5688f27b2dd859c2b60d407edf89ab74ea6b8c1",
+      "architectureIntent": null,
+      "architectureDecision": null,
+      "selfApproval": true
+    }
+  ],
+  "selfApproval": true,
   "conformanceTree": null
 }
 -->
