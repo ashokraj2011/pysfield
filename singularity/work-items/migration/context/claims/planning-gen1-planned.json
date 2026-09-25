@@ -1,0 +1,153 @@
+{
+  "schemaVersion": 2,
+  "kind": "planned",
+  "recordedAt": "2026-09-25T00:01:49.123Z",
+  "claims": {
+    "MIGRATION:REQ-001": {
+      "expectedPaths": [
+        "pyproject.toml",
+        "src/sfield",
+        "src/sfield/core"
+      ],
+      "tests": [
+        "tests/test_core_runtime.py",
+        "tests/test_package_layout.py"
+      ],
+      "testDisposition": "applicable",
+      "testReason": null,
+      "deviation": null
+    },
+    "MIGRATION:REQ-002": {
+      "expectedPaths": [
+        "src/sfield",
+        "src/sfield/adapters",
+        "src/sfield/presets"
+      ],
+      "tests": [
+        "tests/test_behavior_parity.py",
+        "tests/test_runtime_smoke.py"
+      ],
+      "testDisposition": "applicable",
+      "testReason": null,
+      "deviation": null
+    },
+    "MIGRATION:REQ-003": {
+      "expectedPaths": [
+        "pyproject.toml",
+        "src/sfield/cli",
+        "tests"
+      ],
+      "tests": [
+        "tests/test_cli_entrypoints.py",
+        "tests/test_validation_path.py"
+      ],
+      "testDisposition": "applicable",
+      "testReason": null,
+      "deviation": null
+    },
+    "MIGRATION:REQ-004": {
+      "expectedPaths": [
+        "README.md",
+        "pyproject.toml",
+        "src/sfield"
+      ],
+      "tests": [
+        "tests/test_reference_source_guard.py",
+        "tests/test_repository_boundary.py"
+      ],
+      "testDisposition": "applicable",
+      "testReason": null,
+      "deviation": null
+    },
+    "MIGRATION:REQ-005": {
+      "expectedPaths": [
+        "README.md",
+        "docs",
+        "tests"
+      ],
+      "tests": [
+        "tests/test_acceptance_traceability.py",
+        "tests/test_validation_evidence.py"
+      ],
+      "testDisposition": "applicable",
+      "testReason": null,
+      "deviation": null
+    },
+    "MIGRATION:AC-001": {
+      "expectedPaths": [
+        "pyproject.toml",
+        "src/sfield",
+        "tests"
+      ],
+      "tests": [
+        "tests/test_cli_entrypoints.py",
+        "tests/test_package_layout.py"
+      ],
+      "testDisposition": "applicable",
+      "testReason": null,
+      "deviation": null
+    },
+    "MIGRATION:AC-002": {
+      "expectedPaths": [
+        "README.md",
+        "src/sfield",
+        "tests"
+      ],
+      "tests": [
+        "tests/test_behavior_parity.py",
+        "tests/test_validation_path.py"
+      ],
+      "testDisposition": "applicable",
+      "testReason": null,
+      "deviation": null
+    },
+    "MIGRATION:AC-003": {
+      "expectedPaths": [
+        "README.md",
+        "docs",
+        "src/sfield"
+      ],
+      "tests": [
+        "tests/test_reference_source_guard.py",
+        "tests/test_repository_boundary.py"
+      ],
+      "testDisposition": "applicable",
+      "testReason": null,
+      "deviation": null
+    },
+    "SPK:REQ-100": {
+      "expectedPaths": [
+        "singularity/work-items/migration/artifacts/planning/plan.md",
+        "singularity/work-items/migration/artifacts/specification/spec.md"
+      ],
+      "tests": [
+        "tests/test_acceptance_traceability.py",
+        "tests/test_validation_evidence.py"
+      ],
+      "testDisposition": "applicable",
+      "testReason": null,
+      "deviation": null
+    },
+    "SPK:REQ-101": {
+      "expectedPaths": [
+        "README.md",
+        "singularity/work-items/migration/artifacts/planning/plan.md"
+      ],
+      "tests": [
+        "tests/test_repository_boundary.py",
+        "tests/test_validation_evidence.py"
+      ],
+      "testDisposition": "applicable",
+      "testReason": null,
+      "deviation": null
+    }
+  },
+  "workId": "migration",
+  "phase": "planning",
+  "generation": 1,
+  "source": {
+    "path": "singularity/work-items/migration/artifacts/planning/plan.md",
+    "sha256": "224b290e1458259c951b3eb49af9b36acb61c2c347e999c620f30793ba5fe54c",
+    "bytes": 21951
+  }
+}

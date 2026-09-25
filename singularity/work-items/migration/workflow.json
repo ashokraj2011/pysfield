@@ -3058,20 +3058,182 @@
       "rejectedAt": null,
       "rejectedBy": null,
       "rejectionReason": null,
-      "generation": 0,
-      "generatedBy": null,
-      "generatedAgent": null,
-      "authorship": [],
-      "usage": [],
-      "telemetry": [],
+      "generation": 1,
+      "generatedBy": {
+        "name": "Ashok Raj",
+        "email": "88361104+ashokraj2011@users.noreply.github.com",
+        "login": "ashokraj2011",
+        "githubLookup": "resolved"
+      },
+      "generatedAgent": "architect",
+      "authorship": [
+        {
+          "schemaVersion": 1,
+          "producer": "governed-agent",
+          "channel": "copilot-host",
+          "actor": {
+            "name": "Ashok Raj",
+            "email": "88361104+ashokraj2011@users.noreply.github.com",
+            "login": "ashokraj2011",
+            "githubLookup": "resolved"
+          },
+          "governedAgentContext": {
+            "agentId": "architect"
+          },
+          "kernelModel": {
+            "invoked": false,
+            "status": "exact",
+            "invocationIds": []
+          },
+          "externalAiUse": {
+            "value": "unknown",
+            "status": "unavailable"
+          },
+          "changeOrigins": [
+            "copilot"
+          ],
+          "source": {
+            "kind": "in-place",
+            "filename": "plan.md",
+            "mediaType": "text/markdown",
+            "sha256": "8f52de7814129b20d85c13855c6af909e1848dd8689abf497afdc30fc5e77fea",
+            "bytes": 8580
+          },
+          "generation": 1,
+          "publishedAt": "2026-09-25T00:01:49.086Z"
+        }
+      ],
+      "usage": [
+        {
+          "status": "unavailable",
+          "source": "copilot-otel-unavailable",
+          "provider": null,
+          "model": null,
+          "requestedModel": null,
+          "resolvedModel": null,
+          "resolvedModelAssurance": "unavailable",
+          "inputTokens": null,
+          "outputTokens": null,
+          "cachedInputTokens": null,
+          "cacheWriteInputTokens": null,
+          "totalTokens": null,
+          "providerCost": null,
+          "costStatus": "unavailable",
+          "spans": null,
+          "startedAt": "2026-09-25T00:01:49.086Z",
+          "completedAt": "2026-09-25T00:01:49.086Z",
+          "agent": "architect",
+          "generation": 1
+        }
+      ],
+      "telemetry": [
+        {
+          "generation": 1,
+          "path": "singularity/work-items/migration/telemetry/planning-gen1.json",
+          "sha256": "4a1f5140e9b71055adac931afc8e1324bfc2843c4412280132e45633bc20f6b3",
+          "status": "pending",
+          "models": [],
+          "providerCost": null
+        }
+      ],
       "approvals": [],
-      "generationPublications": [],
+      "generationPublications": [
+        {
+          "generation": 1,
+          "publishedAt": "2026-09-25T00:01:49.086Z",
+          "changeSetDigest": null,
+          "resultDigest": "sha256:fbb9e29f3e2cb51d4165414fcd0738a2df499110483ea80ee16386d52d4d2bc0",
+          "resultDigestVersion": 3,
+          "architectureIntent": null,
+          "architectureDecision": null,
+          "record": {
+            "path": "singularity/work-items/migration/context/generation-publications/planning-gen1.json",
+            "sha256": "sha256:a85d7be50010cac3dfb110693582391be1d99c480b20bae8be022b473439a48e"
+          }
+        }
+      ],
       "submissionArchitectureDecision": null,
       "designSourceSets": [],
       "artifactRegistrationRepairs": [],
-      "artifacts": [],
+      "artifacts": [
+        {
+          "path": "singularity/work-items/migration/artifacts/planning/plan.md",
+          "kind": "document",
+          "status": "pending",
+          "exists": true,
+          "size": 21951,
+          "sha256": "224b290e1458259c951b3eb49af9b36acb61c2c347e999c620f30793ba5fe54c",
+          "registeredAt": "2026-09-25T00:01:47.517Z",
+          "updatedAt": "2026-09-25T00:01:49.120Z"
+        }
+      ],
       "checks": [],
-      "remoteOutputs": []
+      "remoteOutputs": [],
+      "authoringBaseline": {
+        "generation": 1,
+        "path": "artifacts/planning/plan.md",
+        "fingerprint": "sha256:243ea8ca3a8082ed67553174bc2796bd6cf288ea51e426944c4f15b0a573be1a",
+        "bytes": 3062
+      },
+      "inputContext": {
+        "generation": 1,
+        "path": "singularity/work-items/migration/context/inputs-planning-gen1.json",
+        "sha256": "5c40af95675ea15ebeba6c7b3b4460df01a3ff706dd66f82e1497fb5a73d5623",
+        "renderedSha256": "9ccb7f0535464f453c61b7d9c51a1f11ecb5d7d4eab0e96795e2bbe63a27c298",
+        "mode": "enforce"
+      },
+      "sidecars": [
+        {
+          "path": "singularity/work-items/migration/context/sidecars/planning-gen1-singularity-work-items-migration-artifacts-planning-plan.md.json",
+          "artifact": "singularity/work-items/migration/artifacts/planning/plan.md",
+          "integritySha256": "1e9ec158b5e0b466cd2883e776f4da73b6fec6e3220f364d4f3ffc7ede729672"
+        }
+      ],
+      "sourceCommit": "2b6b41d0c20e681822c01b798469978c2ccaab77",
+      "artifactSet": {
+        "schemaVersion": 1,
+        "resultType": "artifact-set-catalog",
+        "setId": "spec-driven-planning",
+        "primary": "singularity/work-items/migration/artifacts/planning/plan.md",
+        "members": [
+          {
+            "path": "singularity/work-items/migration/artifacts/planning/plan.md",
+            "member": "plan.md",
+            "role": "implementation-plan",
+            "required": true,
+            "authority": "governed",
+            "directory": false,
+            "exists": true,
+            "sha256": "224b290e1458259c951b3eb49af9b36acb61c2c347e999c620f30793ba5fe54c",
+            "bytes": 21951,
+            "files": null
+          },
+          {
+            "path": "singularity/work-items/migration/artifacts/planning/tasks.md",
+            "member": "tasks.md",
+            "role": "advisory-task-map",
+            "required": false,
+            "authority": "advisory",
+            "directory": false,
+            "exists": false,
+            "sha256": null,
+            "bytes": null,
+            "files": null
+          }
+        ],
+        "bundleSha256": "6ebfcd165d3c6d6e39972a01d165fcb6fd47bd5c764efd6a4b6cfeb828d2cd1d",
+        "missingRequired": [],
+        "generation": 1,
+        "preserved": [],
+        "changed": []
+      },
+      "claimMaps": {
+        "planned": {
+          "generation": 1,
+          "path": "singularity/work-items/migration/context/claims/planning-gen1-planned.json",
+          "sha256": "66d94f575830861cb4a363657d31249c736902d920a2fa331d8c80027bf46beb"
+        }
+      }
     },
     "implementation": {
       "id": "implementation",
@@ -3458,11 +3620,17 @@
   "usage": {
     "mode": "exact-or-unavailable",
     "totalTokens": 0,
-    "records": 1,
+    "records": 2,
     "exactRecords": 0,
-    "unavailableRecords": 1,
+    "unavailableRecords": 2,
     "byPhase": {
       "specification": {
+        "records": 1,
+        "exactRecords": 0,
+        "unavailableRecords": 1,
+        "totalTokens": 0
+      },
+      "planning": {
         "records": 1,
         "exactRecords": 0,
         "unavailableRecords": 1,
@@ -3475,21 +3643,27 @@
         "exactRecords": 0,
         "unavailableRecords": 1,
         "totalTokens": 0
-      }
-    },
-    "byWorkType": {
-      "reference-driven-build": {
+      },
+      "architect": {
         "records": 1,
         "exactRecords": 0,
         "unavailableRecords": 1,
         "totalTokens": 0
       }
     },
+    "byWorkType": {
+      "reference-driven-build": {
+        "records": 2,
+        "exactRecords": 0,
+        "unavailableRecords": 2,
+        "totalTokens": 0
+      }
+    },
     "byWorkItem": {
       "migration": {
-        "records": 1,
+        "records": 2,
         "exactRecords": 0,
-        "unavailableRecords": 1,
+        "unavailableRecords": 2,
         "totalTokens": 0
       }
     }
@@ -3540,6 +3714,14 @@
       "event": "phase_self_approved",
       "phase": "specification",
       "detail": "threshold reached; advanced to planning"
+    },
+    {
+      "at": "2026-09-25T00:01:49.169Z",
+      "actor": "ashokraj2011",
+      "agent": "architect",
+      "event": "phase_generated",
+      "phase": "planning",
+      "detail": "generation 1"
     }
   ],
   "measurement": {
@@ -3969,6 +4151,105 @@
           }
         },
         "createdAt": "2026-09-24T23:55:13.327Z"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "event": {
+        "schemaVersion": 1,
+        "eventId": "9f2ac81d-a36d-48cf-832c-3abd8e2635e4",
+        "type": "artifact-generated",
+        "subject": {
+          "kind": "story",
+          "id": "migration",
+          "branch": "migration"
+        },
+        "phaseId": "planning",
+        "generation": 1,
+        "actor": {
+          "name": "Ashok Raj",
+          "email": "88361104+ashokraj2011@users.noreply.github.com",
+          "login": "ashokraj2011",
+          "githubLookup": "resolved"
+        },
+        "agent": null,
+        "authorityGroup": null,
+        "payload": {
+          "decision": null,
+          "reviewPacketSha256": null
+        },
+        "sourceCommit": null,
+        "idempotencyKey": null,
+        "idempotencyHash": null,
+        "createdAt": "2026-09-25T00:01:48.099Z"
+      },
+      "ledgerIntent": {
+        "schemaVersion": 1,
+        "eventId": "9f2ac81d-a36d-48cf-832c-3abd8e2635e4",
+        "eventType": "artifact-generated",
+        "capabilityId": "py-sfield",
+        "subject": {
+          "branch": "migration",
+          "generation": 1,
+          "phase": "planning",
+          "workId": "migration",
+          "workType": "reference-driven-build"
+        },
+        "actor": {
+          "name": "Ashok Raj",
+          "email": "88361104+ashokraj2011@users.noreply.github.com",
+          "githubLogin": "ashokraj2011",
+          "identityAssurance": "configured-local"
+        },
+        "agent": null,
+        "authorityGroup": null,
+        "payload": {
+          "capabilityMapSha256": "c82ea821bed0b2fcdd4ae68f9d7eefa0c6fff88fd60ab4b45228abf8e793f905",
+          "capabilityPolicy": {
+            "protectedPaths": [],
+            "qualityCommands": [],
+            "requiredAuthorityGroups": [],
+            "requiredChecks": [],
+            "requiredWorldModelViews": []
+          },
+          "configPath": "singularity/workflow.yml",
+          "configSha256": "471e9a24f2e7d82eab60bc7f0290f942086f40b45ad1f1252858ad7210c99805",
+          "lifecycleEventId": "9f2ac81d-a36d-48cf-832c-3abd8e2635e4",
+          "lifecyclePayload": {
+            "decision": null,
+            "reviewPacketSha256": null
+          },
+          "templateSha256": "e8af98405a723a55c572c705e34a5b2fc05a11b3efe632e169ba6becf6c1a04f",
+          "lifecycleEvent": {
+            "schemaVersion": 1,
+            "eventId": "9f2ac81d-a36d-48cf-832c-3abd8e2635e4",
+            "type": "artifact-generated",
+            "subject": {
+              "kind": "story",
+              "id": "migration",
+              "branch": "migration"
+            },
+            "phaseId": "planning",
+            "generation": 1,
+            "actor": {
+              "name": "Ashok Raj",
+              "email": "88361104+ashokraj2011@users.noreply.github.com",
+              "login": "ashokraj2011",
+              "githubLookup": "resolved"
+            },
+            "agent": null,
+            "authorityGroup": null,
+            "payload": {
+              "decision": null,
+              "reviewPacketSha256": null
+            },
+            "sourceCommit": null,
+            "idempotencyKey": null,
+            "idempotencyHash": null,
+            "createdAt": "2026-09-25T00:01:48.099Z"
+          }
+        },
+        "createdAt": "2026-09-25T00:01:48.110Z"
       }
     }
   ],

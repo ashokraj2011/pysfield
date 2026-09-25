@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "workId": "migration",
+  "workType": "reference-driven-build",
+  "phase": "planning",
+  "generation": 1,
+  "mode": "enforce",
+  "recordedAt": "2026-09-25T00:01:49.048Z",
+  "renderedSha256": "9ccb7f0535464f453c61b7d9c51a1f11ecb5d7d4eab0e96795e2bbe63a27c298",
+  "warnings": [],
+  "inputs": [
+    {
+      "phase": "specification",
+      "path": "artifacts/specification/spec.md",
+      "repositoryPath": "singularity/work-items/migration/artifacts/specification/spec.md",
+      "optional": false,
+      "maxBytes": null,
+      "status": "captured",
+      "producerStatus": "approved",
+      "producerGeneration": 1,
+      "approvedAt": "2026-09-24T23:55:14.267Z",
+      "approvedBy": "ashokraj2011",
+      "approvedSha256": "266a66df7f1ebcdb23d61c45e2729cd80745fa80858f1f3fafe2cefc55dc92e6",
+      "sha256": "266a66df7f1ebcdb23d61c45e2729cd80745fa80858f1f3fafe2cefc55dc92e6",
+      "bytes": 14791,
+      "source": {
+        "path": "singularity/work-items/migration/artifacts/specification/spec.md",
+        "rawSha256": "sha256:266a66df7f1ebcdb23d61c45e2729cd80745fa80858f1f3fafe2cefc55dc92e6"
+      },
+      "representation": {
+        "kind": "full",
+        "sha256": "sha256:6d29135758be8bdb81e595591e888c4961adfd6dee1dd87131cf6a4df08380eb",
+        "bytes": 9170,
+        "complete": true,
+        "expansionHandle": "sfref:v1:story:migration:1c9381d265a75fb3a85561c254325313391249ae7461a60c449167c51fe39554"
+      },
+      "injectedBytes": 9170,
+      "truncated": false,
+      "authoredBytes": 9170,
+      "managedBytesExcluded": 5621,
+      "projection": {
+        "kind": "full"
+      }
+    }
+  ]
+}
