@@ -206,6 +206,170 @@
           },
           "status": "awaiting_review"
         }
+      },
+      {
+        "packetSha256": "9aace879f6c882396ccd8d5259fe93a23ee9f3c3804024d67f9538ae522c8c3e",
+        "phase": "planning",
+        "generation": 1,
+        "branch": "migration",
+        "sourceTreeSha256": "sha256:f198707d9f33347039422f0f063d27c507eafa00484644c7f3fea06d13da58e7",
+        "path": "singularity/work-items/migration/submissions/planning/9aace879f6c882396ccd8d5259fe93a23ee9f3c3804024d67f9538ae522c8c3e.json",
+        "submittedAt": "2026-09-25T00:03:14.695Z",
+        "projection": {
+          "schemaVersion": 2,
+          "workId": "migration",
+          "epicId": null,
+          "planId": null,
+          "jiraIssueId": "migration",
+          "initialJiraKey": null,
+          "currentJiraKey": null,
+          "canonicalBranch": "migration",
+          "submittedBranch": "migration",
+          "submissionCommit": "995a2be9e34758d90dc153dd2815badb139a4e8b",
+          "sourceCommit": "995a2be9e34758d90dc153dd2815badb139a4e8b",
+          "sourceTreeSha256": "sha256:f198707d9f33347039422f0f063d27c507eafa00484644c7f3fea06d13da58e7",
+          "phase": "planning",
+          "generation": 1,
+          "authorship": {
+            "schemaVersion": 1,
+            "producer": "governed-agent",
+            "channel": "copilot-host",
+            "actor": {
+              "name": "Ashok Raj",
+              "email": "88361104+ashokraj2011@users.noreply.github.com",
+              "login": "ashokraj2011",
+              "githubLookup": "resolved"
+            },
+            "governedAgentContext": {
+              "agentId": "architect"
+            },
+            "kernelModel": {
+              "invoked": false,
+              "status": "exact",
+              "invocationIds": []
+            },
+            "externalAiUse": {
+              "value": "unknown",
+              "status": "unavailable"
+            },
+            "changeOrigins": [
+              "copilot"
+            ],
+            "source": {
+              "kind": "in-place",
+              "filename": "plan.md",
+              "mediaType": "text/markdown",
+              "sha256": "8f52de7814129b20d85c13855c6af909e1848dd8689abf497afdc30fc5e77fea",
+              "bytes": 8580
+            },
+            "generation": 1,
+            "publishedAt": "2026-09-25T00:01:49.086Z"
+          },
+          "artifacts": [
+            {
+              "path": "singularity/work-items/migration/artifacts/planning/plan.md",
+              "kind": "document",
+              "sha256": "32e3efffbe90529ee5a23477a421656f465875f700c9894c4a2eb164e6e885f0",
+              "size": 22033,
+              "reference": {
+                "handle": "sfref:v1:story:migration:c3da33080344997514552260ff674e13ffb3dc95bbfbbb811ed06d705bacfa7d",
+                "recordHash": "c3da33080344997514552260ff674e13ffb3dc95bbfbbb811ed06d705bacfa7d"
+              }
+            }
+          ],
+          "references": [
+            {
+              "handle": "sfref:v1:story:migration:c3da33080344997514552260ff674e13ffb3dc95bbfbbb811ed06d705bacfa7d",
+              "recordHash": "c3da33080344997514552260ff674e13ffb3dc95bbfbbb811ed06d705bacfa7d",
+              "purpose": "review-evidence",
+              "required": true
+            }
+          ],
+          "agentBriefs": [],
+          "checks": [],
+          "usage": [
+            {
+              "status": "unavailable",
+              "source": "copilot-otel-unavailable",
+              "provider": null,
+              "model": null,
+              "requestedModel": null,
+              "resolvedModel": null,
+              "resolvedModelAssurance": "unavailable",
+              "inputTokens": null,
+              "outputTokens": null,
+              "cachedInputTokens": null,
+              "cacheWriteInputTokens": null,
+              "totalTokens": null,
+              "providerCost": null,
+              "costStatus": "unavailable",
+              "spans": null,
+              "startedAt": "2026-09-25T00:01:49.086Z",
+              "completedAt": "2026-09-25T00:01:49.086Z",
+              "agent": "architect",
+              "generation": 1
+            }
+          ],
+          "approvals": [],
+          "visualAssurance": null,
+          "submissionEvidence": {
+            "architectureIntent": null,
+            "architectureDecision": null,
+            "testExecutions": [],
+            "claimMaps": [
+              {
+                "kind": "planned",
+                "generation": 1,
+                "path": "singularity/work-items/migration/context/claims/planning-gen1-planned.json",
+                "sha256": "66d94f575830861cb4a363657d31249c736902d920a2fa331d8c80027bf46beb"
+              }
+            ],
+            "checksSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+            "artifactSetSha256": "46e08b9550dda6c0a1c3a5e4a5688f27b2dd859c2b60d407edf89ab74ea6b8c1"
+          },
+          "witnessReview": {
+            "enrollment": {
+              "schemaVersion": 1,
+              "mode": "disabled",
+              "witnessedClauses": {
+                "enabled": false,
+                "profiles": []
+              },
+              "testcaseExact": {
+                "mode": "disabled",
+                "profile": null,
+                "requiredAssurance": "unavailable",
+                "policySha256": "sha256:12b50a34a1f03338377ecd76f44b20cbee83e7b91a0b07392ef08e3d8fd60800"
+              },
+              "claimMapContractVersion": 2,
+              "cab": null,
+              "sgos": null,
+              "rollout": {
+                "id": "wel-v0.2-observe",
+                "version": 1,
+                "enrollment": "new-story-only"
+              },
+              "configurationAuthority": {
+                "repository": "https://github.com/ashokraj2011/pysfield.git",
+                "branch": "sflow/config",
+                "commit": "50e0f08863997019665f5e292cc933cb74dd7cd7",
+                "projectionSha256": "ad7a8327a9bd37a54eaeecf4c4157128f0ba90a15c189c6d4f7796d72d2c211d"
+              }
+            },
+            "enrollmentClassification": "enrolled",
+            "enrollmentReason": null,
+            "clauseMappings": [],
+            "testcaseObservations": []
+          },
+          "submittedAt": "2026-09-25T00:03:14.695Z",
+          "submittedBy": {
+            "name": "Ashok Raj",
+            "email": "88361104+ashokraj2011@users.noreply.github.com",
+            "login": "ashokraj2011",
+            "githubLookup": "resolved"
+          },
+          "status": "awaiting_review"
+        }
       }
     ]
   },
@@ -2991,7 +3155,7 @@
       "label": "Planning",
       "order": 1,
       "defaultAgent": "architect",
-      "status": "in_progress",
+      "status": "awaiting_approval",
       "requiredArtifact": {
         "path": "artifacts/planning/plan.md",
         "kind": "design",
@@ -3052,7 +3216,7 @@
       },
       "qualityCommands": [],
       "startedAt": "2026-09-24T23:55:14.267Z",
-      "submittedAt": null,
+      "submittedAt": "2026-09-25T00:03:14.695Z",
       "approvedAt": null,
       "approvedBy": null,
       "rejectedAt": null,
@@ -3161,10 +3325,10 @@
           "kind": "document",
           "status": "pending",
           "exists": true,
-          "size": 21951,
-          "sha256": "224b290e1458259c951b3eb49af9b36acb61c2c347e999c620f30793ba5fe54c",
+          "size": 22033,
+          "sha256": "32e3efffbe90529ee5a23477a421656f465875f700c9894c4a2eb164e6e885f0",
           "registeredAt": "2026-09-25T00:01:47.517Z",
-          "updatedAt": "2026-09-25T00:01:49.120Z"
+          "updatedAt": "2026-09-25T00:03:14.696Z"
         }
       ],
       "checks": [],
@@ -3233,7 +3397,10 @@
           "path": "singularity/work-items/migration/context/claims/planning-gen1-planned.json",
           "sha256": "66d94f575830861cb4a363657d31249c736902d920a2fa331d8c80027bf46beb"
         }
-      }
+      },
+      "generationCommit": "995a2be9e34758d90dc153dd2815badb139a4e8b",
+      "publicationCommit": "995a2be9e34758d90dc153dd2815badb139a4e8b",
+      "validationVerdict": "not-required"
     },
     "implementation": {
       "id": "implementation",
@@ -3722,6 +3889,14 @@
       "event": "phase_generated",
       "phase": "planning",
       "detail": "generation 1"
+    },
+    {
+      "at": "2026-09-25T00:03:14.695Z",
+      "actor": "ashokraj2011",
+      "agent": "architect",
+      "event": "phase_submitted",
+      "phase": "planning",
+      "detail": "1 artifacts"
     }
   ],
   "measurement": {
@@ -4250,6 +4425,105 @@
           }
         },
         "createdAt": "2026-09-25T00:01:48.110Z"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "event": {
+        "schemaVersion": 1,
+        "eventId": "a9579bb8-9638-46bc-92d0-4833e377e125",
+        "type": "approval-requested",
+        "subject": {
+          "kind": "story",
+          "id": "migration",
+          "branch": "migration"
+        },
+        "phaseId": "planning",
+        "generation": 1,
+        "actor": {
+          "name": "Ashok Raj",
+          "email": "88361104+ashokraj2011@users.noreply.github.com",
+          "login": "ashokraj2011",
+          "githubLookup": "resolved"
+        },
+        "agent": "architect",
+        "authorityGroup": null,
+        "payload": {
+          "decision": null,
+          "reviewPacketSha256": null
+        },
+        "sourceCommit": null,
+        "idempotencyKey": null,
+        "idempotencyHash": null,
+        "createdAt": "2026-09-25T00:03:13.716Z"
+      },
+      "ledgerIntent": {
+        "schemaVersion": 1,
+        "eventId": "a9579bb8-9638-46bc-92d0-4833e377e125",
+        "eventType": "approval-requested",
+        "capabilityId": "py-sfield",
+        "subject": {
+          "branch": "migration",
+          "generation": 1,
+          "phase": "planning",
+          "workId": "migration",
+          "workType": "reference-driven-build"
+        },
+        "actor": {
+          "name": "Ashok Raj",
+          "email": "88361104+ashokraj2011@users.noreply.github.com",
+          "githubLogin": "ashokraj2011",
+          "identityAssurance": "configured-local"
+        },
+        "agent": "architect",
+        "authorityGroup": null,
+        "payload": {
+          "capabilityMapSha256": "c82ea821bed0b2fcdd4ae68f9d7eefa0c6fff88fd60ab4b45228abf8e793f905",
+          "capabilityPolicy": {
+            "protectedPaths": [],
+            "qualityCommands": [],
+            "requiredAuthorityGroups": [],
+            "requiredChecks": [],
+            "requiredWorldModelViews": []
+          },
+          "configPath": "singularity/workflow.yml",
+          "configSha256": "471e9a24f2e7d82eab60bc7f0290f942086f40b45ad1f1252858ad7210c99805",
+          "lifecycleEventId": "a9579bb8-9638-46bc-92d0-4833e377e125",
+          "lifecyclePayload": {
+            "decision": null,
+            "reviewPacketSha256": null
+          },
+          "templateSha256": "e8af98405a723a55c572c705e34a5b2fc05a11b3efe632e169ba6becf6c1a04f",
+          "lifecycleEvent": {
+            "schemaVersion": 1,
+            "eventId": "a9579bb8-9638-46bc-92d0-4833e377e125",
+            "type": "approval-requested",
+            "subject": {
+              "kind": "story",
+              "id": "migration",
+              "branch": "migration"
+            },
+            "phaseId": "planning",
+            "generation": 1,
+            "actor": {
+              "name": "Ashok Raj",
+              "email": "88361104+ashokraj2011@users.noreply.github.com",
+              "login": "ashokraj2011",
+              "githubLookup": "resolved"
+            },
+            "agent": "architect",
+            "authorityGroup": null,
+            "payload": {
+              "decision": null,
+              "reviewPacketSha256": null
+            },
+            "sourceCommit": null,
+            "idempotencyKey": null,
+            "idempotencyHash": null,
+            "createdAt": "2026-09-25T00:03:13.716Z"
+          }
+        },
+        "createdAt": "2026-09-25T00:03:13.728Z"
       }
     }
   ],

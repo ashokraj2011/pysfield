@@ -1,0 +1,28 @@
+{
+  "artifact": {
+    "generation": 1,
+    "mediaType": "text/markdown",
+    "outputId": "document",
+    "path": "singularity/work-items/migration/artifacts/planning/plan.md",
+    "phaseId": "planning"
+  },
+  "createdAt": "2026-09-25T00:03:14.771Z",
+  "kind": "governed-reference",
+  "repository": {
+    "id": "pysfield",
+    "origin": "https://github.com/ashokraj2011/pysfield.git"
+  },
+  "revision": {
+    "bytes": 21951,
+    "commitSha": "995a2be9e34758d90dc153dd2815badb139a4e8b",
+    "sha256": "224b290e1458259c951b3eb49af9b36acb61c2c347e999c620f30793ba5fe54c"
+  },
+  "schemaVersion": 1,
+  "subject": {
+    "branch": "migration",
+    "id": "migration",
+    "kind": "story",
+    "subjectRevision": 1
+  },
+  "visibility": "model"
+}
