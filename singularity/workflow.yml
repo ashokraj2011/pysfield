@@ -102,6 +102,14 @@ ledger:
   enabled: true
   branch: state
   remote: origin
+  behind: warn
+  enforcement: shadow
+  maxRetries: 4
+  pinTransport: refs
+  publication: warn
+  retentionDays: 2555
+  signing: off
+  trustTier: T0
 templatesRoot: singularity/templates
 noModel:
   unknownExternalCommands: warn
@@ -364,6 +372,8 @@ approvalAuthorities:
       - name: Ashok Raj
         email: 88361104+ashokraj2011@users.noreply.github.com
         githubLogin: ashokraj2011
+      - name: Ashok
+        email: ashok.nair.raj@gmail.com
   architecture-reviewers:
     label: Architecture reviewers
     allowAnyGitIdentity: false
@@ -371,6 +381,8 @@ approvalAuthorities:
       - name: Ashok Raj
         email: 88361104+ashokraj2011@users.noreply.github.com
         githubLogin: ashokraj2011
+      - name: Ashok
+        email: ashok.nair.raj@gmail.com
   engineering-reviewers:
     label: Engineering reviewers
     allowAnyGitIdentity: false
@@ -378,6 +390,8 @@ approvalAuthorities:
       - name: Ashok Raj
         email: 88361104+ashokraj2011@users.noreply.github.com
         githubLogin: ashokraj2011
+      - name: Ashok
+        email: ashok.nair.raj@gmail.com
   quality-reviewers:
     label: Quality reviewers
     allowAnyGitIdentity: false
@@ -385,6 +399,8 @@ approvalAuthorities:
       - name: Ashok Raj
         email: 88361104+ashokraj2011@users.noreply.github.com
         githubLogin: ashokraj2011
+      - name: Ashok
+        email: ashok.nair.raj@gmail.com
   design-reviewers:
     label: Design reviewers
     allowAnyGitIdentity: false
@@ -392,6 +408,8 @@ approvalAuthorities:
       - name: Ashok Raj
         email: 88361104+ashokraj2011@users.noreply.github.com
         githubLogin: ashokraj2011
+      - name: Ashok
+        email: ashok.nair.raj@gmail.com
 artifactSets:
   spec-driven-specification:
     primary: spec.md
