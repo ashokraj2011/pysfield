@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "capabilityId": "py-sfield",
+  "capabilityPath": [
+    "py-sfield"
+  ],
+  "capabilityMapSha256": "c82ea821bed0b2fcdd4ae68f9d7eefa0c6fff88fd60ab4b45228abf8e793f905",
+  "requiredViews": [
+    "business",
+    "architecture",
+    "security",
+    "development",
+    "testing"
+  ],
+  "maxBytes": 262144,
+  "bytes": 0,
+  "repositories": [
+    {
+      "id": "pysfield",
+      "status": "local-grounding"
+    }
+  ],
+  "files": [],
+  "warnings": [
+    "Capability leases could not be read: Governed state at 'refs/remotes/origin/state' is unavailable; it was not treated as absent. Git could not list governed state at 'refs/remotes/origin/state'."
+  ],
+  "recordedAt": "2026-09-25T01:08:50.370Z"
+}

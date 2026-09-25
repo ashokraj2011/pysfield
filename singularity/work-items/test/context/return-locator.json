@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "kind": "return-locator",
+  "workId": "test",
+  "capabilityId": "py-sfield",
+  "originRepositoryId": "pysfield",
+  "repositories": [
+    {
+      "id": "pysfield",
+      "remote": "origin",
+      "required": true,
+      "url": "https://github.com/ashokraj2011/pysfield.git",
+      "fingerprint": "d45c32b23aec3b3189c4a9b18d28bf1aef18f85a9fd30050e8ab24a2b6648367",
+      "portability": "portable"
+    }
+  ],
+  "lifecycleRef": "refs/heads/test",
+  "workBranchRef": "refs/heads/test",
+  "configuration": {
+    "sha256": "855ad602f3c36199a514aedfccdfc39a752e57fbc8d9b551f24db122ceb02c7e",
+    "branch": "sflow/config",
+    "commit": "6d896554b71f4044715c43f6a6f6a6eaa0aae8cd"
+  },
+  "cloneStrategy": "existing-or-clone",
+  "integritySha256": "6bb12da9a3dd102d9fa4c9b2a429cf2829bed75e20d8a8cb1642c78d14422e11"
+}
