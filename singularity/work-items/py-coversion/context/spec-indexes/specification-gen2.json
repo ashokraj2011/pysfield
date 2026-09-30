@@ -9,7 +9,7 @@
       "namespace": "PY-COVERSION",
       "number": 1,
       "source": {
-        "line": 221,
+        "line": 295,
         "path": "singularity/work-items/py-coversion/artifacts/specification/spec.md"
       },
       "type": "REQ"
@@ -23,7 +23,7 @@
       "namespace": "PY-COVERSION",
       "number": 12,
       "source": {
-        "line": 222,
+        "line": 296,
         "path": "singularity/work-items/py-coversion/artifacts/specification/spec.md"
       },
       "type": "REQ"
@@ -37,7 +37,7 @@
       "namespace": "PY-COVERSION",
       "number": 2,
       "source": {
-        "line": 223,
+        "line": 297,
         "path": "singularity/work-items/py-coversion/artifacts/specification/spec.md"
       },
       "type": "REQ"
@@ -51,7 +51,7 @@
       "namespace": "PY-COVERSION",
       "number": 3,
       "source": {
-        "line": 224,
+        "line": 298,
         "path": "singularity/work-items/py-coversion/artifacts/specification/spec.md"
       },
       "type": "REQ"
@@ -65,7 +65,7 @@
       "namespace": "PY-COVERSION",
       "number": 4,
       "source": {
-        "line": 225,
+        "line": 299,
         "path": "singularity/work-items/py-coversion/artifacts/specification/spec.md"
       },
       "type": "REQ"
@@ -79,7 +79,7 @@
       "namespace": "PY-COVERSION",
       "number": 5,
       "source": {
-        "line": 226,
+        "line": 300,
         "path": "singularity/work-items/py-coversion/artifacts/specification/spec.md"
       },
       "type": "REQ"
@@ -93,7 +93,7 @@
       "namespace": "PY-COVERSION",
       "number": 6,
       "source": {
-        "line": 227,
+        "line": 301,
         "path": "singularity/work-items/py-coversion/artifacts/specification/spec.md"
       },
       "type": "REQ"
@@ -107,7 +107,7 @@
       "namespace": "PY-COVERSION",
       "number": 13,
       "source": {
-        "line": 228,
+        "line": 302,
         "path": "singularity/work-items/py-coversion/artifacts/specification/spec.md"
       },
       "type": "REQ"
@@ -121,7 +121,7 @@
       "namespace": "PY-COVERSION",
       "number": 7,
       "source": {
-        "line": 229,
+        "line": 303,
         "path": "singularity/work-items/py-coversion/artifacts/specification/spec.md"
       },
       "type": "REQ"
@@ -135,7 +135,7 @@
       "namespace": "PY-COVERSION",
       "number": 8,
       "source": {
-        "line": 230,
+        "line": 304,
         "path": "singularity/work-items/py-coversion/artifacts/specification/spec.md"
       },
       "type": "REQ"
@@ -149,7 +149,7 @@
       "namespace": "PY-COVERSION",
       "number": 9,
       "source": {
-        "line": 231,
+        "line": 305,
         "path": "singularity/work-items/py-coversion/artifacts/specification/spec.md"
       },
       "type": "REQ"
@@ -163,7 +163,7 @@
       "namespace": "PY-COVERSION",
       "number": 1,
       "source": {
-        "line": 235,
+        "line": 309,
         "path": "singularity/work-items/py-coversion/artifacts/specification/spec.md"
       },
       "type": "AC"
@@ -177,7 +177,7 @@
       "namespace": "PY-COVERSION",
       "number": 2,
       "source": {
-        "line": 236,
+        "line": 310,
         "path": "singularity/work-items/py-coversion/artifacts/specification/spec.md"
       },
       "type": "AC"
@@ -191,7 +191,7 @@
       "namespace": "PY-COVERSION",
       "number": 3,
       "source": {
-        "line": 237,
+        "line": 311,
         "path": "singularity/work-items/py-coversion/artifacts/specification/spec.md"
       },
       "type": "AC"
@@ -205,7 +205,7 @@
       "namespace": "PY-COVERSION",
       "number": 4,
       "source": {
-        "line": 238,
+        "line": 312,
         "path": "singularity/work-items/py-coversion/artifacts/specification/spec.md"
       },
       "type": "AC"
@@ -219,7 +219,7 @@
       "namespace": "PY-COVERSION",
       "number": 5,
       "source": {
-        "line": 239,
+        "line": 313,
         "path": "singularity/work-items/py-coversion/artifacts/specification/spec.md"
       },
       "type": "AC"
@@ -233,7 +233,7 @@
       "namespace": "PY-COVERSION",
       "number": 14,
       "source": {
-        "line": 263,
+        "line": 337,
         "path": "singularity/work-items/py-coversion/artifacts/specification/spec.md"
       },
       "type": "REQ"
@@ -247,7 +247,7 @@
       "namespace": "PY-COVERSION",
       "number": 10,
       "source": {
-        "line": 267,
+        "line": 341,
         "path": "singularity/work-items/py-coversion/artifacts/specification/spec.md"
       },
       "type": "REQ"
@@ -261,20 +261,20 @@
       "namespace": "PY-COVERSION",
       "number": 11,
       "source": {
-        "line": 268,
+        "line": 342,
         "path": "singularity/work-items/py-coversion/artifacts/specification/spec.md"
       },
       "type": "REQ"
     }
   ],
   "generation": 2,
-  "indexSha256": "d265a0e96a06040f1d87f3aea48623662fbc2f8e6e93025b5cd787a00f71419c",
+  "indexSha256": "a0d15d760bb5c487d73956c147fa4098dd1b2f12287a090d8b660d1f40a03ce0",
   "phase": "specification",
   "schemaVersion": 1,
   "source": {
-    "bytes": 15461,
+    "bytes": 18103,
     "path": "singularity/work-items/py-coversion/artifacts/specification/spec.md",
-    "sha256": "71ab561434c80622c132cbb3948928ddd124edc98340445496eefe91b87c9574"
+    "sha256": "85cf81670690d0e4147a00046ee22d92801edc5cdf8b1c229be6430767b02ead"
   },
   "workId": "py-coversion"
 }

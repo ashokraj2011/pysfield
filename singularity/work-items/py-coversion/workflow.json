@@ -2705,7 +2705,7 @@
     "policySha256": "sha256:3142859697bcceb1b3b6d950e2676b2d47f3b27aaf485d41ddc2a17afbd335f7"
   },
   "status": "in_progress",
-  "currentPhase": "specification",
+  "currentPhase": "planning",
   "phaseOrder": [
     "specification",
     "planning",
@@ -2720,7 +2720,7 @@
       "label": "Specification",
       "order": 0,
       "defaultAgent": "product-owner",
-      "status": "awaiting_approval",
+      "status": "approved",
       "requiredArtifact": {
         "path": "artifacts/specification/spec.md",
         "kind": "requirements",
@@ -2774,8 +2774,8 @@
       "qualityCommands": [],
       "startedAt": "2026-09-30T03:36:13.580Z",
       "submittedAt": "2026-09-30T03:46:50.983Z",
-      "approvedAt": null,
-      "approvedBy": null,
+      "approvedAt": "2026-09-30T03:53:08.463Z",
+      "approvedBy": "ashokraj2011",
       "rejectedAt": null,
       "rejectedBy": null,
       "rejectionReason": null,
@@ -2921,7 +2921,81 @@
           "providerCost": null
         }
       ],
-      "approvals": [],
+      "approvals": [
+        {
+          "decision": "approved",
+          "phase": "specification",
+          "at": "2026-09-30T03:53:08.463Z",
+          "actor": {
+            "name": "Ashok Raj",
+            "email": "88361104+ashokraj2011@users.noreply.github.com",
+            "login": "ashokraj2011",
+            "githubLookup": "resolved"
+          },
+          "agent": "product-owner",
+          "authorityGroup": "product-approvers",
+          "identityAssurance": "configured-local",
+          "channel": "copilot-selection-receipt",
+          "generation": 2,
+          "artifactSha256": [
+            {
+              "path": "singularity/work-items/py-coversion/artifacts/specification/spec.md",
+              "sha256": "0050c47fe6bc1d1ebe03f148480ce51c98819400839abfc332637ea7ae5c64bc"
+            }
+          ],
+          "artifactSet": "spec-driven-specification",
+          "bundleSha256": "654ee8e2d5c337f3cb289e3c41240bad21ba19f86a10b494e46cfbfec7ce4d8b",
+          "reviewPacketSha256": "153976a6867f1943f9a43e3317fca50cb7fc3eed15c2bce6d3feb072bacc3edf",
+          "evidenceCommit": "568b0557755d3d64a1d995bac04677ba22964f34",
+          "artifactSetSha256": "04fd1c66b67d49974fc8f42f63bfba32a5ca419cfce8fb7ba8e61e8b8d780ed4",
+          "architectureIntent": null,
+          "architectureDecision": null,
+          "checklist": [
+            {
+              "article": "completeness",
+              "decision": "satisfied"
+            },
+            {
+              "article": "ambiguity",
+              "decision": "satisfied"
+            },
+            {
+              "article": "consistency",
+              "decision": "satisfied"
+            },
+            {
+              "article": "verifiability",
+              "decision": "satisfied"
+            },
+            {
+              "article": "boundary-conditions",
+              "decision": "satisfied"
+            },
+            {
+              "article": "non-functional",
+              "decision": "satisfied"
+            }
+          ],
+          "checklistSha256": "f52b980ffcaf26cf59e2d5c7fb15b38c1bb7fef7e37f4a81603bdfe0b55006ab",
+          "actionContext": {
+            "phase": "specification",
+            "label": "Specification",
+            "generation": 2,
+            "submittedAt": "2026-09-30T03:46:50.983Z",
+            "artifacts": [
+              {
+                "path": "singularity/work-items/py-coversion/artifacts/specification/spec.md",
+                "sha256": "0050c47fe6bc1d1ebe03f148480ce51c98819400839abfc332637ea7ae5c64bc"
+              }
+            ],
+            "agentBriefs": [],
+            "reviewPacketSha256": "153976a6867f1943f9a43e3317fca50cb7fc3eed15c2bce6d3feb072bacc3edf",
+            "submittedSourceCommit": "3037b876ad2357b6571ed24b63e1b2d2c22a2cb9",
+            "planId": "59e776aacb5b390f0877c688"
+          },
+          "selfApproval": true
+        }
+      ],
       "generationPublications": [
         {
           "generation": 1,
@@ -2957,12 +3031,14 @@
         {
           "path": "singularity/work-items/py-coversion/artifacts/specification/spec.md",
           "kind": "document",
-          "status": "pending",
+          "status": "approved",
           "exists": true,
-          "size": 15543,
-          "sha256": "0050c47fe6bc1d1ebe03f148480ce51c98819400839abfc332637ea7ae5c64bc",
+          "size": 18103,
+          "sha256": "85cf81670690d0e4147a00046ee22d92801edc5cdf8b1c229be6430767b02ead",
           "registeredAt": "2026-09-30T03:42:10.321Z",
-          "updatedAt": "2026-09-30T03:46:50.984Z"
+          "updatedAt": "2026-09-30T03:53:08.465Z",
+          "approvedAt": "2026-09-30T03:53:08.463Z",
+          "approvedBy": "ashokraj2011"
         }
       ],
       "checks": [],
@@ -3082,8 +3158,8 @@
         "generation": 2,
         "path": "singularity/work-items/py-coversion/context/spec-indexes/specification-gen2.json",
         "clauses": 19,
-        "indexSha256": "d265a0e96a06040f1d87f3aea48623662fbc2f8e6e93025b5cd787a00f71419c",
-        "sourceSha256": "71ab561434c80622c132cbb3948928ddd124edc98340445496eefe91b87c9574"
+        "indexSha256": "a0d15d760bb5c487d73956c147fa4098dd1b2f12287a090d8b660d1f40a03ce0",
+        "sourceSha256": "85cf81670690d0e4147a00046ee22d92801edc5cdf8b1c229be6430767b02ead"
       },
       "generationCommit": "3037b876ad2357b6571ed24b63e1b2d2c22a2cb9",
       "publicationCommit": "3037b876ad2357b6571ed24b63e1b2d2c22a2cb9",
@@ -3094,7 +3170,7 @@
       "label": "Planning",
       "order": 1,
       "defaultAgent": "architect",
-      "status": "not_started",
+      "status": "in_progress",
       "requiredArtifact": {
         "path": "artifacts/planning/plan.md",
         "kind": "design",
@@ -3154,7 +3230,7 @@
         }
       },
       "qualityCommands": [],
-      "startedAt": null,
+      "startedAt": "2026-09-30T03:53:08.463Z",
       "submittedAt": null,
       "approvedAt": null,
       "approvedBy": null,
@@ -3643,6 +3719,14 @@
       "event": "phase_submitted",
       "phase": "specification",
       "detail": "1 artifacts"
+    },
+    {
+      "at": "2026-09-30T03:53:08.463Z",
+      "actor": "ashokraj2011",
+      "agent": "product-owner",
+      "event": "phase_self_approved",
+      "phase": "specification",
+      "detail": "threshold reached; advanced to planning"
     }
   ],
   "measurement": {
@@ -4063,6 +4147,114 @@
           }
         },
         "createdAt": "2026-09-30T03:46:49.829Z"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "event": {
+        "schemaVersion": 1,
+        "eventId": "c1c1bed2-113b-49fd-ae0e-fac77b30c82e",
+        "type": "phase-approved",
+        "subject": {
+          "kind": "story",
+          "id": "py-coversion",
+          "branch": "py-coversion"
+        },
+        "phaseId": "specification",
+        "generation": 2,
+        "actor": {
+          "name": "Ashok Raj",
+          "email": "88361104+ashokraj2011@users.noreply.github.com",
+          "login": "ashokraj2011",
+          "githubLookup": "resolved"
+        },
+        "agent": "product-owner",
+        "authorityGroup": "product-approvers",
+        "payload": {
+          "decision": "approved",
+          "reviewPacketSha256": "153976a6867f1943f9a43e3317fca50cb7fc3eed15c2bce6d3feb072bacc3edf",
+          "evidenceCommit": "568b0557755d3d64a1d995bac04677ba22964f34",
+          "artifactSetSha256": "04fd1c66b67d49974fc8f42f63bfba32a5ca419cfce8fb7ba8e61e8b8d780ed4",
+          "witnessMappingsSha256": null
+        },
+        "sourceCommit": null,
+        "idempotencyKey": null,
+        "idempotencyHash": null,
+        "createdAt": "2026-09-30T03:53:07.547Z"
+      },
+      "ledgerIntent": {
+        "schemaVersion": 1,
+        "eventId": "c1c1bed2-113b-49fd-ae0e-fac77b30c82e",
+        "eventType": "phase-approved",
+        "capabilityId": "py-sfield",
+        "subject": {
+          "branch": "py-coversion",
+          "generation": 2,
+          "phase": "specification",
+          "workId": "py-coversion",
+          "workType": "reference-driven-build"
+        },
+        "actor": {
+          "name": "Ashok Raj",
+          "email": "88361104+ashokraj2011@users.noreply.github.com",
+          "githubLogin": "ashokraj2011",
+          "identityAssurance": "configured-local"
+        },
+        "agent": "product-owner",
+        "authorityGroup": "product-approvers",
+        "payload": {
+          "capabilityMapSha256": "c82ea821bed0b2fcdd4ae68f9d7eefa0c6fff88fd60ab4b45228abf8e793f905",
+          "capabilityPolicy": {
+            "protectedPaths": [],
+            "qualityCommands": [],
+            "requiredAuthorityGroups": [],
+            "requiredChecks": [],
+            "requiredWorldModelViews": []
+          },
+          "configPath": "singularity/workflow.yml",
+          "configSha256": "2ce4a29c11a99b96efaf8d9313e9df0685673df58c11fc5284006fc37fc20fe9",
+          "lifecycleEventId": "c1c1bed2-113b-49fd-ae0e-fac77b30c82e",
+          "lifecyclePayload": {
+            "decision": "approved",
+            "reviewPacketSha256": "153976a6867f1943f9a43e3317fca50cb7fc3eed15c2bce6d3feb072bacc3edf",
+            "evidenceCommit": "568b0557755d3d64a1d995bac04677ba22964f34",
+            "artifactSetSha256": "04fd1c66b67d49974fc8f42f63bfba32a5ca419cfce8fb7ba8e61e8b8d780ed4",
+            "witnessMappingsSha256": null
+          },
+          "templateSha256": "27424a624b1dab57323fd7482ac62708bd42d11ba42e41c102f94e15182fe485",
+          "lifecycleEvent": {
+            "schemaVersion": 1,
+            "eventId": "c1c1bed2-113b-49fd-ae0e-fac77b30c82e",
+            "type": "phase-approved",
+            "subject": {
+              "kind": "story",
+              "id": "py-coversion",
+              "branch": "py-coversion"
+            },
+            "phaseId": "specification",
+            "generation": 2,
+            "actor": {
+              "name": "Ashok Raj",
+              "email": "88361104+ashokraj2011@users.noreply.github.com",
+              "login": "ashokraj2011",
+              "githubLookup": "resolved"
+            },
+            "agent": "product-owner",
+            "authorityGroup": "product-approvers",
+            "payload": {
+              "decision": "approved",
+              "reviewPacketSha256": "153976a6867f1943f9a43e3317fca50cb7fc3eed15c2bce6d3feb072bacc3edf",
+              "evidenceCommit": "568b0557755d3d64a1d995bac04677ba22964f34",
+              "artifactSetSha256": "04fd1c66b67d49974fc8f42f63bfba32a5ca419cfce8fb7ba8e61e8b8d780ed4",
+              "witnessMappingsSha256": null
+            },
+            "sourceCommit": null,
+            "idempotencyKey": null,
+            "idempotencyHash": null,
+            "createdAt": "2026-09-30T03:53:07.547Z"
+          }
+        },
+        "createdAt": "2026-09-30T03:53:07.553Z"
       }
     }
   ],
