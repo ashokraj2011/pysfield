@@ -4,8 +4,11 @@ from dataclasses import dataclass
 from typing import Any, Mapping
 
 
+# @clause:MIGRATION:REQ-002
 @dataclass(frozen=True)
 class RuntimeConfig:
+    """Validated runtime settings used by the Python execution path."""
+
     name: str = "sfield"
     preset: str = "local"
     max_items: int = 10
@@ -13,6 +16,8 @@ class RuntimeConfig:
     debug: bool = False
 
     def as_dict(self) -> dict[str, Any]:
+        """Return a mutable representation suitable for recompilation."""
+
         return {
             "name": self.name,
             "preset": self.preset,
@@ -22,15 +27,35 @@ class RuntimeConfig:
         }
 
 
+# @clause:MIGRATION:REQ-002
 def compile_config(raw: Mapping[str, Any] | None = None) -> RuntimeConfig:
+    """Validate and compile user settings without coercing invalid types."""
+
     data = dict(raw or {})
-    name = str(data.get("name", "sfield")).strip() or "sfield"
-    preset = str(data.get("preset", "local")).strip().lower()
+    unknown_keys = sorted(data.keys() - {"name", "preset", "max_items", "allow_http", "debug"})
+    if unknown_keys:
+        raise ValueError(f"Unknown configuration key: {unknown_keys[0]}")
+
+    name_value = data.get("name", "sfield")
+    preset_value = data.get("preset", "local")
+    max_items = data.get("max_items", 10)
+    allow_http = data.get("allow_http", True)
+    debug = data.get("debug", False)
+    if not isinstance(name_value, str):
+        raise ValueError("name must be a string")
+    if not isinstance(preset_value, str):
+        raise ValueError("preset must be a string")
+    if isinstance(max_items, bool) or not isinstance(max_items, int):
+        raise ValueError("max_items must be an integer")
+    if not isinstance(allow_http, bool):
+        raise ValueError("allow_http must be a boolean")
+    if not isinstance(debug, bool):
+        raise ValueError("debug must be a boolean")
+
+    name = name_value.strip() or "sfield"
+    preset = preset_value.strip().lower()
     if preset not in {"local", "memory"}:
         raise ValueError(f"Unsupported preset: {preset!r}")
-    max_items = int(data.get("max_items", 10))
-    allow_http = bool(data.get("allow_http", True))
-    debug = bool(data.get("debug", False))
     return RuntimeConfig(
         name=name,
         preset=preset,
@@ -41,6 +66,8 @@ def compile_config(raw: Mapping[str, Any] | None = None) -> RuntimeConfig:
 
 
 def validate_runtime(config: RuntimeConfig) -> bool:
+    """Reject runtime settings that cannot execute safely."""
+
     if not config.name.strip():
         raise ValueError("Runtime name cannot be empty")
     if config.preset not in {"local", "memory"}:
@@ -50,12 +77,17 @@ def validate_runtime(config: RuntimeConfig) -> bool:
     return True
 
 
+# @clause:MIGRATION:REQ-002
 class SFieldRuntime:
+    """Execute payloads using a validated SField runtime configuration."""
+
     def __init__(self, config: Mapping[str, Any] | RuntimeConfig | None = None) -> None:
         self.config = compile_config(config if isinstance(config, Mapping) else getattr(config, "as_dict", lambda: {})()) if not isinstance(config, RuntimeConfig) else config
         validate_runtime(self.config)
 
     def execute(self, payload: str) -> dict[str, Any]:
+        """Execute one non-empty payload and return its observable result."""
+
         if not isinstance(payload, str) or not payload.strip():
             raise ValueError("Payload must be a non-empty string")
         result = {

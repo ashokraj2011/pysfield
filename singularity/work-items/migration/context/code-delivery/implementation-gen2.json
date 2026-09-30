@@ -1,0 +1,224 @@
+{
+  "schemaVersion": 2,
+  "kind": "code-delivery",
+  "workId": "migration",
+  "phase": "implementation",
+  "generation": 2,
+  "generationIntentId": "f252ffa9-4d39-437c-a476-13cbd3613d37",
+  "changeSet": {
+    "path": "singularity/work-items/migration/context/code-delivery/implementation-gen2-changes.json",
+    "digest": "sha256:a2e386ddd6aad01164c28779eebfa70c01ed8637d69b2d015f433b4a09758c45",
+    "sourcePaths": [
+      "src/sfield/core.py"
+    ],
+    "deletedSourcePaths": [],
+    "executableTestPaths": [
+      "tests/test_acceptance_traceability.py",
+      "tests/test_behavior_parity.py",
+      "tests/test_cli_entrypoints.py",
+      "tests/test_core_runtime.py",
+      "tests/test_package_layout.py",
+      "tests/test_reference_source_guard.py",
+      "tests/test_repository_boundary.py",
+      "tests/test_runtime_smoke.py",
+      "tests/test_validation_evidence.py",
+      "tests/test_validation_path.py"
+    ],
+    "supportingTestPaths": []
+  },
+  "changeClassification": {
+    "schemaVersion": 1,
+    "inference": "path-policy",
+    "declaredOrigins": [
+      "copilot"
+    ],
+    "generatedRoots": [],
+    "counts": {
+      "product-source": 1,
+      "test-source": 5
+    },
+    "entries": [
+      {
+        "changeId": "sha256:df0a6be8d48f23624621a98c8aff7975c77a95d7912c23262231d594c2a012c7",
+        "status": "added",
+        "oldPath": null,
+        "newPath": "tests/test_behavior_parity.py",
+        "role": "test-source",
+        "generated": false,
+        "likelyOrigin": "authorship-declared",
+        "inference": "path-policy"
+      },
+      {
+        "changeId": "sha256:6876be6e888d59ac30872d1b44906de2f3738662aaf8bfeb5a73dcfe6a002a07",
+        "status": "added",
+        "oldPath": null,
+        "newPath": "tests/test_core_runtime.py",
+        "role": "test-source",
+        "generated": false,
+        "likelyOrigin": "authorship-declared",
+        "inference": "path-policy"
+      },
+      {
+        "changeId": "sha256:0b28c91a2ab32918d8e26613ade7ed69e015e4b1b0ea470c074933f7f901770f",
+        "status": "added",
+        "oldPath": null,
+        "newPath": "tests/test_reference_source_guard.py",
+        "role": "test-source",
+        "generated": false,
+        "likelyOrigin": "authorship-declared",
+        "inference": "path-policy"
+      },
+      {
+        "changeId": "sha256:b9c3d8f33e73984c390e563e89a07e2b39c6ddfe6a7709e1b766379721555d10",
+        "status": "added",
+        "oldPath": null,
+        "newPath": "tests/test_validation_evidence.py",
+        "role": "test-source",
+        "generated": false,
+        "likelyOrigin": "authorship-declared",
+        "inference": "path-policy"
+      },
+      {
+        "changeId": "sha256:d20333d72eaea6016ed840091792b0f5bde0c3d524ce542ba4ddca814ea0d018",
+        "status": "added",
+        "oldPath": null,
+        "newPath": "tests/test_validation_path.py",
+        "role": "test-source",
+        "generated": false,
+        "likelyOrigin": "authorship-declared",
+        "inference": "path-policy"
+      },
+      {
+        "changeId": "sha256:1dd90eb3306d81c5796b1773b6451389edf274864044f6d2ff639e8c34fcc1b0",
+        "status": "modified",
+        "oldPath": "src/sfield/core.py",
+        "newPath": "src/sfield/core.py",
+        "role": "product-source",
+        "generated": false,
+        "likelyOrigin": "authorship-declared",
+        "inference": "path-policy"
+      }
+    ]
+  },
+  "traceability": {
+    "required": [
+      "MIGRATION:AC-001",
+      "MIGRATION:AC-002",
+      "MIGRATION:AC-003"
+    ],
+    "bound": [
+      "MIGRATION:AC-001",
+      "MIGRATION:AC-002",
+      "MIGRATION:AC-003"
+    ],
+    "missing": [],
+    "ambiguous": [],
+    "bindings": [
+      {
+        "clauseId": "MIGRATION:AC-001",
+        "testSource": "tests/test_acceptance_traceability.py",
+        "bindingAssurance": "namespace-qualified"
+      },
+      {
+        "clauseId": "MIGRATION:AC-001",
+        "testSource": "tests/test_cli_entrypoints.py",
+        "bindingAssurance": "namespace-qualified"
+      },
+      {
+        "clauseId": "MIGRATION:AC-001",
+        "testSource": "tests/test_core_runtime.py",
+        "bindingAssurance": "namespace-qualified"
+      },
+      {
+        "clauseId": "MIGRATION:AC-001",
+        "testSource": "tests/test_package_layout.py",
+        "bindingAssurance": "namespace-qualified"
+      },
+      {
+        "clauseId": "MIGRATION:AC-001",
+        "testSource": "tests/test_validation_evidence.py",
+        "bindingAssurance": "namespace-qualified"
+      },
+      {
+        "clauseId": "MIGRATION:AC-001",
+        "testSource": "tests/test_validation_path.py",
+        "bindingAssurance": "namespace-qualified"
+      },
+      {
+        "clauseId": "MIGRATION:AC-002",
+        "testSource": "tests/test_acceptance_traceability.py",
+        "bindingAssurance": "namespace-qualified"
+      },
+      {
+        "clauseId": "MIGRATION:AC-002",
+        "testSource": "tests/test_behavior_parity.py",
+        "bindingAssurance": "namespace-qualified"
+      },
+      {
+        "clauseId": "MIGRATION:AC-002",
+        "testSource": "tests/test_core_runtime.py",
+        "bindingAssurance": "namespace-qualified"
+      },
+      {
+        "clauseId": "MIGRATION:AC-002",
+        "testSource": "tests/test_runtime_smoke.py",
+        "bindingAssurance": "namespace-qualified"
+      },
+      {
+        "clauseId": "MIGRATION:AC-002",
+        "testSource": "tests/test_validation_evidence.py",
+        "bindingAssurance": "namespace-qualified"
+      },
+      {
+        "clauseId": "MIGRATION:AC-002",
+        "testSource": "tests/test_validation_path.py",
+        "bindingAssurance": "namespace-qualified"
+      },
+      {
+        "clauseId": "MIGRATION:AC-003",
+        "testSource": "tests/test_acceptance_traceability.py",
+        "bindingAssurance": "namespace-qualified"
+      },
+      {
+        "clauseId": "MIGRATION:AC-003",
+        "testSource": "tests/test_reference_source_guard.py",
+        "bindingAssurance": "namespace-qualified"
+      },
+      {
+        "clauseId": "MIGRATION:AC-003",
+        "testSource": "tests/test_repository_boundary.py",
+        "bindingAssurance": "namespace-qualified"
+      },
+      {
+        "clauseId": "MIGRATION:AC-003",
+        "testSource": "tests/test_validation_evidence.py",
+        "bindingAssurance": "namespace-qualified"
+      }
+    ]
+  },
+  "testExecutions": [],
+  "tree": {
+    "workingStateDigest": "sha256:72c38cba247c7ece5ba63e2f819aadbc53c3b91287b7362bd602ec7529153d10",
+    "generationCommit": null,
+    "generationTree": null
+  },
+  "model": {
+    "task": "code",
+    "required": true,
+    "authorshipProducer": "governed-agent",
+    "minimumAssurance": "unavailable",
+    "mappingRevision": null,
+    "provider": null,
+    "requestedModel": null,
+    "resolvedModel": null,
+    "assurance": "unavailable",
+    "invocationIds": [],
+    "host": null,
+    "observationSource": null,
+    "observationIntegrity": "unverified-local",
+    "observedAt": null,
+    "generation": null
+  },
+  "status": "pending-tests",
+  "capturedAt": "2026-09-30T23:43:31.741Z"
+}

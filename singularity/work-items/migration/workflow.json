@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 8,
+  "schemaVersion": 11,
   "mcpAuthorizations": {},
   "workItem": {
     "id": "migration",
@@ -3513,7 +3513,7 @@
       "rejectedAt": null,
       "rejectedBy": null,
       "rejectionReason": null,
-      "generation": 1,
+      "generation": 2,
       "generatedBy": {
         "name": "Ashok Raj",
         "email": "88361104+ashokraj2011@users.noreply.github.com",
@@ -3556,6 +3556,41 @@
           },
           "generation": 1,
           "publishedAt": "2026-09-25T00:18:58.160Z"
+        },
+        {
+          "schemaVersion": 1,
+          "producer": "governed-agent",
+          "channel": "copilot-host",
+          "actor": {
+            "name": "Ashok Raj",
+            "email": "88361104+ashokraj2011@users.noreply.github.com",
+            "login": "ashokraj2011",
+            "githubLookup": "resolved"
+          },
+          "governedAgentContext": {
+            "agentId": "developer"
+          },
+          "kernelModel": {
+            "invoked": false,
+            "status": "exact",
+            "invocationIds": []
+          },
+          "externalAiUse": {
+            "value": "unknown",
+            "status": "unavailable"
+          },
+          "changeOrigins": [
+            "copilot"
+          ],
+          "source": {
+            "kind": "in-place",
+            "filename": "implementation-summary.md",
+            "mediaType": "text/markdown",
+            "sha256": "7195cabb11d405c3783e0871bae5340629da3e2dce3444f008e2e57c5d761af3",
+            "bytes": 5107
+          },
+          "generation": 2,
+          "publishedAt": "2026-09-30T23:43:31.741Z"
         }
       ],
       "usage": [
@@ -3579,6 +3614,27 @@
           "completedAt": "2026-09-25T00:18:58.159Z",
           "agent": "developer",
           "generation": 1
+        },
+        {
+          "status": "unavailable",
+          "source": "copilot-otel-unavailable",
+          "provider": null,
+          "model": null,
+          "requestedModel": null,
+          "resolvedModel": null,
+          "resolvedModelAssurance": "unavailable",
+          "inputTokens": null,
+          "outputTokens": null,
+          "cachedInputTokens": null,
+          "cacheWriteInputTokens": null,
+          "totalTokens": null,
+          "providerCost": null,
+          "costStatus": "unavailable",
+          "spans": null,
+          "startedAt": "2026-09-30T23:43:31.741Z",
+          "completedAt": "2026-09-30T23:43:31.741Z",
+          "agent": "developer",
+          "generation": 2
         }
       ],
       "telemetry": [
@@ -3586,6 +3642,14 @@
           "generation": 1,
           "path": "singularity/work-items/migration/telemetry/implementation-gen1.json",
           "sha256": "61e05b13285b0db81e12fca664471424f1beb8e616d205e0182d42b2e15bac90",
+          "status": "pending",
+          "models": [],
+          "providerCost": null
+        },
+        {
+          "generation": 2,
+          "path": "singularity/work-items/migration/telemetry/implementation-gen2.json",
+          "sha256": "e5ff8de13323a48108c4d2d5b3f2c5d72c74225292d329d1948d084e38f600a6",
           "status": "pending",
           "models": [],
           "providerCost": null
@@ -3604,6 +3668,19 @@
           "record": {
             "path": "singularity/work-items/migration/context/generation-publications/implementation-gen1.json",
             "sha256": "sha256:faaf1ad221e13564818b40060ebd31a4be5c889afe9136045b25279d7b865063"
+          }
+        },
+        {
+          "generation": 2,
+          "publishedAt": "2026-09-30T23:43:31.741Z",
+          "changeSetDigest": "sha256:a2e386ddd6aad01164c28779eebfa70c01ed8637d69b2d015f433b4a09758c45",
+          "resultDigest": "sha256:6804b0406f5cb88abcd2c3848e6e9729dbbecc6af9425ef76eb85259750f74dc",
+          "resultDigestVersion": 3,
+          "architectureIntent": null,
+          "architectureDecision": null,
+          "record": {
+            "path": "singularity/work-items/migration/context/generation-publications/implementation-gen2.json",
+            "sha256": "sha256:1f548c85fbccf524a3c2afdd277b1b50658e58a88dd5a4e8f2328db6f74ab452"
           }
         }
       ],
@@ -3646,10 +3723,10 @@
           "kind": "document",
           "status": "pending",
           "exists": true,
-          "size": 27803,
-          "sha256": "b1ecd6fc924f0523f56a893e80740c23393a1c72b1cffc4866e2a24c34f1de3c",
+          "size": 28703,
+          "sha256": "c218e890bdf41765eb901cc04eb8596826036804c6e8a0192633f258c0e528a7",
           "registeredAt": "2026-09-25T00:18:55.937Z",
-          "updatedAt": "2026-09-25T00:18:58.235Z"
+          "updatedAt": "2026-09-30T23:43:31.836Z"
         },
         {
           "path": "src/sfield/__init__.py",
@@ -3676,10 +3753,10 @@
           "kind": "code",
           "status": "pending",
           "exists": true,
-          "size": 2427,
-          "sha256": "f6997bf840d121b5d10bbe3ffda1977e12498263996bb22288983a182098ae51",
+          "size": 3678,
+          "sha256": "c44329e1200f0f7dc95a7fc0126e9425a090a2ff16008115a70786ae18f8ba88",
           "registeredAt": "2026-09-25T00:18:55.939Z",
-          "updatedAt": "2026-09-25T00:18:58.236Z"
+          "updatedAt": "2026-09-30T23:43:31.836Z"
         },
         {
           "path": "tests/test_acceptance_traceability.py",
@@ -3692,6 +3769,16 @@
           "updatedAt": "2026-09-25T00:18:58.236Z"
         },
         {
+          "path": "tests/test_behavior_parity.py",
+          "kind": "test",
+          "status": "pending",
+          "exists": true,
+          "size": 498,
+          "sha256": "f6085802b70d28ebfea2370494a028af4efb85b31cebea250d61f49a1ee884bd",
+          "registeredAt": "2026-09-30T23:43:29.578Z",
+          "updatedAt": "2026-09-30T23:43:31.837Z"
+        },
+        {
           "path": "tests/test_cli_entrypoints.py",
           "kind": "test",
           "status": "pending",
@@ -3702,6 +3789,16 @@
           "updatedAt": "2026-09-25T00:18:58.236Z"
         },
         {
+          "path": "tests/test_core_runtime.py",
+          "kind": "test",
+          "status": "pending",
+          "exists": true,
+          "size": 1144,
+          "sha256": "295f09da6454e30a7cd741749878b9863d863de7fba83bb8213fa762621bf5e7",
+          "registeredAt": "2026-09-30T23:43:29.578Z",
+          "updatedAt": "2026-09-30T23:43:31.837Z"
+        },
+        {
           "path": "tests/test_package_layout.py",
           "kind": "test",
           "status": "pending",
@@ -3710,6 +3807,16 @@
           "sha256": "aa060b8fac09901d491c8db5d4b54e4a1ecbf3599c849a6f112fd63006f28344",
           "registeredAt": "2026-09-25T00:18:55.941Z",
           "updatedAt": "2026-09-25T00:18:58.237Z"
+        },
+        {
+          "path": "tests/test_reference_source_guard.py",
+          "kind": "test",
+          "status": "pending",
+          "exists": true,
+          "size": 409,
+          "sha256": "3827d868215a58d1602dcd3dcbc66724261998461c9534081da3c69777ebf8b7",
+          "registeredAt": "2026-09-30T23:43:29.579Z",
+          "updatedAt": "2026-09-30T23:43:31.837Z"
         },
         {
           "path": "tests/test_repository_boundary.py",
@@ -3730,24 +3837,44 @@
           "sha256": "8e4a22a9f3d375528a7661b1ae68eb1d105d2a26a853ad4ddd6da29beb207d76",
           "registeredAt": "2026-09-25T00:18:55.942Z",
           "updatedAt": "2026-09-25T00:18:58.237Z"
+        },
+        {
+          "path": "tests/test_validation_evidence.py",
+          "kind": "test",
+          "status": "pending",
+          "exists": true,
+          "size": 547,
+          "sha256": "96204e61d53f589dd999c7f107fdbe9d5a005042e14dc8955ce57772fff7ae9c",
+          "registeredAt": "2026-09-30T23:43:29.579Z",
+          "updatedAt": "2026-09-30T23:43:31.838Z"
+        },
+        {
+          "path": "tests/test_validation_path.py",
+          "kind": "test",
+          "status": "pending",
+          "exists": true,
+          "size": 461,
+          "sha256": "e894d1403bccaaabc57502e7964494fb8eccf7a8c40e772af736abda109d8637",
+          "registeredAt": "2026-09-30T23:43:29.580Z",
+          "updatedAt": "2026-09-30T23:43:31.838Z"
         }
       ],
       "checks": [],
       "remoteOutputs": [],
       "generationIntent": {
-        "id": "d959db00-72f0-4c88-9806-3aae5db825f4",
-        "generation": 1,
+        "id": "f252ffa9-4d39-437c-a476-13cbd3613d37",
+        "generation": 2,
         "status": "consumed",
-        "path": "singularity/work-items/migration/context/generation-start/implementation-gen1.json",
-        "receiptSha256": "sha256:274ed93d088dc24930ab0a9d085a6867372f9cd3d1b22b7ef88b99e263301bf9",
+        "path": "singularity/work-items/migration/context/generation-start/implementation-gen2.json",
+        "receiptSha256": "sha256:db217b57ceace2c974f45a996fb82a4051e32c237377bd31eded06d6b8fda476",
         "baseline": {
-          "commit": "b20c02e40351acdb9fea1f6ce78fbf6f21155ed0",
-          "tree": "3d039bc56648c8bec9b291b1119f49a6f111c231",
-          "initialChangeSetDigest": "sha256:325b55f19b60b0ccbf6938cd63f9bde5c941c665797c1722c4c76f20914d9e81",
-          "mode": "clean",
-          "previousGenerationCommit": null
+          "commit": "e9a0b8740412a56875824acf46f85e048846ce00",
+          "tree": "93b20e57fbfa1dfaecbddad486271f9aad75f97c",
+          "initialChangeSetDigest": "sha256:b3df1077319717399fd2094b9a428b3d7b876e1ea50b8d8d5bd84015845d2e74",
+          "mode": "adopted",
+          "previousGenerationCommit": "e9a0b8740412a56875824acf46f85e048846ce00"
         },
-        "startedAt": "2026-09-25T00:09:41.954Z",
+        "startedAt": "2026-09-30T23:36:00.760Z",
         "startedBy": {
           "actor": {
             "name": "Ashok Raj",
@@ -3758,17 +3885,17 @@
           "agent": "developer"
         },
         "publication": {
-          "generation": 1,
-          "changeSetDigest": "sha256:4c2c7517b891ccc41cdbb2d98c9769300412e4816bc67ffba3d76d4adfaf95d0",
-          "resultDigest": "sha256:4067fdccb8722efe742762985013bb4343e177801983d07cf2f1575541ad7ae5",
+          "generation": 2,
+          "changeSetDigest": "sha256:a2e386ddd6aad01164c28779eebfa70c01ed8637d69b2d015f433b4a09758c45",
+          "resultDigest": "sha256:6804b0406f5cb88abcd2c3848e6e9729dbbecc6af9425ef76eb85259750f74dc",
           "resultDigestVersion": 3,
-          "generationStartSha256": "sha256:274ed93d088dc24930ab0a9d085a6867372f9cd3d1b22b7ef88b99e263301bf9",
+          "generationStartSha256": "sha256:db217b57ceace2c974f45a996fb82a4051e32c237377bd31eded06d6b8fda476",
           "record": {
-            "path": "singularity/work-items/migration/context/generation-publications/implementation-gen1.json",
-            "sha256": "sha256:faaf1ad221e13564818b40060ebd31a4be5c889afe9136045b25279d7b865063"
+            "path": "singularity/work-items/migration/context/generation-publications/implementation-gen2.json",
+            "sha256": "sha256:1f548c85fbccf524a3c2afdd277b1b50658e58a88dd5a4e8f2328db6f74ab452"
           }
         },
-        "consumedAt": "2026-09-25T00:18:58.160Z"
+        "consumedAt": "2026-09-30T23:43:31.741Z"
       },
       "authoringBaseline": {
         "generation": 1,
@@ -3777,31 +3904,31 @@
         "bytes": 1522
       },
       "inputContext": {
-        "generation": 1,
-        "path": "singularity/work-items/migration/context/inputs-implementation-gen1.json",
-        "sha256": "22f2c408969bc4acf91d21cc9c3c883bb57dbed9d1202b88ad7cf0142ca9b594",
+        "generation": 2,
+        "path": "singularity/work-items/migration/context/inputs-implementation-gen2.json",
+        "sha256": "941f8422754140f8f28d3308a145f8a4ed1e7a504f0b1db4896c4072d0d82fe3",
         "renderedSha256": "7b316273f49bca23865f89d7c84cdfe1eac78d1415043294986afee03b7d2806",
         "mode": "enforce"
       },
       "deliveryEvidence": {
         "requirement": "source-and-tests",
-        "baselineCommit": "b20c02e40351acdb9fea1f6ce78fbf6f21155ed0",
-        "generationIntentId": "d959db00-72f0-4c88-9806-3aae5db825f4",
+        "baselineCommit": "e9a0b8740412a56875824acf46f85e048846ce00",
+        "generationIntentId": "f252ffa9-4d39-437c-a476-13cbd3613d37",
         "changeSet": {
           "schemaVersion": 1,
           "kind": "repository-change-set",
           "subject": {
             "workId": "migration",
             "phase": "implementation",
-            "generation": 1,
-            "generationIntentId": "d959db00-72f0-4c88-9806-3aae5db825f4"
+            "generation": 2,
+            "generationIntentId": "f252ffa9-4d39-437c-a476-13cbd3613d37"
           },
           "base": {
-            "commit": "b20c02e40351acdb9fea1f6ce78fbf6f21155ed0",
-            "tree": "3d039bc56648c8bec9b291b1119f49a6f111c231"
+            "commit": "e9a0b8740412a56875824acf46f85e048846ce00",
+            "tree": "93b20e57fbfa1dfaecbddad486271f9aad75f97c"
           },
           "target": {
-            "head": "0a3aed3ea177b3c61df3dbe189e05e9257b74907",
+            "head": "e9a0b8740412a56875824acf46f85e048846ce00",
             "includesIndex": true,
             "includesWorktree": true,
             "includesUntracked": true,
@@ -3812,7 +3939,7 @@
               "status": "added",
               "similarity": null,
               "oldPath": null,
-              "newPath": ".gitignore",
+              "newPath": ".sflow/results/python-tests.xml",
               "oldMode": "000000",
               "newMode": "100644",
               "oldObject": null,
@@ -3820,16 +3947,16 @@
               "untracked": true,
               "newContent": {
                 "kind": "regular-file",
-                "sha256": "sha256:a2c5d1b1e8fc2d00576f130634feec851372f52aa103d99d891f4533e011a3ff",
-                "bytes": 41
+                "sha256": "sha256:a619db3ab2de72bf1d17b53e693f85fe473a695a138677642597b32bd420933b",
+                "bytes": 2062
               },
-              "changeId": "sha256:b825ce361ce5d08e5e012eaa3159a8e4e8c31eb0e54f49cad57f6301d942dbad"
+              "changeId": "sha256:936fbc9f9aabde49f5f545931450372db252a20f9cbb2b3053bbcf7970069ca5"
             },
             {
               "status": "added",
               "similarity": null,
               "oldPath": null,
-              "newPath": "pyproject.toml",
+              "newPath": "singularity/work-items/migration/context/generation-start/implementation-gen2.json",
               "oldMode": "000000",
               "newMode": "100644",
               "oldObject": null,
@@ -3837,48 +3964,16 @@
               "untracked": true,
               "newContent": {
                 "kind": "regular-file",
-                "sha256": "sha256:a8c8ae3dce8b850215ecd85a4ceb234f17508e92acfc1491c84fa94fe80886e0",
-                "bytes": 529
+                "sha256": "sha256:3956a3de529b0e77898273d991fb0d958f38bd6b32e1c19f9b2ea470c86ef257",
+                "bytes": 1399
               },
-              "changeId": "sha256:1864436af574cd95008b0ccf906e30e103bd52560f5bf018d5b7238e7fa654d3"
+              "changeId": "sha256:34aa79ec9ec57237ae3814519959085cae7359a6be4a7a1d07b73880d596822f"
             },
             {
               "status": "added",
               "similarity": null,
               "oldPath": null,
-              "newPath": "singularity/work-items/migration/approvals/planning.json",
-              "oldMode": "000000",
-              "newMode": "100644",
-              "oldObject": null,
-              "newObject": "dc5bac8babb1dfc8806d179d77ad8e4b77451d13",
-              "newContent": {
-                "kind": "regular-file",
-                "sha256": "sha256:5d472c63aa3341c687916e516468c4f305b80d99a4c72c284d0886375a17b78a",
-                "bytes": 1260
-              },
-              "changeId": "sha256:f5667bb6bc71fbddf058b7b7f0ce78e3ae40236a30fb58ce3b57cefe02e444cc"
-            },
-            {
-              "status": "added",
-              "similarity": null,
-              "oldPath": null,
-              "newPath": "singularity/work-items/migration/approvals/planning/2026-09-25T00-05-43-226Z-approved.json",
-              "oldMode": "000000",
-              "newMode": "100644",
-              "oldObject": null,
-              "newObject": "5715c973d0464af2ca515afee4e59a80d79d7f02",
-              "newContent": {
-                "kind": "regular-file",
-                "sha256": "sha256:b1741f65f8f57c99037e390afe22e1ec9bdb64fe0facfd4f09960e04ef7ae42f",
-                "bytes": 1070
-              },
-              "changeId": "sha256:800839ca7034518c8842a078adf2cbafe2b5e88d2631d4cd3550832aa805fe29"
-            },
-            {
-              "status": "added",
-              "similarity": null,
-              "oldPath": null,
-              "newPath": "singularity/work-items/migration/artifacts/implementation/implementation-summary.md",
+              "newPath": "singularity/work-items/migration/context/implementation-gen2.json",
               "oldMode": "000000",
               "newMode": "100644",
               "oldObject": null,
@@ -3886,16 +3981,16 @@
               "untracked": true,
               "newContent": {
                 "kind": "regular-file",
-                "sha256": "sha256:aefe0fa2d5b0b5aeba421c1ca112bacd2ef702eb20cd0a0c786026b978695ba1",
-                "bytes": 26169
+                "sha256": "sha256:1e814662dcb8da97a78c0c266204374aa06fd1c3422d120d0129f5178c5b34f0",
+                "bytes": 99103
               },
-              "changeId": "sha256:35b10e6d6cd8ece897bbd829064bbafe218b868f4aae0af590f93471e5b4b08b"
+              "changeId": "sha256:4bbe0adfe436799993dea9f7ecdf3138dc04d056ddd8c1fb8f5a9041b42cbd40"
             },
             {
               "status": "added",
               "similarity": null,
               "oldPath": null,
-              "newPath": "singularity/work-items/migration/context/generation-start/implementation-gen1.json",
+              "newPath": "singularity/work-items/migration/context/prompts/implementation-gen2.md",
               "oldMode": "000000",
               "newMode": "100644",
               "oldObject": null,
@@ -3903,16 +3998,16 @@
               "untracked": true,
               "newContent": {
                 "kind": "regular-file",
-                "sha256": "sha256:562ecb729bf8ce147d5800678993aedf2b619a95dd0036245dd71648ed033488",
-                "bytes": 1245
+                "sha256": "sha256:f77bfc543025a110623e8966bf88f2641dcd1f3fd5aea27d050b9c49e54d4d2e",
+                "bytes": 38337
               },
-              "changeId": "sha256:3945aa95e0b4a40eda4a30e9047b39ba6305516f946f962e4cb6b40348a32b8f"
+              "changeId": "sha256:3a4103191c3584f85963a1482bb3682eeb522e139dda07c7ae21a658d04fc95d"
             },
             {
               "status": "added",
               "similarity": null,
               "oldPath": null,
-              "newPath": "singularity/work-items/migration/context/inputs-implementation-gen1.json",
+              "newPath": "singularity/work-items/migration/context/work-intervals/implementation-gen2-baseline.json",
               "oldMode": "000000",
               "newMode": "100644",
               "oldObject": null,
@@ -3920,48 +4015,16 @@
               "untracked": true,
               "newContent": {
                 "kind": "regular-file",
-                "sha256": "sha256:80535e04c3d3d2d14df5ea344d0f35aa7d8ad13d952b7203fd3add0c91d032ef",
-                "bytes": 2930
-              },
-              "changeId": "sha256:32e956f081b435bb6e048e83b04269f05df0b1305f9d9e9af680b89dc3899396"
-            },
-            {
-              "status": "added",
-              "similarity": null,
-              "oldPath": null,
-              "newPath": "singularity/work-items/migration/context/ledger-intents/6961ede2-738a-405f-8b09-d8d4db82b868.json",
-              "oldMode": "000000",
-              "newMode": "100644",
-              "oldObject": null,
-              "newObject": "66f486521990a37358ed549fe85dd36300852f27",
-              "newContent": {
-                "kind": "regular-file",
-                "sha256": "sha256:4cd435181c160af63aee96bddbb26f19d58d66894e21c0daf6221dd2d6fadf6b",
-                "bytes": 2126
-              },
-              "changeId": "sha256:e701d026494d72d033bad22618c872d412a781c8e56ce85bd021be88e9fef94f"
-            },
-            {
-              "status": "added",
-              "similarity": null,
-              "oldPath": null,
-              "newPath": "singularity/work-items/migration/context/work-intervals/implementation-gen1-baseline.json",
-              "oldMode": "000000",
-              "newMode": "100644",
-              "oldObject": null,
-              "newObject": "b44314f8eb87ac49ac6b568b7b54d2b4ebea21b6",
-              "newContent": {
-                "kind": "regular-file",
-                "sha256": "sha256:4460c1f9e8da2e718c1b4beb36b2eafaf9fb6a204c0bb7a976c65754d4a67b9d",
+                "sha256": "sha256:4bfec920e42702f5777f4d534d7ac4f936f5e57ba15326310df621c93bf3f6a9",
                 "bytes": 1677
               },
-              "changeId": "sha256:81ba8ef2ffb895731cfbe82ea905d4381a6dda3325bc53fbefa49c668d2d6b98"
+              "changeId": "sha256:075b612428d275b1a52060e423c12e9f29b664770687571c9cbbb513c8dfb811"
             },
             {
               "status": "added",
               "similarity": null,
               "oldPath": null,
-              "newPath": "src/sfield/__init__.py",
+              "newPath": "tests/test_behavior_parity.py",
               "oldMode": "000000",
               "newMode": "100644",
               "oldObject": null,
@@ -3969,16 +4032,16 @@
               "untracked": true,
               "newContent": {
                 "kind": "regular-file",
-                "sha256": "sha256:71eb03b865a7b22eeaf8e54c7bf74cdc9e880a3b079d88d041e80563334e9d14",
-                "bytes": 184
+                "sha256": "sha256:f6085802b70d28ebfea2370494a028af4efb85b31cebea250d61f49a1ee884bd",
+                "bytes": 498
               },
-              "changeId": "sha256:b074e85d9df8fc0b45b23c94607628940624d8cfa5408503edca11810cb68726"
+              "changeId": "sha256:df0a6be8d48f23624621a98c8aff7975c77a95d7912c23262231d594c2a012c7"
             },
             {
               "status": "added",
               "similarity": null,
               "oldPath": null,
-              "newPath": "src/sfield/cli.py",
+              "newPath": "tests/test_core_runtime.py",
               "oldMode": "000000",
               "newMode": "100644",
               "oldObject": null,
@@ -3986,16 +4049,16 @@
               "untracked": true,
               "newContent": {
                 "kind": "regular-file",
-                "sha256": "sha256:84f13dc9d2e8cadb010afa169857b889c86d203f98cff6ef988de864ad583ed5",
-                "bytes": 1099
+                "sha256": "sha256:295f09da6454e30a7cd741749878b9863d863de7fba83bb8213fa762621bf5e7",
+                "bytes": 1144
               },
-              "changeId": "sha256:116edf4ccf5daa4475f10b3ebf2b6c2bd4c7d35174ff06f46ac8e8a12a805c95"
+              "changeId": "sha256:6876be6e888d59ac30872d1b44906de2f3738662aaf8bfeb5a73dcfe6a002a07"
             },
             {
               "status": "added",
               "similarity": null,
               "oldPath": null,
-              "newPath": "src/sfield/core.py",
+              "newPath": "tests/test_reference_source_guard.py",
               "oldMode": "000000",
               "newMode": "100644",
               "oldObject": null,
@@ -4003,16 +4066,16 @@
               "untracked": true,
               "newContent": {
                 "kind": "regular-file",
-                "sha256": "sha256:f6997bf840d121b5d10bbe3ffda1977e12498263996bb22288983a182098ae51",
-                "bytes": 2427
+                "sha256": "sha256:3827d868215a58d1602dcd3dcbc66724261998461c9534081da3c69777ebf8b7",
+                "bytes": 409
               },
-              "changeId": "sha256:d5f6af3bb8c1bd4f9dffca3ef5f3674824c3395efef9d52b956b0aebc246ad0d"
+              "changeId": "sha256:0b28c91a2ab32918d8e26613ade7ed69e015e4b1b0ea470c074933f7f901770f"
             },
             {
               "status": "added",
               "similarity": null,
               "oldPath": null,
-              "newPath": "tests/test_acceptance_traceability.py",
+              "newPath": "tests/test_validation_evidence.py",
               "oldMode": "000000",
               "newMode": "100644",
               "oldObject": null,
@@ -4020,16 +4083,16 @@
               "untracked": true,
               "newContent": {
                 "kind": "regular-file",
-                "sha256": "sha256:cfae503290f04dee87f95b31941799869a56603b0c2b0ffd517b06906274ebc0",
-                "bytes": 633
+                "sha256": "sha256:96204e61d53f589dd999c7f107fdbe9d5a005042e14dc8955ce57772fff7ae9c",
+                "bytes": 547
               },
-              "changeId": "sha256:1397cac378f5fe9387f4af5a28ab9be8f6464f19407458908bfa928797b73edc"
+              "changeId": "sha256:b9c3d8f33e73984c390e563e89a07e2b39c6ddfe6a7709e1b766379721555d10"
             },
             {
               "status": "added",
               "similarity": null,
               "oldPath": null,
-              "newPath": "tests/test_cli_entrypoints.py",
+              "newPath": "tests/test_validation_path.py",
               "oldMode": "000000",
               "newMode": "100644",
               "oldObject": null,
@@ -4037,77 +4100,10 @@
               "untracked": true,
               "newContent": {
                 "kind": "regular-file",
-                "sha256": "sha256:7a62728d5d92590d7b60b739462736a3fa601a87089f2b83d0a59615f9212dee",
-                "bytes": 360
+                "sha256": "sha256:e894d1403bccaaabc57502e7964494fb8eccf7a8c40e772af736abda109d8637",
+                "bytes": 461
               },
-              "changeId": "sha256:11194458ecf8fb6fee8a728253645812009a3f3350643ec2a862f4bc2775d199"
-            },
-            {
-              "status": "added",
-              "similarity": null,
-              "oldPath": null,
-              "newPath": "tests/test_package_layout.py",
-              "oldMode": "000000",
-              "newMode": "100644",
-              "oldObject": null,
-              "newObject": null,
-              "untracked": true,
-              "newContent": {
-                "kind": "regular-file",
-                "sha256": "sha256:aa060b8fac09901d491c8db5d4b54e4a1ecbf3599c849a6f112fd63006f28344",
-                "bytes": 669
-              },
-              "changeId": "sha256:16211e89ff280786d6d2e466c433dba7eced6978b34e6db47b749528d5fc2052"
-            },
-            {
-              "status": "added",
-              "similarity": null,
-              "oldPath": null,
-              "newPath": "tests/test_repository_boundary.py",
-              "oldMode": "000000",
-              "newMode": "100644",
-              "oldObject": null,
-              "newObject": null,
-              "untracked": true,
-              "newContent": {
-                "kind": "regular-file",
-                "sha256": "sha256:c984e87d1c636b69ffded0d0a64ad7291b89a41769a906f98709b4ef5ca0d2fd",
-                "bytes": 574
-              },
-              "changeId": "sha256:8d4521c1b0985acb9393fd9cfef679294f9ffdeb3f12830b07e3aa7f3f9aae35"
-            },
-            {
-              "status": "added",
-              "similarity": null,
-              "oldPath": null,
-              "newPath": "tests/test_runtime_smoke.py",
-              "oldMode": "000000",
-              "newMode": "100644",
-              "oldObject": null,
-              "newObject": null,
-              "untracked": true,
-              "newContent": {
-                "kind": "regular-file",
-                "sha256": "sha256:8e4a22a9f3d375528a7661b1ae68eb1d105d2a26a853ad4ddd6da29beb207d76",
-                "bytes": 758
-              },
-              "changeId": "sha256:a6522a58f69869b01496938ed3b6846c189f0017860ec17ea38a87b189caa945"
-            },
-            {
-              "status": "modified",
-              "similarity": null,
-              "oldPath": "README.md",
-              "newPath": "README.md",
-              "oldMode": "100644",
-              "newMode": "100644",
-              "oldObject": "87494c9f454e7ddc8973f247d6d5d9b25f294b57",
-              "newObject": null,
-              "newContent": {
-                "kind": "regular-file",
-                "sha256": "sha256:06e9598f53b1d68e1543e0825a1e9ea2df070d9bf938a1ad8e863208c9a89d9c",
-                "bytes": 408
-              },
-              "changeId": "sha256:fcb8687412ffc04d499ae8414280cb7138bf2f9db5b5229bc0e054d76468c768"
+              "changeId": "sha256:d20333d72eaea6016ed840091792b0f5bde0c3d524ce542ba4ddca814ea0d018"
             },
             {
               "status": "modified",
@@ -4116,30 +4112,14 @@
               "newPath": "singularity/work-items/migration/STATUS.md",
               "oldMode": "100644",
               "newMode": "100644",
-              "oldObject": "e9eabfbaff9394e515293764a47879a582bbd7e0",
-              "newObject": "52b1d292b87dabea370fb2b019e8657d7b21feaa",
+              "oldObject": "51202b3997f22e93700c6b37953167d651027902",
+              "newObject": null,
               "newContent": {
                 "kind": "regular-file",
-                "sha256": "sha256:d8053b4379b49e0d656c62a2aa69c97032572be54b802618fb6c22f7498d4631",
-                "bytes": 2291
+                "sha256": "sha256:5ca80ec17b283fd3f11f6fe8612c64d65630bfdd26305a6de649dbdbd7d00e02",
+                "bytes": 2540
               },
-              "changeId": "sha256:d460d9377cb5fe89d82562627e09856e78c025917552ada3fcb39dcad99fb823"
-            },
-            {
-              "status": "modified",
-              "similarity": null,
-              "oldPath": "singularity/work-items/migration/artifacts/planning/plan.md",
-              "newPath": "singularity/work-items/migration/artifacts/planning/plan.md",
-              "oldMode": "100644",
-              "newMode": "100644",
-              "oldObject": "1fe83f9acc243d140862c87c3a7bd5102ebd582c",
-              "newObject": "e78278becc31dce6e5d3ff3900818234c99ae7a5",
-              "newContent": {
-                "kind": "regular-file",
-                "sha256": "sha256:4ab43d2758492679038f672495d67cc28bc7376f53b3209d2869cd01c3d7873e",
-                "bytes": 23216
-              },
-              "changeId": "sha256:3ccd4dfb642ea0b3bf8ba4aa681d15935da9bed6a54ad7408f35b8a94d5edb16"
+              "changeId": "sha256:803baeee596f2584877cd44c3afc1bf7d52df1cd074ded83b1cad40af8febb7b"
             },
             {
               "status": "modified",
@@ -4148,17 +4128,33 @@
               "newPath": "singularity/work-items/migration/workflow.json",
               "oldMode": "100644",
               "newMode": "100644",
-              "oldObject": "eead43ecd612fa199df731eebcb839fc5b52ecc7",
+              "oldObject": "a35699a7b98280858e42c3d2ce65382ee53da570",
               "newObject": null,
               "newContent": {
                 "kind": "regular-file",
-                "sha256": "sha256:4aa248c5ba6a74ef8b345c88d1b1e2bde448106ccb1c1dda45ba2490d47f3c74",
-                "bytes": 174857
+                "sha256": "sha256:bb8ed6a15db38032d2e3d6436c948460782d05ed82051d106a4ab09fcc6cb117",
+                "bytes": 219026
               },
-              "changeId": "sha256:e67264c1db6e4cadca190be447471b45598600a1386d35681997513a7f3ba4e8"
+              "changeId": "sha256:aeda1725ff5f6cc378a3d08ffef7a320feb4eb06388278eb18e9fc5e2e7965e9"
+            },
+            {
+              "status": "modified",
+              "similarity": null,
+              "oldPath": "src/sfield/core.py",
+              "newPath": "src/sfield/core.py",
+              "oldMode": "100644",
+              "newMode": "100644",
+              "oldObject": "e5f7b998ff4c0ef9043080dc433bf495e398fa05",
+              "newObject": null,
+              "newContent": {
+                "kind": "regular-file",
+                "sha256": "sha256:c44329e1200f0f7dc95a7fc0126e9425a090a2ff16008115a70786ae18f8ba88",
+                "bytes": 3678
+              },
+              "changeId": "sha256:1dd90eb3306d81c5796b1773b6451389edf274864044f6d2ff639e8c34fcc1b0"
             }
           ],
-          "digest": "sha256:4c2c7517b891ccc41cdbb2d98c9769300412e4816bc67ffba3d76d4adfaf95d0"
+          "digest": "sha256:a2e386ddd6aad01164c28779eebfa70c01ed8637d69b2d015f433b4a09758c45"
         },
         "changeClassification": {
           "schemaVersion": 1,
@@ -4168,116 +4164,65 @@
           ],
           "generatedRoots": [],
           "counts": {
-            "build-configuration": 1,
-            "product-source": 5,
+            "product-source": 1,
             "test-source": 5
           },
           "entries": [
             {
-              "changeId": "sha256:b825ce361ce5d08e5e012eaa3159a8e4e8c31eb0e54f49cad57f6301d942dbad",
+              "changeId": "sha256:df0a6be8d48f23624621a98c8aff7975c77a95d7912c23262231d594c2a012c7",
               "status": "added",
               "oldPath": null,
-              "newPath": ".gitignore",
-              "role": "product-source",
-              "generated": false,
-              "likelyOrigin": "authorship-declared",
-              "inference": "path-policy"
-            },
-            {
-              "changeId": "sha256:1864436af574cd95008b0ccf906e30e103bd52560f5bf018d5b7238e7fa654d3",
-              "status": "added",
-              "oldPath": null,
-              "newPath": "pyproject.toml",
-              "role": "build-configuration",
-              "generated": false,
-              "likelyOrigin": "authorship-declared",
-              "inference": "path-policy"
-            },
-            {
-              "changeId": "sha256:b074e85d9df8fc0b45b23c94607628940624d8cfa5408503edca11810cb68726",
-              "status": "added",
-              "oldPath": null,
-              "newPath": "src/sfield/__init__.py",
-              "role": "product-source",
-              "generated": false,
-              "likelyOrigin": "authorship-declared",
-              "inference": "path-policy"
-            },
-            {
-              "changeId": "sha256:116edf4ccf5daa4475f10b3ebf2b6c2bd4c7d35174ff06f46ac8e8a12a805c95",
-              "status": "added",
-              "oldPath": null,
-              "newPath": "src/sfield/cli.py",
-              "role": "product-source",
-              "generated": false,
-              "likelyOrigin": "authorship-declared",
-              "inference": "path-policy"
-            },
-            {
-              "changeId": "sha256:d5f6af3bb8c1bd4f9dffca3ef5f3674824c3395efef9d52b956b0aebc246ad0d",
-              "status": "added",
-              "oldPath": null,
-              "newPath": "src/sfield/core.py",
-              "role": "product-source",
-              "generated": false,
-              "likelyOrigin": "authorship-declared",
-              "inference": "path-policy"
-            },
-            {
-              "changeId": "sha256:1397cac378f5fe9387f4af5a28ab9be8f6464f19407458908bfa928797b73edc",
-              "status": "added",
-              "oldPath": null,
-              "newPath": "tests/test_acceptance_traceability.py",
+              "newPath": "tests/test_behavior_parity.py",
               "role": "test-source",
               "generated": false,
               "likelyOrigin": "authorship-declared",
               "inference": "path-policy"
             },
             {
-              "changeId": "sha256:11194458ecf8fb6fee8a728253645812009a3f3350643ec2a862f4bc2775d199",
+              "changeId": "sha256:6876be6e888d59ac30872d1b44906de2f3738662aaf8bfeb5a73dcfe6a002a07",
               "status": "added",
               "oldPath": null,
-              "newPath": "tests/test_cli_entrypoints.py",
+              "newPath": "tests/test_core_runtime.py",
               "role": "test-source",
               "generated": false,
               "likelyOrigin": "authorship-declared",
               "inference": "path-policy"
             },
             {
-              "changeId": "sha256:16211e89ff280786d6d2e466c433dba7eced6978b34e6db47b749528d5fc2052",
+              "changeId": "sha256:0b28c91a2ab32918d8e26613ade7ed69e015e4b1b0ea470c074933f7f901770f",
               "status": "added",
               "oldPath": null,
-              "newPath": "tests/test_package_layout.py",
+              "newPath": "tests/test_reference_source_guard.py",
               "role": "test-source",
               "generated": false,
               "likelyOrigin": "authorship-declared",
               "inference": "path-policy"
             },
             {
-              "changeId": "sha256:8d4521c1b0985acb9393fd9cfef679294f9ffdeb3f12830b07e3aa7f3f9aae35",
+              "changeId": "sha256:b9c3d8f33e73984c390e563e89a07e2b39c6ddfe6a7709e1b766379721555d10",
               "status": "added",
               "oldPath": null,
-              "newPath": "tests/test_repository_boundary.py",
+              "newPath": "tests/test_validation_evidence.py",
               "role": "test-source",
               "generated": false,
               "likelyOrigin": "authorship-declared",
               "inference": "path-policy"
             },
             {
-              "changeId": "sha256:a6522a58f69869b01496938ed3b6846c189f0017860ec17ea38a87b189caa945",
+              "changeId": "sha256:d20333d72eaea6016ed840091792b0f5bde0c3d524ce542ba4ddca814ea0d018",
               "status": "added",
               "oldPath": null,
-              "newPath": "tests/test_runtime_smoke.py",
+              "newPath": "tests/test_validation_path.py",
               "role": "test-source",
               "generated": false,
               "likelyOrigin": "authorship-declared",
               "inference": "path-policy"
             },
             {
-              "changeId": "sha256:fcb8687412ffc04d499ae8414280cb7138bf2f9db5b5229bc0e054d76468c768",
+              "changeId": "sha256:1dd90eb3306d81c5796b1773b6451389edf274864044f6d2ff639e8c34fcc1b0",
               "status": "modified",
-              "oldPath": "README.md",
-              "newPath": "README.md",
+              "oldPath": "src/sfield/core.py",
+              "newPath": "src/sfield/core.py",
               "role": "product-source",
               "generated": false,
               "likelyOrigin": "authorship-declared",
@@ -4287,52 +4232,12 @@
         },
         "paths": [
           {
-            "path": ".gitignore",
-            "kind": "source",
-            "fileKind": "regular-file",
-            "exists": true,
-            "size": 41,
-            "sha256": "a2c5d1b1e8fc2d00576f130634feec851372f52aa103d99d891f4533e011a3ff"
-          },
-          {
-            "path": "README.md",
-            "kind": "source",
-            "fileKind": "regular-file",
-            "exists": true,
-            "size": 408,
-            "sha256": "06e9598f53b1d68e1543e0825a1e9ea2df070d9bf938a1ad8e863208c9a89d9c"
-          },
-          {
-            "path": "pyproject.toml",
-            "kind": "source",
-            "fileKind": "regular-file",
-            "exists": true,
-            "size": 529,
-            "sha256": "a8c8ae3dce8b850215ecd85a4ceb234f17508e92acfc1491c84fa94fe80886e0"
-          },
-          {
-            "path": "src/sfield/__init__.py",
-            "kind": "source",
-            "fileKind": "regular-file",
-            "exists": true,
-            "size": 184,
-            "sha256": "71eb03b865a7b22eeaf8e54c7bf74cdc9e880a3b079d88d041e80563334e9d14"
-          },
-          {
-            "path": "src/sfield/cli.py",
-            "kind": "source",
-            "fileKind": "regular-file",
-            "exists": true,
-            "size": 1099,
-            "sha256": "84f13dc9d2e8cadb010afa169857b889c86d203f98cff6ef988de864ad583ed5"
-          },
-          {
             "path": "src/sfield/core.py",
             "kind": "source",
             "fileKind": "regular-file",
             "exists": true,
-            "size": 2427,
-            "sha256": "f6997bf840d121b5d10bbe3ffda1977e12498263996bb22288983a182098ae51"
+            "size": 3678,
+            "sha256": "c44329e1200f0f7dc95a7fc0126e9425a090a2ff16008115a70786ae18f8ba88"
           },
           {
             "path": "tests/test_acceptance_traceability.py",
@@ -4343,6 +4248,14 @@
             "sha256": "cfae503290f04dee87f95b31941799869a56603b0c2b0ffd517b06906274ebc0"
           },
           {
+            "path": "tests/test_behavior_parity.py",
+            "kind": "test",
+            "fileKind": "regular-file",
+            "exists": true,
+            "size": 498,
+            "sha256": "f6085802b70d28ebfea2370494a028af4efb85b31cebea250d61f49a1ee884bd"
+          },
+          {
             "path": "tests/test_cli_entrypoints.py",
             "kind": "test",
             "fileKind": "regular-file",
@@ -4351,12 +4264,28 @@
             "sha256": "7a62728d5d92590d7b60b739462736a3fa601a87089f2b83d0a59615f9212dee"
           },
           {
+            "path": "tests/test_core_runtime.py",
+            "kind": "test",
+            "fileKind": "regular-file",
+            "exists": true,
+            "size": 1144,
+            "sha256": "295f09da6454e30a7cd741749878b9863d863de7fba83bb8213fa762621bf5e7"
+          },
+          {
             "path": "tests/test_package_layout.py",
             "kind": "test",
             "fileKind": "regular-file",
             "exists": true,
             "size": 669,
             "sha256": "aa060b8fac09901d491c8db5d4b54e4a1ecbf3599c849a6f112fd63006f28344"
+          },
+          {
+            "path": "tests/test_reference_source_guard.py",
+            "kind": "test",
+            "fileKind": "regular-file",
+            "exists": true,
+            "size": 409,
+            "sha256": "3827d868215a58d1602dcd3dcbc66724261998461c9534081da3c69777ebf8b7"
           },
           {
             "path": "tests/test_repository_boundary.py",
@@ -4373,25 +4302,42 @@
             "exists": true,
             "size": 758,
             "sha256": "8e4a22a9f3d375528a7661b1ae68eb1d105d2a26a853ad4ddd6da29beb207d76"
+          },
+          {
+            "path": "tests/test_validation_evidence.py",
+            "kind": "test",
+            "fileKind": "regular-file",
+            "exists": true,
+            "size": 547,
+            "sha256": "96204e61d53f589dd999c7f107fdbe9d5a005042e14dc8955ce57772fff7ae9c"
+          },
+          {
+            "path": "tests/test_validation_path.py",
+            "kind": "test",
+            "fileKind": "regular-file",
+            "exists": true,
+            "size": 461,
+            "sha256": "e894d1403bccaaabc57502e7964494fb8eccf7a8c40e772af736abda109d8637"
           }
         ],
         "sourcePaths": [
-          ".gitignore",
-          "README.md",
-          "pyproject.toml",
-          "src/sfield/__init__.py",
-          "src/sfield/cli.py",
           "src/sfield/core.py"
         ],
         "deletedSourcePaths": [],
         "testPaths": [
           "tests/test_acceptance_traceability.py",
+          "tests/test_behavior_parity.py",
           "tests/test_cli_entrypoints.py",
+          "tests/test_core_runtime.py",
           "tests/test_package_layout.py",
+          "tests/test_reference_source_guard.py",
           "tests/test_repository_boundary.py",
-          "tests/test_runtime_smoke.py"
+          "tests/test_runtime_smoke.py",
+          "tests/test_validation_evidence.py",
+          "tests/test_validation_path.py"
         ],
         "supportingTestPaths": [],
+        "documentationCorrection": null,
         "intentRevalidation": null,
         "testingRepair": null,
         "acceptanceCriteria": {
@@ -4421,12 +4367,37 @@
             },
             {
               "clauseId": "MIGRATION:AC-001",
+              "testSource": "tests/test_core_runtime.py",
+              "bindingAssurance": "namespace-qualified"
+            },
+            {
+              "clauseId": "MIGRATION:AC-001",
               "testSource": "tests/test_package_layout.py",
+              "bindingAssurance": "namespace-qualified"
+            },
+            {
+              "clauseId": "MIGRATION:AC-001",
+              "testSource": "tests/test_validation_evidence.py",
+              "bindingAssurance": "namespace-qualified"
+            },
+            {
+              "clauseId": "MIGRATION:AC-001",
+              "testSource": "tests/test_validation_path.py",
               "bindingAssurance": "namespace-qualified"
             },
             {
               "clauseId": "MIGRATION:AC-002",
               "testSource": "tests/test_acceptance_traceability.py",
+              "bindingAssurance": "namespace-qualified"
+            },
+            {
+              "clauseId": "MIGRATION:AC-002",
+              "testSource": "tests/test_behavior_parity.py",
+              "bindingAssurance": "namespace-qualified"
+            },
+            {
+              "clauseId": "MIGRATION:AC-002",
+              "testSource": "tests/test_core_runtime.py",
               "bindingAssurance": "namespace-qualified"
             },
             {
@@ -4435,88 +4406,139 @@
               "bindingAssurance": "namespace-qualified"
             },
             {
+              "clauseId": "MIGRATION:AC-002",
+              "testSource": "tests/test_validation_evidence.py",
+              "bindingAssurance": "namespace-qualified"
+            },
+            {
+              "clauseId": "MIGRATION:AC-002",
+              "testSource": "tests/test_validation_path.py",
+              "bindingAssurance": "namespace-qualified"
+            },
+            {
               "clauseId": "MIGRATION:AC-003",
               "testSource": "tests/test_acceptance_traceability.py",
               "bindingAssurance": "namespace-qualified"
             },
             {
               "clauseId": "MIGRATION:AC-003",
+              "testSource": "tests/test_reference_source_guard.py",
+              "bindingAssurance": "namespace-qualified"
+            },
+            {
+              "clauseId": "MIGRATION:AC-003",
               "testSource": "tests/test_repository_boundary.py",
+              "bindingAssurance": "namespace-qualified"
+            },
+            {
+              "clauseId": "MIGRATION:AC-003",
+              "testSource": "tests/test_validation_evidence.py",
               "bindingAssurance": "namespace-qualified"
             }
           ]
         },
-        "generation": 1,
-        "receiptPath": "singularity/work-items/migration/context/code-delivery/implementation-gen1.json",
-        "changeSetPath": "singularity/work-items/migration/context/code-delivery/implementation-gen1-changes.json",
-        "sourceTreeSha256": "sha256:1dcfa0a018c04f0ad732a24ed8038744599178104be75be6e35184a86ba04be4",
+        "sourceBindings": {
+          "mode": "off",
+          "required": [],
+          "bindings": [],
+          "missing": []
+        },
+        "generation": 2,
+        "receiptPath": "singularity/work-items/migration/context/code-delivery/implementation-gen2.json",
+        "changeSetPath": "singularity/work-items/migration/context/code-delivery/implementation-gen2-changes.json",
+        "sourceTreeSha256": "sha256:72c38cba247c7ece5ba63e2f819aadbc53c3b91287b7362bd602ec7529153d10",
         "status": "pending-tests",
-        "capturedAt": "2026-09-25T00:18:58.160Z",
+        "capturedAt": "2026-09-30T23:43:31.741Z",
         "validation": null
       },
       "sidecars": [
         {
-          "path": "singularity/work-items/migration/context/sidecars/implementation-gen1-.gitignore.json",
+          "path": "singularity/work-items/migration/context/sidecars/implementation-gen2-.gitignore.json",
           "artifact": ".gitignore",
-          "integritySha256": "e7180d072b4904ee5348ae28c9ea9d60a559e2aab593714a3f96db0b38d2f25b"
+          "integritySha256": "fa8aeac7dd023b32e576743fdecf20885273415cdf28722af8ca46603491886f"
         },
         {
-          "path": "singularity/work-items/migration/context/sidecars/implementation-gen1-pyproject.toml.json",
+          "path": "singularity/work-items/migration/context/sidecars/implementation-gen2-pyproject.toml.json",
           "artifact": "pyproject.toml",
-          "integritySha256": "b3559d542be636e0ba7cedde47d84cc1f47c5b7babcc1e792753780951d98136"
+          "integritySha256": "fa6436fb947bb8927c2329d8133aa7979a81b6af9adb210147fb06050f1c0006"
         },
         {
-          "path": "singularity/work-items/migration/context/sidecars/implementation-gen1-README.md.json",
+          "path": "singularity/work-items/migration/context/sidecars/implementation-gen2-README.md.json",
           "artifact": "README.md",
-          "integritySha256": "0b6526ecdad2313bb5e5b8da5d9d18ed98e96e8879c6d99748f3b647ae8d2c31"
+          "integritySha256": "07b75dedbf889928757456f010d991d16b226d81eb0885e8eb320f5c1b1b350f"
         },
         {
-          "path": "singularity/work-items/migration/context/sidecars/implementation-gen1-singularity-work-items-migration-artifacts-implementation-implementation-summary.md.json",
+          "path": "singularity/work-items/migration/context/sidecars/implementation-gen2-singularity-work-items-migration-artifacts-implementation-implementation-summary.md.json",
           "artifact": "singularity/work-items/migration/artifacts/implementation/implementation-summary.md",
-          "integritySha256": "47a934ebe5b87bceefac26dc75daba27f66a4c3cf34c4546cb2debce8d763890"
+          "integritySha256": "ba4eda237500434d6b9c243c5c0ef04db5b1240cea303a3c941178291524a090"
         },
         {
-          "path": "singularity/work-items/migration/context/sidecars/implementation-gen1-src-sfield-__init__.py.json",
+          "path": "singularity/work-items/migration/context/sidecars/implementation-gen2-src-sfield-__init__.py.json",
           "artifact": "src/sfield/__init__.py",
-          "integritySha256": "d4b947aa26b43282c6c77aa0a2e99a50e247033e59039090b36232ccbf0c85ae"
+          "integritySha256": "043534db87334b2c6eb86f9fc61b65dbeac17c743c8ec053f0a991d2d8b6ee8b"
         },
         {
-          "path": "singularity/work-items/migration/context/sidecars/implementation-gen1-src-sfield-cli.py.json",
+          "path": "singularity/work-items/migration/context/sidecars/implementation-gen2-src-sfield-cli.py.json",
           "artifact": "src/sfield/cli.py",
-          "integritySha256": "a8510ea3cc255f35d0d854909d22ffe40d9c23f8f84923b707a2ce415718ddc0"
+          "integritySha256": "b2ac0453c6dc6bc73d42ebbb412a0b22849208808f2effa784434e678a3d5708"
         },
         {
-          "path": "singularity/work-items/migration/context/sidecars/implementation-gen1-src-sfield-core.py.json",
+          "path": "singularity/work-items/migration/context/sidecars/implementation-gen2-src-sfield-core.py.json",
           "artifact": "src/sfield/core.py",
-          "integritySha256": "f058a9b1e69469db1fe69cbf04d943b69e990a2aa5c789690cbc6478390d0fc5"
+          "integritySha256": "6cd5d2a7e9f60259e31fa1ddacea370a1a1069c4def85b433f33dd60e816273c"
         },
         {
-          "path": "singularity/work-items/migration/context/sidecars/implementation-gen1-tests-test_acceptance_traceability.py.json",
+          "path": "singularity/work-items/migration/context/sidecars/implementation-gen2-tests-test_acceptance_traceability.py.json",
           "artifact": "tests/test_acceptance_traceability.py",
-          "integritySha256": "26aa345e65032c9c42ca73814b797792a34d1e609359d54df5b8f2e17106dbb9"
+          "integritySha256": "cf3db9b0f81038f3f0113066803869304dc3c9e24c102ec0af040051d054f3f5"
         },
         {
-          "path": "singularity/work-items/migration/context/sidecars/implementation-gen1-tests-test_cli_entrypoints.py.json",
+          "path": "singularity/work-items/migration/context/sidecars/implementation-gen2-tests-test_behavior_parity.py.json",
+          "artifact": "tests/test_behavior_parity.py",
+          "integritySha256": "c914fbfa01bf06994160d8be5b17cd62cdb99e1dcf37ed60435f8aeb48b2364c"
+        },
+        {
+          "path": "singularity/work-items/migration/context/sidecars/implementation-gen2-tests-test_cli_entrypoints.py.json",
           "artifact": "tests/test_cli_entrypoints.py",
-          "integritySha256": "c5a98e3dcc2c672148227c2375144d3c764092d6dd6f4ce07cbe169006fae29f"
+          "integritySha256": "2c3ea854afafcc66a1dc56560cfcfcb508a78147d500f0889f496bba26c41126"
         },
         {
-          "path": "singularity/work-items/migration/context/sidecars/implementation-gen1-tests-test_package_layout.py.json",
+          "path": "singularity/work-items/migration/context/sidecars/implementation-gen2-tests-test_core_runtime.py.json",
+          "artifact": "tests/test_core_runtime.py",
+          "integritySha256": "cd7b71f0e9fc6f0d29cea82cbf2982b5e7d3b2bed4ef6571f1eba301c078aa15"
+        },
+        {
+          "path": "singularity/work-items/migration/context/sidecars/implementation-gen2-tests-test_package_layout.py.json",
           "artifact": "tests/test_package_layout.py",
-          "integritySha256": "6563fa1f6d8d5ea9fa6191ffa162b5a13301c3fab55504616a8d61143539331b"
+          "integritySha256": "0eb84885bb3156b7abef41eb0ad76ff80262791defb4346409a1492f11aa5297"
         },
         {
-          "path": "singularity/work-items/migration/context/sidecars/implementation-gen1-tests-test_repository_boundary.py.json",
+          "path": "singularity/work-items/migration/context/sidecars/implementation-gen2-tests-test_reference_source_guard.py.json",
+          "artifact": "tests/test_reference_source_guard.py",
+          "integritySha256": "3f41c0586d5fee4fbb8152498aabd71785ca096df7f7b49b2c6daa3ecad0a0a4"
+        },
+        {
+          "path": "singularity/work-items/migration/context/sidecars/implementation-gen2-tests-test_repository_boundary.py.json",
           "artifact": "tests/test_repository_boundary.py",
-          "integritySha256": "d431fe7e804ab59c3ec4858dba187f1c8262bbee5f963a22b2067cdda7109017"
+          "integritySha256": "5f7eb0e545f56d5c54b2234567e4c3012aab60157b5c3ca09daacca93d3786f3"
         },
         {
-          "path": "singularity/work-items/migration/context/sidecars/implementation-gen1-tests-test_runtime_smoke.py.json",
+          "path": "singularity/work-items/migration/context/sidecars/implementation-gen2-tests-test_runtime_smoke.py.json",
           "artifact": "tests/test_runtime_smoke.py",
-          "integritySha256": "1065ca25e4b520441f10496d96318e3d484abcf6b8c3ba08f41f0d82e2473a92"
+          "integritySha256": "6f12809535cbf89a7c635c22bc225f4285f7312f452c51fff7eb842d9f137447"
+        },
+        {
+          "path": "singularity/work-items/migration/context/sidecars/implementation-gen2-tests-test_validation_evidence.py.json",
+          "artifact": "tests/test_validation_evidence.py",
+          "integritySha256": "cede60edc99097d87f7a75d3069a250aa319bb27b7e5e0dbb5b2e0db37c30374"
+        },
+        {
+          "path": "singularity/work-items/migration/context/sidecars/implementation-gen2-tests-test_validation_path.py.json",
+          "artifact": "tests/test_validation_path.py",
+          "integritySha256": "94b78c127d3bde73991d24119cb189d8fa278d0549c6a7b9d33643e81dc932b8"
         }
       ],
-      "sourceCommit": "0a3aed3ea177b3c61df3dbe189e05e9257b74907"
+      "sourceCommit": "e9a0b8740412a56875824acf46f85e048846ce00"
     },
     "convergence": {
       "id": "convergence",
@@ -4810,9 +4832,9 @@
   "usage": {
     "mode": "exact-or-unavailable",
     "totalTokens": 0,
-    "records": 3,
+    "records": 4,
     "exactRecords": 0,
-    "unavailableRecords": 3,
+    "unavailableRecords": 4,
     "byPhase": {
       "specification": {
         "records": 1,
@@ -4827,9 +4849,9 @@
         "totalTokens": 0
       },
       "implementation": {
-        "records": 1,
+        "records": 2,
         "exactRecords": 0,
-        "unavailableRecords": 1,
+        "unavailableRecords": 2,
         "totalTokens": 0
       }
     },
@@ -4847,25 +4869,25 @@
         "totalTokens": 0
       },
       "developer": {
-        "records": 1,
+        "records": 2,
         "exactRecords": 0,
-        "unavailableRecords": 1,
+        "unavailableRecords": 2,
         "totalTokens": 0
       }
     },
     "byWorkType": {
       "reference-driven-build": {
-        "records": 3,
+        "records": 4,
         "exactRecords": 0,
-        "unavailableRecords": 3,
+        "unavailableRecords": 4,
         "totalTokens": 0
       }
     },
     "byWorkItem": {
       "migration": {
-        "records": 3,
+        "records": 4,
         "exactRecords": 0,
-        "unavailableRecords": 3,
+        "unavailableRecords": 4,
         "totalTokens": 0
       }
     }
@@ -4956,6 +4978,22 @@
       "event": "phase_generated",
       "phase": "implementation",
       "detail": "generation 1"
+    },
+    {
+      "at": "2026-09-30T23:36:00.607Z",
+      "actor": "system",
+      "agent": null,
+      "event": "work_interval_started",
+      "phase": "implementation",
+      "detail": "baseline 70e2f8e3d380 at e9a0b8740412"
+    },
+    {
+      "at": "2026-09-30T23:43:31.919Z",
+      "actor": "ashokraj2011",
+      "agent": "developer",
+      "event": "phase_generated",
+      "phase": "implementation",
+      "detail": "generation 2"
     }
   ],
   "measurement": {
@@ -5812,19 +5850,139 @@
         },
         "createdAt": "2026-09-25T00:18:56.683Z"
       }
+    },
+    {
+      "schemaVersion": 1,
+      "event": {
+        "schemaVersion": 1,
+        "eventId": "a630e0eb-0595-4d54-bb20-cb66ad90e221",
+        "type": "artifact-generated",
+        "subject": {
+          "kind": "story",
+          "id": "migration",
+          "branch": "migration"
+        },
+        "phaseId": "implementation",
+        "generation": 2,
+        "actor": {
+          "name": "Ashok Raj",
+          "email": "88361104+ashokraj2011@users.noreply.github.com",
+          "login": "ashokraj2011",
+          "githubLookup": "resolved"
+        },
+        "agent": "developer",
+        "authorityGroup": null,
+        "payload": {
+          "generationIntentId": "f252ffa9-4d39-437c-a476-13cbd3613d37",
+          "generationStartPath": "singularity/work-items/migration/context/generation-start/implementation-gen2.json",
+          "generationStartSha256": "sha256:db217b57ceace2c974f45a996fb82a4051e32c237377bd31eded06d6b8fda476",
+          "baselineCommit": "e9a0b8740412a56875824acf46f85e048846ce00",
+          "baselineTree": "93b20e57fbfa1dfaecbddad486271f9aad75f97c",
+          "initialChangeSetDigest": "sha256:b3df1077319717399fd2094b9a428b3d7b876e1ea50b8d8d5bd84015845d2e74",
+          "previousGenerationCommit": "e9a0b8740412a56875824acf46f85e048846ce00",
+          "decision": null,
+          "reviewPacketSha256": null
+        },
+        "sourceCommit": null,
+        "idempotencyKey": null,
+        "idempotencyHash": null,
+        "createdAt": "2026-09-30T23:43:30.081Z"
+      },
+      "ledgerIntent": {
+        "schemaVersion": 1,
+        "eventId": "a630e0eb-0595-4d54-bb20-cb66ad90e221",
+        "eventType": "artifact-generated",
+        "capabilityId": "py-sfield",
+        "subject": {
+          "branch": "migration",
+          "generation": 2,
+          "phase": "implementation",
+          "workId": "migration",
+          "workType": "reference-driven-build"
+        },
+        "actor": {
+          "name": "Ashok Raj",
+          "email": "88361104+ashokraj2011@users.noreply.github.com",
+          "githubLogin": "ashokraj2011",
+          "identityAssurance": "configured-local"
+        },
+        "agent": "developer",
+        "authorityGroup": null,
+        "payload": {
+          "capabilityMapSha256": "c82ea821bed0b2fcdd4ae68f9d7eefa0c6fff88fd60ab4b45228abf8e793f905",
+          "capabilityPolicy": {
+            "protectedPaths": [],
+            "qualityCommands": [],
+            "requiredAuthorityGroups": [],
+            "requiredChecks": [],
+            "requiredWorldModelViews": []
+          },
+          "configPath": "singularity/workflow.yml",
+          "configSha256": "471e9a24f2e7d82eab60bc7f0290f942086f40b45ad1f1252858ad7210c99805",
+          "lifecycleEventId": "a630e0eb-0595-4d54-bb20-cb66ad90e221",
+          "lifecyclePayload": {
+            "baselineCommit": "e9a0b8740412a56875824acf46f85e048846ce00",
+            "baselineTree": "93b20e57fbfa1dfaecbddad486271f9aad75f97c",
+            "decision": null,
+            "generationIntentId": "f252ffa9-4d39-437c-a476-13cbd3613d37",
+            "generationStartPath": "singularity/work-items/migration/context/generation-start/implementation-gen2.json",
+            "generationStartSha256": "sha256:db217b57ceace2c974f45a996fb82a4051e32c237377bd31eded06d6b8fda476",
+            "initialChangeSetDigest": "sha256:b3df1077319717399fd2094b9a428b3d7b876e1ea50b8d8d5bd84015845d2e74",
+            "previousGenerationCommit": "e9a0b8740412a56875824acf46f85e048846ce00",
+            "reviewPacketSha256": null
+          },
+          "templateSha256": "61cd7cba79a0dd2914a25b53496b8bd9c575c36219597d65b8ec10010e801d9c",
+          "lifecycleEvent": {
+            "schemaVersion": 1,
+            "eventId": "a630e0eb-0595-4d54-bb20-cb66ad90e221",
+            "type": "artifact-generated",
+            "subject": {
+              "kind": "story",
+              "id": "migration",
+              "branch": "migration"
+            },
+            "phaseId": "implementation",
+            "generation": 2,
+            "actor": {
+              "name": "Ashok Raj",
+              "email": "88361104+ashokraj2011@users.noreply.github.com",
+              "login": "ashokraj2011",
+              "githubLookup": "resolved"
+            },
+            "agent": "developer",
+            "authorityGroup": null,
+            "payload": {
+              "generationIntentId": "f252ffa9-4d39-437c-a476-13cbd3613d37",
+              "generationStartPath": "singularity/work-items/migration/context/generation-start/implementation-gen2.json",
+              "generationStartSha256": "sha256:db217b57ceace2c974f45a996fb82a4051e32c237377bd31eded06d6b8fda476",
+              "baselineCommit": "e9a0b8740412a56875824acf46f85e048846ce00",
+              "baselineTree": "93b20e57fbfa1dfaecbddad486271f9aad75f97c",
+              "initialChangeSetDigest": "sha256:b3df1077319717399fd2094b9a428b3d7b876e1ea50b8d8d5bd84015845d2e74",
+              "previousGenerationCommit": "e9a0b8740412a56875824acf46f85e048846ce00",
+              "decision": null,
+              "reviewPacketSha256": null
+            },
+            "sourceCommit": null,
+            "idempotencyKey": null,
+            "idempotencyHash": null,
+            "createdAt": "2026-09-30T23:43:30.081Z"
+          }
+        },
+        "createdAt": "2026-09-30T23:43:30.094Z"
+      }
     }
   ],
   "repairBudgets": {},
   "workIntervals": {
     "schemaVersion": 1,
     "current": {
-      "intervalId": "INT-implementation-G1-001",
+      "intervalId": "INT-implementation-G2-002",
       "phaseId": "implementation",
-      "generation": 1,
-      "baselineSha256": "9d9ef025b54bcd42d9d60d95fff1ff46bfbb3f001ba09375e1fcad228830aea9",
-      "sourceBaseCommit": "b20c02e40351acdb9fea1f6ce78fbf6f21155ed0",
+      "generation": 2,
+      "baselineSha256": "70e2f8e3d3806d309ed5e417f86000d8f3888a330440622483cc02135dad10c7",
+      "sourceBaseCommit": "e9a0b8740412a56875824acf46f85e048846ce00",
       "escalationTarget": null,
-      "path": "singularity/work-items/migration/context/work-intervals/implementation-gen1-baseline.json",
+      "path": "singularity/work-items/migration/context/work-intervals/implementation-gen2-baseline.json",
       "status": "open"
     },
     "history": [
@@ -5836,6 +5994,16 @@
         "sourceBaseCommit": "b20c02e40351acdb9fea1f6ce78fbf6f21155ed0",
         "escalationTarget": null,
         "path": "singularity/work-items/migration/context/work-intervals/implementation-gen1-baseline.json",
+        "status": "open"
+      },
+      {
+        "intervalId": "INT-implementation-G2-002",
+        "phaseId": "implementation",
+        "generation": 2,
+        "baselineSha256": "70e2f8e3d3806d309ed5e417f86000d8f3888a330440622483cc02135dad10c7",
+        "sourceBaseCommit": "e9a0b8740412a56875824acf46f85e048846ce00",
+        "escalationTarget": null,
+        "path": "singularity/work-items/migration/context/work-intervals/implementation-gen2-baseline.json",
         "status": "open"
       }
     ],
