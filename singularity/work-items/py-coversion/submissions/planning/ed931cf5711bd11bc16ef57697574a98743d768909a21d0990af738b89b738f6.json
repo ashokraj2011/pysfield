@@ -1,0 +1,156 @@
+{
+  "schemaVersion": 3,
+  "workId": "py-coversion",
+  "epicId": null,
+  "planId": null,
+  "jiraIssueId": "py-coversion",
+  "initialJiraKey": null,
+  "currentJiraKey": null,
+  "canonicalBranch": "py-coversion",
+  "submittedBranch": "py-coversion",
+  "submissionCommit": "f1e1fa7cd85f17aa4f52452af6a5c8ea68c8dae7",
+  "sourceCommit": "f1e1fa7cd85f17aa4f52452af6a5c8ea68c8dae7",
+  "sourceTreeSha256": "sha256:f198707d9f33347039422f0f063d27c507eafa00484644c7f3fea06d13da58e7",
+  "phase": "planning",
+  "generation": 1,
+  "authorship": {
+    "schemaVersion": 1,
+    "producer": "governed-agent",
+    "channel": "copilot-host",
+    "actor": {
+      "name": "Ashok Raj",
+      "email": "88361104+ashokraj2011@users.noreply.github.com",
+      "login": "ashokraj2011",
+      "githubLookup": "resolved"
+    },
+    "governedAgentContext": {
+      "agentId": "architect"
+    },
+    "kernelModel": {
+      "invoked": false,
+      "status": "exact",
+      "invocationIds": []
+    },
+    "externalAiUse": {
+      "value": "unknown",
+      "status": "unavailable"
+    },
+    "changeOrigins": [
+      "copilot"
+    ],
+    "source": {
+      "kind": "in-place",
+      "filename": "plan.md",
+      "mediaType": "text/markdown",
+      "sha256": "04f05b3b383ad7d5ba0518efd666705cb2c24cb6ddfb0146bfe3c7dfca69e12a",
+      "bytes": 14562
+    },
+    "generation": 1,
+    "publishedAt": "2026-09-30T03:55:47.797Z"
+  },
+  "artifacts": [
+    {
+      "path": "singularity/work-items/py-coversion/artifacts/planning/plan.md",
+      "kind": "document",
+      "sha256": "1c2d3d9c162e76f7be16432c4b04944e7d33a98c22f9077bdcd46951b35b6787",
+      "size": 29750,
+      "reference": {
+        "handle": "sfref:v1:story:py-coversion:b32db17093053b3289a2f9fa34e5c0bac05eb69720ab2d54139a475f903bb35d",
+        "recordHash": "b32db17093053b3289a2f9fa34e5c0bac05eb69720ab2d54139a475f903bb35d"
+      }
+    }
+  ],
+  "references": [
+    {
+      "handle": "sfref:v1:story:py-coversion:b32db17093053b3289a2f9fa34e5c0bac05eb69720ab2d54139a475f903bb35d",
+      "recordHash": "b32db17093053b3289a2f9fa34e5c0bac05eb69720ab2d54139a475f903bb35d",
+      "purpose": "review-evidence",
+      "required": true
+    }
+  ],
+  "agentBriefs": [],
+  "checks": [],
+  "usage": [
+    {
+      "status": "unavailable",
+      "source": "copilot-otel-unavailable",
+      "provider": null,
+      "model": null,
+      "requestedModel": null,
+      "resolvedModel": null,
+      "resolvedModelAssurance": "unavailable",
+      "inputTokens": null,
+      "outputTokens": null,
+      "cachedInputTokens": null,
+      "cacheWriteInputTokens": null,
+      "totalTokens": null,
+      "providerCost": null,
+      "costStatus": "unavailable",
+      "spans": null,
+      "startedAt": "2026-09-30T03:55:47.797Z",
+      "completedAt": "2026-09-30T03:55:47.797Z",
+      "agent": "architect",
+      "generation": 1
+    }
+  ],
+  "approvals": [],
+  "visualAssurance": null,
+  "submissionEvidence": {
+    "architectureIntent": null,
+    "architectureDecision": null,
+    "testExecutions": [],
+    "claimMaps": [
+      {
+        "kind": "planned",
+        "generation": 1,
+        "path": "singularity/work-items/py-coversion/context/claims/planning-gen1-planned.json",
+        "sha256": "09f6d13e72271ab7e69199d11db218b5258bde7adceb60f9d5ea2bacb5752f04"
+      }
+    ],
+    "checksSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "artifactSetSha256": "ac092ec6f88dca8b36f00ff8c48cbf8dfd09a20651b41348b57a166a6b1dcea7"
+  },
+  "witnessReview": {
+    "enrollment": {
+      "schemaVersion": 1,
+      "mode": "disabled",
+      "witnessedClauses": {
+        "enabled": false,
+        "profiles": []
+      },
+      "testcaseExact": {
+        "mode": "disabled",
+        "profile": null,
+        "requiredAssurance": "unavailable",
+        "policySha256": "sha256:12b50a34a1f03338377ecd76f44b20cbee83e7b91a0b07392ef08e3d8fd60800"
+      },
+      "claimMapContractVersion": 2,
+      "cab": null,
+      "sgos": null,
+      "rollout": {
+        "id": "wel-v0.2-observe",
+        "version": 1,
+        "enrollment": "new-story-only"
+      },
+      "configurationAuthority": {
+        "repository": "https://github.com/ashokraj2011/pysfield.git",
+        "branch": "sflow/config",
+        "commit": "624378ede2d527abb475c75b6f09ec1490f051a3",
+        "projectionSha256": "c9814c8b4cb81e25c7549c743dff224493f8f4828f9151d7dbd5c3d06009c975"
+      }
+    },
+    "enrollmentClassification": "enrolled",
+    "enrollmentReason": null,
+    "clauseMappings": [],
+    "testcaseObservations": []
+  },
+  "submittedAt": "2026-09-30T03:56:50.386Z",
+  "submittedBy": {
+    "name": "Ashok Raj",
+    "email": "88361104+ashokraj2011@users.noreply.github.com",
+    "login": "ashokraj2011",
+    "githubLookup": "resolved"
+  },
+  "status": "awaiting_review",
+  "packetSha256": "ed931cf5711bd11bc16ef57697574a98743d768909a21d0990af738b89b738f6"
+}

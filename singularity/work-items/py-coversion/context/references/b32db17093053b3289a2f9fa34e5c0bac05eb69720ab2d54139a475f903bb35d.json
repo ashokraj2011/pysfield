@@ -1,0 +1,28 @@
+{
+  "artifact": {
+    "generation": 1,
+    "mediaType": "text/markdown",
+    "outputId": "document",
+    "path": "singularity/work-items/py-coversion/artifacts/planning/plan.md",
+    "phaseId": "planning"
+  },
+  "createdAt": "2026-09-30T03:56:50.494Z",
+  "kind": "governed-reference",
+  "repository": {
+    "id": ".w-057b163dce0c9290572fafda",
+    "origin": "https://github.com/ashokraj2011/pysfield.git"
+  },
+  "revision": {
+    "bytes": 29668,
+    "commitSha": "f1e1fa7cd85f17aa4f52452af6a5c8ea68c8dae7",
+    "sha256": "3989f2fccf6bc4fadfe764a13119ea2c36f546f25e4b95c96fbd0a467788b1b8"
+  },
+  "schemaVersion": 1,
+  "subject": {
+    "branch": "py-coversion",
+    "id": "py-coversion",
+    "kind": "story",
+    "subjectRevision": 1
+  },
+  "visibility": "model"
+}
