@@ -1,0 +1,224 @@
+{
+  "clauses": [
+    {
+      "anchor": "[py-coversion:REQ-001]",
+      "body": "- Target Python 3.11 or newer and declare installable package metadata in a standard `pyproject.toml`. *(S1)*",
+      "bodySha256": "9bfe02216d62ae9769b762846b96b22b1cdfccead70c5f7f92ff673006b51be7",
+      "dependsOn": [],
+      "id": "PY-COVERSION:REQ-001",
+      "namespace": "PY-COVERSION",
+      "number": 1,
+      "source": {
+        "line": 192,
+        "path": "singularity/work-items/py-coversion/artifacts/specification/spec.md"
+      },
+      "type": "REQ"
+    },
+    {
+      "anchor": "[py-coversion:REQ-002]",
+      "body": "- Preserve the reference project's core runtime, CLI, HTTP, artifact, preset, persistence, and testing capabilities in the primary source roots. *(S1)*",
+      "bodySha256": "3ae5499390069f1481ea4a8e4335bc8d7cb69b1146543ae344816541e6d23a7c",
+      "dependsOn": [],
+      "id": "PY-COVERSION:REQ-002",
+      "namespace": "PY-COVERSION",
+      "number": 2,
+      "source": {
+        "line": 193,
+        "path": "singularity/work-items/py-coversion/artifacts/specification/spec.md"
+      },
+      "type": "REQ"
+    },
+    {
+      "anchor": "[py-coversion:REQ-003]",
+      "body": "- Preserve representative successful results, failure behavior, and material side effects while allowing Python-appropriate interfaces. *(S1, S2)*",
+      "bodySha256": "e0c9d857c4c75bfb3150cd0187c50111ce61c779ab17854e6c46bd05763f5b77",
+      "dependsOn": [],
+      "id": "PY-COVERSION:REQ-003",
+      "namespace": "PY-COVERSION",
+      "number": 3,
+      "source": {
+        "line": 194,
+        "path": "singularity/work-items/py-coversion/artifacts/specification/spec.md"
+      },
+      "type": "REQ"
+    },
+    {
+      "anchor": "[py-coversion:REQ-004]",
+      "body": "- Exclude build tooling and generated files from required conversion targets. *(S1)*",
+      "bodySha256": "4374a84f9e16b4e8e703f6ce06befa20663c7465cd140d78c194d90e29ac77ce",
+      "dependsOn": [],
+      "id": "PY-COVERSION:REQ-004",
+      "namespace": "PY-COVERSION",
+      "number": 4,
+      "source": {
+        "line": 195,
+        "path": "singularity/work-items/py-coversion/artifacts/specification/spec.md"
+      },
+      "type": "REQ"
+    },
+    {
+      "anchor": "[py-coversion:REQ-005]",
+      "body": "- Include focused parity tests covering representative behaviors from each major converted capability area. *(S2)*",
+      "bodySha256": "e69eedd29fa275262275a04cd4b5037beee26aa192acb5c607b0c3afa30bb8ea",
+      "dependsOn": [],
+      "id": "PY-COVERSION:REQ-005",
+      "namespace": "PY-COVERSION",
+      "number": 5,
+      "source": {
+        "line": 196,
+        "path": "singularity/work-items/py-coversion/artifacts/specification/spec.md"
+      },
+      "type": "REQ"
+    },
+    {
+      "anchor": "[py-coversion:REQ-006]",
+      "body": "- Make the full converted-project suite and focused parity tests runnable from the packaged Python project, with failures producing a non-zero exit status. *(S2)*",
+      "bodySha256": "00d811f41b4f96b7226600014a0ef99aea74fae99d2ef9fdfdcf4f1e54481166",
+      "dependsOn": [],
+      "id": "PY-COVERSION:REQ-006",
+      "namespace": "PY-COVERSION",
+      "number": 6,
+      "source": {
+        "line": 197,
+        "path": "singularity/work-items/py-coversion/artifacts/specification/spec.md"
+      },
+      "type": "REQ"
+    },
+    {
+      "anchor": "[py-coversion:REQ-007]",
+      "body": "- Achieve a 100% pass rate for the required verification set, measured by its test report and exit status. *(S2)*",
+      "bodySha256": "42a1d8f8bc2e634dcd5b340a3e91f8589a887c8175dac2c5e8d9ecf48db079ff",
+      "dependsOn": [],
+      "id": "PY-COVERSION:REQ-007",
+      "namespace": "PY-COVERSION",
+      "number": 7,
+      "source": {
+        "line": 198,
+        "path": "singularity/work-items/py-coversion/artifacts/specification/spec.md"
+      },
+      "type": "REQ"
+    },
+    {
+      "anchor": "[py-coversion:REQ-008]",
+      "body": "- Declare runtime dependencies through `pyproject.toml` so a clean environment can reproduce installation. *(S1, S2)*",
+      "bodySha256": "4ab9870bf414b9f244045df7bded7991d768bd84ed228b306c5f78590a35f2a1",
+      "dependsOn": [],
+      "id": "PY-COVERSION:REQ-008",
+      "namespace": "PY-COVERSION",
+      "number": 8,
+      "source": {
+        "line": 199,
+        "path": "singularity/work-items/py-coversion/artifacts/specification/spec.md"
+      },
+      "type": "REQ"
+    },
+    {
+      "anchor": "[py-coversion:REQ-009]",
+      "body": "Acceptance criteria:\n\n- A clean checkout exposes an installable Python project with `pyproject.toml` and corresponding Python source for every in-scope primary source root. *(S1)*",
+      "bodySha256": "93e76fa16331caef6745c322ee860c92f636f9ca847015e306eccea842bf6412",
+      "dependsOn": [],
+      "id": "PY-COVERSION:REQ-009",
+      "namespace": "PY-COVERSION",
+      "number": 9,
+      "source": {
+        "line": 200,
+        "path": "singularity/work-items/py-coversion/artifacts/specification/spec.md"
+      },
+      "type": "REQ"
+    },
+    {
+      "anchor": "[py-coversion:AC-001]",
+      "body": "- Working equivalents exist for the reference runtime, CLI, adapters, presets, persistence, artifact handling, and testing capabilities. *(S1)*",
+      "bodySha256": "8d3ce31a49553ab2abd442e371a49f0296cd9ef9952fc8f3ffafd3a186bb3a75",
+      "dependsOn": [],
+      "id": "PY-COVERSION:AC-001",
+      "namespace": "PY-COVERSION",
+      "number": 1,
+      "source": {
+        "line": 204,
+        "path": "singularity/work-items/py-coversion/artifacts/specification/spec.md"
+      },
+      "type": "AC"
+    },
+    {
+      "anchor": "[py-coversion:AC-002]",
+      "body": "- Focused parity tests demonstrate matching representative outputs, errors, and material side effects. *(S2)*",
+      "bodySha256": "06bb767c45d12ca248b23aa87e28b96cc3d8d078c133abfe9dade5926bb07fd5",
+      "dependsOn": [],
+      "id": "PY-COVERSION:AC-002",
+      "namespace": "PY-COVERSION",
+      "number": 2,
+      "source": {
+        "line": 205,
+        "path": "singularity/work-items/py-coversion/artifacts/specification/spec.md"
+      },
+      "type": "AC"
+    },
+    {
+      "anchor": "[py-coversion:AC-003]",
+      "body": "- The full converted-project suite and parity tests pass with exit status zero. *(S2)*",
+      "bodySha256": "de90e0fc3951295fafc314ff6245872df2f4f997e83cb81cd5a5161e72ae0b4b",
+      "dependsOn": [],
+      "id": "PY-COVERSION:AC-003",
+      "namespace": "PY-COVERSION",
+      "number": 3,
+      "source": {
+        "line": 206,
+        "path": "singularity/work-items/py-coversion/artifacts/specification/spec.md"
+      },
+      "type": "AC"
+    },
+    {
+      "anchor": "[py-coversion:AC-004]",
+      "body": "## Non-functional requirements\n\n* The required verification set has a 100% pass rate, measured by its test report and exit status. *(S2)*",
+      "bodySha256": "2e2ed6710ff2c24cfef37fa5d01dede8b0a98014dc75af531e29a864fddc275a",
+      "dependsOn": [],
+      "id": "PY-COVERSION:AC-004",
+      "namespace": "PY-COVERSION",
+      "number": 4,
+      "source": {
+        "line": 207,
+        "path": "singularity/work-items/py-coversion/artifacts/specification/spec.md"
+      },
+      "type": "AC"
+    },
+    {
+      "anchor": "[py-coversion:REQ-010]",
+      "body": "* A clean environment can install the package using only dependencies declared in `pyproject.toml`. *(S1, S2)*",
+      "bodySha256": "7806cc99b196df1871f9b612c2509ce958f8f7f5c1b2fc2d40f6632573a837c2",
+      "dependsOn": [],
+      "id": "PY-COVERSION:REQ-010",
+      "namespace": "PY-COVERSION",
+      "number": 10,
+      "source": {
+        "line": 211,
+        "path": "singularity/work-items/py-coversion/artifacts/specification/spec.md"
+      },
+      "type": "REQ"
+    },
+    {
+      "anchor": "[py-coversion:REQ-011]",
+      "body": "## Constitution articles\n\nNo project constitution articles were supplied in the approved Story inputs, so this specification binds to no additional article IDs.\n\n## Assumptions\n\n* The pinned `sf-field` repository at commit `1b0c942f9b7d317199201533027bfd451d45a072` is the sole reference source.\n* Source behavior and tests are the authority for detailed parity; README and package layout identify capability areas.\n* Python 3.11+ and a standard package installer are available to the evaluator.\n* The recorded clarification answers are authoritative: complete primary-source conversion, functional equivalence with interface freedom, and full-suite plus parity-test acceptance.\n\n## Out of scope\n\n* Converting TypeScript/Node.js build tooling, lockfiles, generated `dist` output, or other generated files into Python.\n* Preserving TypeScript or Node.js public interfaces when a Python interface is needed for equivalent behavior.\n* Adding capabilities, changing business behavior, or redesigning the reference project.\n* Deploying the converted project, changing external infrastructure, or establishing a production operations model.",
+      "bodySha256": "b5d422c605d2089d83078136f124a1276e3bf5dcf81bad7e1a773adbf8432d71",
+      "dependsOn": [],
+      "id": "PY-COVERSION:REQ-011",
+      "namespace": "PY-COVERSION",
+      "number": 11,
+      "source": {
+        "line": 212,
+        "path": "singularity/work-items/py-coversion/artifacts/specification/spec.md"
+      },
+      "type": "REQ"
+    }
+  ],
+  "generation": 1,
+  "indexSha256": "1a658135d7b591f99d49f17953048f4523f2f86bea3822ded1121a39321c9f1e",
+  "phase": "specification",
+  "schemaVersion": 1,
+  "source": {
+    "bytes": 10810,
+    "path": "singularity/work-items/py-coversion/artifacts/specification/spec.md",
+    "sha256": "9e281bad165fe26c344571ad2d56299ebc37c66711b289376aaa592ea843ebb6"
+  },
+  "workId": "py-coversion"
+}

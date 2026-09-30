@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "workId": "py-coversion",
+  "phase": "specification",
+  "generation": 1,
+  "mode": "required",
+  "promptPath": "singularity/work-items/py-coversion/context/prompts/specification-gen1.md",
+  "promptSha256": "77222a93cb1159e6cba911a12ae6a094557619be194c1d8c321bb438e6b894c8",
+  "groundingRecordPath": "singularity/work-items/py-coversion/context/specification-gen1.json",
+  "groundingRecordSha256": "0e54b96f4293d3511336ee6d87f82145d6a2ae6f44b31bf48d4dd3df1ea8ef3e",
+  "responses": [
+    {
+      "id": "Q-001",
+      "question": "What part of the reference repository should be converted to Python?",
+      "answer": "Complete source project: convert all primary source roots and preserve externally observable behavior, excluding build tooling and generated files.",
+      "status": "answered",
+      "blocking": false
+    },
+    {
+      "id": "Q-002",
+      "question": "Which Python version and packaging style should the converted project target?",
+      "answer": "Python 3.11+ with a standard pyproject.toml package.",
+      "status": "answered",
+      "blocking": false
+    },
+    {
+      "id": "Q-003",
+      "question": "What compatibility outcome is required for the conversion?",
+      "answer": "Functional equivalence only: preserve capabilities while allowing interface changes.",
+      "status": "answered",
+      "blocking": false
+    },
+    {
+      "id": "Q-004",
+      "question": "What must testing prove for this Story to be accepted?",
+      "answer": "Full suite plus parity tests: run the converted project's test suite and focused parity tests against representative behaviors, with all tests passing.",
+      "status": "answered",
+      "blocking": false
+    }
+  ],
+  "completed": true,
+  "recordedAt": "2026-09-30T03:37:56.326Z",
+  "recordedBy": {
+    "name": "Ashok Raj",
+    "email": "88361104+ashokraj2011@users.noreply.github.com",
+    "login": "ashokraj2011",
+    "githubLookup": "resolved"
+  },
+  "agent": "product-owner"
+}
