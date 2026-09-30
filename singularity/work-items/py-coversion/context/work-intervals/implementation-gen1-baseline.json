@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "kind": "work-interval-baseline",
+  "intervalId": "INT-implementation-G1-001",
+  "workId": "py-coversion",
+  "workType": "reference-driven-build",
+  "railId": "reference-driven-build",
+  "phaseId": "implementation",
+  "generation": 1,
+  "branch": "py-coversion",
+  "sourceBaseCommit": "e36702f534a4e6262d2698777bd2f7bb0833e30e",
+  "configurationSha256": "2ce4a29c11a99b96efaf8d9313e9df0685673df58c11fc5284006fc37fc20fe9",
+  "sourceSha256": "fd664aa886ce5a4baa39a3f1cc21cfa4c95c900185ac2ff757eb467c5f3b02b3",
+  "templateSha256": "cf46a21cdcb12035defbb5b6a74c7acd6c6d1e751556964f416f27bb5acb5482",
+  "workflowSubjectRevision": "sha256:0c3b2690f8a41208bf135bdb1f344863991185ce01d0a9884a89d11f9827235b",
+  "protectedPaths": [
+    ".github/agents",
+    ".github/skills",
+    "plugin/agents",
+    "plugin/skills",
+    "singularity/agent-mappings.yml",
+    "singularity/agents",
+    "singularity/agents.lock.yml",
+    "singularity/impact.yml",
+    "singularity/prompts",
+    "singularity/templates",
+    "singularity/workflow.yml"
+  ],
+  "requiredChecks": [],
+  "requiredChecksSha256": "sha256:4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+  "policySha256": "sha256:765359ef451b6354734b65b54640fc0fc1bd099d72527daa23821e4d31d478c7",
+  "escalationLadderSha256": null,
+  "reconciliationPolicy": {
+    "changedPathLimit": 5,
+    "escalationTarget": null,
+    "localProvidersOnly": true
+  },
+  "baselineSha256": "41f2ecfcf4f490b711db20f8e1d78d96b413f7b6231d5b5765c37b85a66bcf18",
+  "createdAt": "2026-09-30T04:02:16.883Z",
+  "path": "singularity/work-items/py-coversion/context/work-intervals/implementation-gen1-baseline.json",
+  "status": "open"
+}
