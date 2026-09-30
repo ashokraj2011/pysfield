@@ -10,7 +10,7 @@
 
 | # | Phase | Governed agent | Status | Generation | Approvals | Tokens |
 |---:|---|---|---|---:|---:|---:|
-| 1 | Specification (`specification`) | product-owner | **in_progress** | 2 | 0 | unavailable |
+| 1 | Specification (`specification`) | product-owner | **awaiting_approval** | 2 | 0 | unavailable |
 | 2 | Planning (`planning`) | architect | **not_started** | 0 | 0 | unavailable |
 | 3 | Implementation (`implementation`) | developer | **not_started** | 0 | 0 | unavailable |
 | 4 | Convergence (`convergence`) | architect | **not_started** | 0 | 0 | unavailable |
@@ -19,6 +19,7 @@
 
 ## Recent history
 
+- 2026-09-30T03:46:50.983Z — **phase_submitted** (specification) by ashokraj2011 · governed agent product-owner: 1 artifacts
 - 2026-09-30T03:46:09.996Z — **phase_generated** (specification) by ashokraj2011 · governed agent product-owner: generation 2
 - 2026-09-30T03:42:11.467Z — **phase_generated** (specification) by ashokraj2011 · governed agent product-owner: generation 1
 - 2026-09-30T03:36:13.580Z — **work_started** (specification) by ashokraj2011 · governed agent product-owner: Created reference-driven-build branch py-coversion

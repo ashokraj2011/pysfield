@@ -1,0 +1,28 @@
+{
+  "artifact": {
+    "generation": 2,
+    "mediaType": "text/markdown",
+    "outputId": "document",
+    "path": "singularity/work-items/py-coversion/artifacts/specification/spec.md",
+    "phaseId": "specification"
+  },
+  "createdAt": "2026-09-30T03:46:51.083Z",
+  "kind": "governed-reference",
+  "repository": {
+    "id": ".w-057b163dce0c9290572fafda",
+    "origin": "https://github.com/ashokraj2011/pysfield.git"
+  },
+  "revision": {
+    "bytes": 15461,
+    "commitSha": "3037b876ad2357b6571ed24b63e1b2d2c22a2cb9",
+    "sha256": "71ab561434c80622c132cbb3948928ddd124edc98340445496eefe91b87c9574"
+  },
+  "schemaVersion": 1,
+  "subject": {
+    "branch": "py-coversion",
+    "id": "py-coversion",
+    "kind": "story",
+    "subjectRevision": 2
+  },
+  "visibility": "model"
+}
