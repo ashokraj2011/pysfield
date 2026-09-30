@@ -1,0 +1,7 @@
+version: 1
+capabilities:
+  py-sfield:
+    name: pysfield
+    kind: delivery
+    parent: null
+    repository: pysfield

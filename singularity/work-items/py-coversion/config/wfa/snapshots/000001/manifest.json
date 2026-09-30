@@ -1,0 +1,442 @@
+{
+  "schemaVersion": 1,
+  "kind": "workflow-snapshot",
+  "story": {
+    "repositoryId": "sha256:e588bc35daed9c919b760ea3d266cda21d65867a8d3672286b9329fb6c938074",
+    "workId": "py-coversion"
+  },
+  "revision": 1,
+  "parentSnapshotHash": null,
+  "policy": {
+    "sha256": "sha256:13f7a9e380990b4320f24ed1f85293302f23f40005073a4e690e91658fd911ec",
+    "bytes": 93438,
+    "mediaType": "application/json; profile=singularity-flow-effective-policy-v1",
+    "path": "singularity/work-items/py-coversion/config/wfa/blobs/sha256/13f7a9e380990b4320f24ed1f85293302f23f40005073a4e690e91658fd911ec"
+  },
+  "assets": [
+    {
+      "logicalId": "agent:architect",
+      "purpose": "governed-agent",
+      "dependencies": [],
+      "blob": {
+        "sha256": "sha256:cb10e2ec957759b702df2935ed7889192da5946814c97f9ca6c9e53b173f3342",
+        "bytes": 2210,
+        "mediaType": "text/markdown; charset=utf-8",
+        "path": "singularity/work-items/py-coversion/config/wfa/blobs/sha256/cb10e2ec957759b702df2935ed7889192da5946814c97f9ca6c9e53b173f3342"
+      },
+      "source": {
+        "kind": "repository-agent",
+        "scope": "repository",
+        "source": ".github/agents/architect.agent.md",
+        "sourceId": "sha256:d7c465ddda01a94b0e4fc658f591c6a1ccaf6321322c1d551ba531d699fd874e",
+        "sha256": "sha256:cb10e2ec957759b702df2935ed7889192da5946814c97f9ca6c9e53b173f3342"
+      }
+    },
+    {
+      "logicalId": "agent:developer",
+      "purpose": "governed-agent",
+      "dependencies": [],
+      "blob": {
+        "sha256": "sha256:edfba1ce014ba9a5cf379303efa3841eb4345dd1602f2b2566c8e5001d4c99d1",
+        "bytes": 2749,
+        "mediaType": "text/markdown; charset=utf-8",
+        "path": "singularity/work-items/py-coversion/config/wfa/blobs/sha256/edfba1ce014ba9a5cf379303efa3841eb4345dd1602f2b2566c8e5001d4c99d1"
+      },
+      "source": {
+        "kind": "repository-agent",
+        "scope": "repository",
+        "source": ".github/agents/developer.agent.md",
+        "sourceId": "sha256:8dbfd3ed72fd91d55a5dea07d3c483ce41ed55a5e7159f65dec7fc4026b481d8",
+        "sha256": "sha256:edfba1ce014ba9a5cf379303efa3841eb4345dd1602f2b2566c8e5001d4c99d1"
+      }
+    },
+    {
+      "logicalId": "agent:mobile-architect",
+      "purpose": "governed-agent",
+      "dependencies": [],
+      "blob": {
+        "sha256": "sha256:314f95afdbc297e47a40fca9bfb8621ebb915d21d40cac18c6978032cd996cd7",
+        "bytes": 2356,
+        "mediaType": "text/markdown; charset=utf-8",
+        "path": "singularity/work-items/py-coversion/config/wfa/blobs/sha256/314f95afdbc297e47a40fca9bfb8621ebb915d21d40cac18c6978032cd996cd7"
+      },
+      "source": {
+        "kind": "repository-agent",
+        "scope": "repository",
+        "source": ".github/agents/mobile-architect.agent.md",
+        "sourceId": "sha256:1dd6c9f6093f0f63d3628f620c49ceb28fa97d6830b7a8272896e5fd2d0427ce",
+        "sha256": "sha256:314f95afdbc297e47a40fca9bfb8621ebb915d21d40cac18c6978032cd996cd7"
+      }
+    },
+    {
+      "logicalId": "agent:poc-analyst",
+      "purpose": "governed-agent",
+      "dependencies": [],
+      "blob": {
+        "sha256": "sha256:8edf5a781b1cfab7af89b4ce53f8ac52343d31cd1cb65cfe929da7660dc737ec",
+        "bytes": 1731,
+        "mediaType": "text/markdown; charset=utf-8",
+        "path": "singularity/work-items/py-coversion/config/wfa/blobs/sha256/8edf5a781b1cfab7af89b4ce53f8ac52343d31cd1cb65cfe929da7660dc737ec"
+      },
+      "source": {
+        "kind": "repository-agent",
+        "scope": "repository",
+        "source": ".github/agents/poc-analyst.agent.md",
+        "sourceId": "sha256:026c4faf7490729173813708bcc565dd960295922ef8c494c55bdc8d4cdc404a",
+        "sha256": "sha256:8edf5a781b1cfab7af89b4ce53f8ac52343d31cd1cb65cfe929da7660dc737ec"
+      }
+    },
+    {
+      "logicalId": "agent:poc-automation",
+      "purpose": "governed-agent",
+      "dependencies": [],
+      "blob": {
+        "sha256": "sha256:ec5709c720d979d389ebb20cb73977f0efc485d87781b62135857c622c625a7c",
+        "bytes": 4413,
+        "mediaType": "text/markdown; charset=utf-8",
+        "path": "singularity/work-items/py-coversion/config/wfa/blobs/sha256/ec5709c720d979d389ebb20cb73977f0efc485d87781b62135857c622c625a7c"
+      },
+      "source": {
+        "kind": "repository-agent",
+        "scope": "repository",
+        "source": ".github/agents/poc-automation.agent.md",
+        "sourceId": "sha256:ed2bb76038f4e03ec0e4e6143dee342ffc4f36bf0d04cd46e038bb630fdeea7c",
+        "sha256": "sha256:ec5709c720d979d389ebb20cb73977f0efc485d87781b62135857c622c625a7c"
+      }
+    },
+    {
+      "logicalId": "agent:poc-explorer",
+      "purpose": "governed-agent",
+      "dependencies": [],
+      "blob": {
+        "sha256": "sha256:73135df4f261fa3e08f8f5676f985da4f3c4b139833413c9d6ffd7db0c6d9a07",
+        "bytes": 1718,
+        "mediaType": "text/markdown; charset=utf-8",
+        "path": "singularity/work-items/py-coversion/config/wfa/blobs/sha256/73135df4f261fa3e08f8f5676f985da4f3c4b139833413c9d6ffd7db0c6d9a07"
+      },
+      "source": {
+        "kind": "repository-agent",
+        "scope": "repository",
+        "source": ".github/agents/poc-explorer.agent.md",
+        "sourceId": "sha256:7275674580dab49992a3335bbf836717e71f41683d307b4488239274190fdbf9",
+        "sha256": "sha256:73135df4f261fa3e08f8f5676f985da4f3c4b139833413c9d6ffd7db0c6d9a07"
+      }
+    },
+    {
+      "logicalId": "agent:poc-lite-implementer",
+      "purpose": "governed-agent",
+      "dependencies": [],
+      "blob": {
+        "sha256": "sha256:8fa2344494618a1200b987aec80600b8d05cde24c3dee57e7ef6934fdd42e064",
+        "bytes": 1115,
+        "mediaType": "text/markdown; charset=utf-8",
+        "path": "singularity/work-items/py-coversion/config/wfa/blobs/sha256/8fa2344494618a1200b987aec80600b8d05cde24c3dee57e7ef6934fdd42e064"
+      },
+      "source": {
+        "kind": "repository-agent",
+        "scope": "repository",
+        "source": ".github/agents/poc-lite-implementer.agent.md",
+        "sourceId": "sha256:3a17a5f251ae891b0254fb3d1c91b9263ba18e3996bd0159eba29537a0906f11",
+        "sha256": "sha256:8fa2344494618a1200b987aec80600b8d05cde24c3dee57e7ef6934fdd42e064"
+      }
+    },
+    {
+      "logicalId": "agent:poc-lite-planner",
+      "purpose": "governed-agent",
+      "dependencies": [],
+      "blob": {
+        "sha256": "sha256:13269e0e0dd315c053c81d50d0de27a94a7e1a8621ea1230b24d3a3a53d6c2e1",
+        "bytes": 1098,
+        "mediaType": "text/markdown; charset=utf-8",
+        "path": "singularity/work-items/py-coversion/config/wfa/blobs/sha256/13269e0e0dd315c053c81d50d0de27a94a7e1a8621ea1230b24d3a3a53d6c2e1"
+      },
+      "source": {
+        "kind": "repository-agent",
+        "scope": "repository",
+        "source": ".github/agents/poc-lite-planner.agent.md",
+        "sourceId": "sha256:eb42500ae566faf9156bc327ba765f2a46e8bb071c167f0bae3d2f7c15b47523",
+        "sha256": "sha256:13269e0e0dd315c053c81d50d0de27a94a7e1a8621ea1230b24d3a3a53d6c2e1"
+      }
+    },
+    {
+      "logicalId": "agent:poc-lite-verifier",
+      "purpose": "governed-agent",
+      "dependencies": [],
+      "blob": {
+        "sha256": "sha256:32cea87f319945c6ef3963aebf92e55ee15a291f8d7cf5691ca28a38fe68dd42",
+        "bytes": 1149,
+        "mediaType": "text/markdown; charset=utf-8",
+        "path": "singularity/work-items/py-coversion/config/wfa/blobs/sha256/32cea87f319945c6ef3963aebf92e55ee15a291f8d7cf5691ca28a38fe68dd42"
+      },
+      "source": {
+        "kind": "repository-agent",
+        "scope": "repository",
+        "source": ".github/agents/poc-lite-verifier.agent.md",
+        "sourceId": "sha256:baa0f8924052781b97c0d4bfea323a068cc73ce9fd1dd0b9785466e27a92dad9",
+        "sha256": "sha256:32cea87f319945c6ef3963aebf92e55ee15a291f8d7cf5691ca28a38fe68dd42"
+      }
+    },
+    {
+      "logicalId": "agent:poc-test-developer",
+      "purpose": "governed-agent",
+      "dependencies": [],
+      "blob": {
+        "sha256": "sha256:4c82f12e6642c42e60ef6b0e4a19b9c37b70a73c2089b8dfd2c525858d7a4681",
+        "bytes": 1234,
+        "mediaType": "text/markdown; charset=utf-8",
+        "path": "singularity/work-items/py-coversion/config/wfa/blobs/sha256/4c82f12e6642c42e60ef6b0e4a19b9c37b70a73c2089b8dfd2c525858d7a4681"
+      },
+      "source": {
+        "kind": "repository-agent",
+        "scope": "repository",
+        "source": ".github/agents/poc-test-developer.agent.md",
+        "sourceId": "sha256:ce9fe0546eb715a1bbabb91c4f9490230d1b194285752639f1edc546770f1c7f",
+        "sha256": "sha256:4c82f12e6642c42e60ef6b0e4a19b9c37b70a73c2089b8dfd2c525858d7a4681"
+      }
+    },
+    {
+      "logicalId": "agent:poc-validator",
+      "purpose": "governed-agent",
+      "dependencies": [],
+      "blob": {
+        "sha256": "sha256:970a1539220c22ba61eac4f80a743328437a0913d83fbeec20a6a3ed6f74a10f",
+        "bytes": 1839,
+        "mediaType": "text/markdown; charset=utf-8",
+        "path": "singularity/work-items/py-coversion/config/wfa/blobs/sha256/970a1539220c22ba61eac4f80a743328437a0913d83fbeec20a6a3ed6f74a10f"
+      },
+      "source": {
+        "kind": "repository-agent",
+        "scope": "repository",
+        "source": ".github/agents/poc-validator.agent.md",
+        "sourceId": "sha256:387eda5cc28096acb3d57bed058cad5944c53c5d92b2afcdbbdab91aad9fd088",
+        "sha256": "sha256:970a1539220c22ba61eac4f80a743328437a0913d83fbeec20a6a3ed6f74a10f"
+      }
+    },
+    {
+      "logicalId": "agent:product-designer",
+      "purpose": "governed-agent",
+      "dependencies": [],
+      "blob": {
+        "sha256": "sha256:b46014bafb6a5fe79642e8e1917f28ef37adc3a8304408534cdcee1e75d47016",
+        "bytes": 2159,
+        "mediaType": "text/markdown; charset=utf-8",
+        "path": "singularity/work-items/py-coversion/config/wfa/blobs/sha256/b46014bafb6a5fe79642e8e1917f28ef37adc3a8304408534cdcee1e75d47016"
+      },
+      "source": {
+        "kind": "repository-agent",
+        "scope": "repository",
+        "source": ".github/agents/product-designer.agent.md",
+        "sourceId": "sha256:2baa7dacf772f650186a852ee0fe768f026cda6a547674debf419f3b43eb7dd9",
+        "sha256": "sha256:b46014bafb6a5fe79642e8e1917f28ef37adc3a8304408534cdcee1e75d47016"
+      }
+    },
+    {
+      "logicalId": "agent:product-owner",
+      "purpose": "governed-agent",
+      "dependencies": [],
+      "blob": {
+        "sha256": "sha256:a9c322786305e1eee80229c696ae19ff21e0f4fc2843d4c7f28a80ccd24e96ff",
+        "bytes": 2188,
+        "mediaType": "text/markdown; charset=utf-8",
+        "path": "singularity/work-items/py-coversion/config/wfa/blobs/sha256/a9c322786305e1eee80229c696ae19ff21e0f4fc2843d4c7f28a80ccd24e96ff"
+      },
+      "source": {
+        "kind": "repository-agent",
+        "scope": "repository",
+        "source": ".github/agents/product-owner.agent.md",
+        "sourceId": "sha256:a52b2949aab5deeceea3c1a6a0f64bf546e602a079c1a6b47113574f8c273a80",
+        "sha256": "sha256:a9c322786305e1eee80229c696ae19ff21e0f4fc2843d4c7f28a80ccd24e96ff"
+      }
+    },
+    {
+      "logicalId": "agent:qa",
+      "purpose": "governed-agent",
+      "dependencies": [],
+      "blob": {
+        "sha256": "sha256:5c00c8126703c867854c06c23bfd376e7a191735c438e9545b8a655c06ea71ab",
+        "bytes": 2190,
+        "mediaType": "text/markdown; charset=utf-8",
+        "path": "singularity/work-items/py-coversion/config/wfa/blobs/sha256/5c00c8126703c867854c06c23bfd376e7a191735c438e9545b8a655c06ea71ab"
+      },
+      "source": {
+        "kind": "repository-agent",
+        "scope": "repository",
+        "source": ".github/agents/qa.agent.md",
+        "sourceId": "sha256:972dec98c9cc3c02aa852deece5fca54c673ddf30df8095e32d6550eec5a71e0",
+        "sha256": "sha256:5c00c8126703c867854c06c23bfd376e7a191735c438e9545b8a655c06ea71ab"
+      }
+    },
+    {
+      "logicalId": "agent:sflow-utility",
+      "purpose": "governed-agent",
+      "dependencies": [],
+      "blob": {
+        "sha256": "sha256:2e0a536ca3ea7a75049c08dca2a3f3900e6b0955b56d7efa7173835d2241c480",
+        "bytes": 1776,
+        "mediaType": "text/markdown; charset=utf-8",
+        "path": "singularity/work-items/py-coversion/config/wfa/blobs/sha256/2e0a536ca3ea7a75049c08dca2a3f3900e6b0955b56d7efa7173835d2241c480"
+      },
+      "source": {
+        "kind": "installed-reviewed-agent",
+        "scope": "plugin",
+        "source": null,
+        "sourceId": "sha256:ab2c3f8942c1234b8453ca94db62a129f41cf407b20a13b10156b61c9a08df19",
+        "sha256": "sha256:2e0a536ca3ea7a75049c08dca2a3f3900e6b0955b56d7efa7173835d2241c480"
+      }
+    },
+    {
+      "logicalId": "agent:sflow-workflow",
+      "purpose": "governed-agent",
+      "dependencies": [],
+      "blob": {
+        "sha256": "sha256:c82f10606f101726911f136a51aa43209a76cf380afe7af81d62c5a1ca6be259",
+        "bytes": 12074,
+        "mediaType": "text/markdown; charset=utf-8",
+        "path": "singularity/work-items/py-coversion/config/wfa/blobs/sha256/c82f10606f101726911f136a51aa43209a76cf380afe7af81d62c5a1ca6be259"
+      },
+      "source": {
+        "kind": "installed-reviewed-agent",
+        "scope": "plugin",
+        "source": null,
+        "sourceId": "sha256:864f0ca3578bdbea3ba9798fba26d169dbfc389883dd7259a9a623c3c1bef790",
+        "sha256": "sha256:c82f10606f101726911f136a51aa43209a76cf380afe7af81d62c5a1ca6be259"
+      }
+    },
+    {
+      "logicalId": "prompt:planning",
+      "purpose": "planning-prompt",
+      "dependencies": [],
+      "blob": {
+        "sha256": "sha256:4128acc6930949e4ba1e50e8b8c7c4f7beb23f4361c2e8428475b081712b77db",
+        "bytes": 3271,
+        "mediaType": "text/markdown; charset=utf-8",
+        "path": "singularity/work-items/py-coversion/config/wfa/blobs/sha256/4128acc6930949e4ba1e50e8b8c7c4f7beb23f4361c2e8428475b081712b77db"
+      },
+      "source": {
+        "kind": "repository-path",
+        "path": "singularity/prompts/copilot-planning.md",
+        "sha256": "sha256:4128acc6930949e4ba1e50e8b8c7c4f7beb23f4361c2e8428475b081712b77db"
+      }
+    },
+    {
+      "logicalId": "template:convergence",
+      "purpose": "phase-template",
+      "dependencies": [],
+      "blob": {
+        "sha256": "sha256:eb257477afca0229ed858875499736c57498015aaee0a527b714356819a9dde2",
+        "bytes": 1036,
+        "mediaType": "text/markdown; charset=utf-8",
+        "path": "singularity/work-items/py-coversion/config/wfa/blobs/sha256/eb257477afca0229ed858875499736c57498015aaee0a527b714356819a9dde2"
+      },
+      "source": {
+        "kind": "repository-path",
+        "path": "singularity/templates/spec-driven/convergence.md",
+        "sha256": "sha256:eb257477afca0229ed858875499736c57498015aaee0a527b714356819a9dde2"
+      }
+    },
+    {
+      "logicalId": "template:implementation",
+      "purpose": "phase-template",
+      "dependencies": [],
+      "blob": {
+        "sha256": "sha256:cf46a21cdcb12035defbb5b6a74c7acd6c6d1e751556964f416f27bb5acb5482",
+        "bytes": 1013,
+        "mediaType": "text/markdown; charset=utf-8",
+        "path": "singularity/work-items/py-coversion/config/wfa/blobs/sha256/cf46a21cdcb12035defbb5b6a74c7acd6c6d1e751556964f416f27bb5acb5482"
+      },
+      "source": {
+        "kind": "repository-path",
+        "path": "singularity/templates/common/implementation.md",
+        "sha256": "sha256:cf46a21cdcb12035defbb5b6a74c7acd6c6d1e751556964f416f27bb5acb5482"
+      }
+    },
+    {
+      "logicalId": "template:planning",
+      "purpose": "phase-template",
+      "dependencies": [],
+      "blob": {
+        "sha256": "sha256:e8af98405a723a55c572c705e34a5b2fc05a11b3efe632e169ba6becf6c1a04f",
+        "bytes": 2194,
+        "mediaType": "text/markdown; charset=utf-8",
+        "path": "singularity/work-items/py-coversion/config/wfa/blobs/sha256/e8af98405a723a55c572c705e34a5b2fc05a11b3efe632e169ba6becf6c1a04f"
+      },
+      "source": {
+        "kind": "repository-path",
+        "path": "singularity/templates/spec-driven/plan.md",
+        "sha256": "sha256:e8af98405a723a55c572c705e34a5b2fc05a11b3efe632e169ba6becf6c1a04f"
+      }
+    },
+    {
+      "logicalId": "template:release",
+      "purpose": "phase-template",
+      "dependencies": [],
+      "blob": {
+        "sha256": "sha256:a78b2eb703b2dfc70ccb33d30d94b24fe39247ca06ba79e6a988054e94a737b7",
+        "bytes": 1443,
+        "mediaType": "text/markdown; charset=utf-8",
+        "path": "singularity/work-items/py-coversion/config/wfa/blobs/sha256/a78b2eb703b2dfc70ccb33d30d94b24fe39247ca06ba79e6a988054e94a737b7"
+      },
+      "source": {
+        "kind": "repository-path",
+        "path": "singularity/templates/spec-driven/release.md",
+        "sha256": "sha256:a78b2eb703b2dfc70ccb33d30d94b24fe39247ca06ba79e6a988054e94a737b7"
+      }
+    },
+    {
+      "logicalId": "template:specification",
+      "purpose": "phase-template",
+      "dependencies": [],
+      "blob": {
+        "sha256": "sha256:27424a624b1dab57323fd7482ac62708bd42d11ba42e41c102f94e15182fe485",
+        "bytes": 3758,
+        "mediaType": "text/markdown; charset=utf-8",
+        "path": "singularity/work-items/py-coversion/config/wfa/blobs/sha256/27424a624b1dab57323fd7482ac62708bd42d11ba42e41c102f94e15182fe485"
+      },
+      "source": {
+        "kind": "repository-path",
+        "path": "singularity/templates/spec-driven/spec.md",
+        "sha256": "sha256:27424a624b1dab57323fd7482ac62708bd42d11ba42e41c102f94e15182fe485"
+      }
+    },
+    {
+      "logicalId": "template:verification",
+      "purpose": "phase-template",
+      "dependencies": [],
+      "blob": {
+        "sha256": "sha256:31e8dc7c915c96c7bce79e3138af0537875f077350a13af5250e50c4c571728b",
+        "bytes": 867,
+        "mediaType": "text/markdown; charset=utf-8",
+        "path": "singularity/work-items/py-coversion/config/wfa/blobs/sha256/31e8dc7c915c96c7bce79e3138af0537875f077350a13af5250e50c4c571728b"
+      },
+      "source": {
+        "kind": "repository-path",
+        "path": "singularity/templates/common/verification.md",
+        "sha256": "sha256:31e8dc7c915c96c7bce79e3138af0537875f077350a13af5250e50c4c571728b"
+      }
+    }
+  ],
+  "executionDependencies": [],
+  "provenance": {
+    "configuration": {
+      "repository": "https://github.com/ashokraj2011/pysfield.git",
+      "commit": "624378ede2d527abb475c75b6f09ec1490f051a3",
+      "filesSha256": "3e558a529a25ce294864c61b7a0bc01f89550a5c62c0deda9492972dd1c799b6"
+    },
+    "workType": "reference-driven-build",
+    "foldProfile": "singularity-flow-resolution-v1"
+  },
+  "semantics": {
+    "snapshot": "wfa-snapshot-v1",
+    "canonicalJson": "singularity-flow-canonical-json-v1",
+    "policyReaderMinimum": 5,
+    "agentDocumentParser": "sflow-agent-document-v1",
+    "promptComposer": "story-snapshot-agent-v1"
+  },
+  "configFoldHash": "sha256:d8b9786f16f4278a0597d63a979664ef94f04b3737d1e9ecf964fa4942eab0db",
+  "createdAt": "2026-09-30T03:36:13.580Z",
+  "limits": {
+    "assets": 23,
+    "bytes": 149019
+  },
+  "snapshotHash": "sha256:d3e87cbdc0625eb78b0150c4de3a999b7b963427167a49edde2ce1f3ddcc1c2a"
+}

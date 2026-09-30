@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "kind": "story-reference-repository-set",
+  "workId": "py-coversion",
+  "repositories": [
+    {
+      "schemaVersion": 1,
+      "id": "sf-field",
+      "repository": "https://github.com/ashokraj2011/sfield.git",
+      "repositorySha256": "sha256:4bcfa7a67c5e0e25a65d3fc64e747135b0c961b8822986b1ffe6a8bac56007f9",
+      "requestedBranch": "main",
+      "commit": "1b0c942f9b7d317199201533027bfd451d45a072",
+      "tree": "8903899b1cb029a227aa6414f487d44ca9489090",
+      "required": true,
+      "localPath": ".singularity-flow/reference-repositories/py-coversion/sf-field",
+      "pinnedAt": "2026-09-30T03:36:08.954Z"
+    }
+  ],
+  "setSha256": "sha256:17d15280a95a5d0fddbe79e7687a24272f75e7f7606e2443e0ae5f1c486b6686"
+}
