@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "workId": "py-coversion",
+  "phase": "specification",
+  "generation": 2,
+  "mode": "required",
+  "promptPath": "singularity/work-items/py-coversion/context/prompts/specification-gen2.md",
+  "promptSha256": "4ce197cea881fe47b58d18edd6603857e3e604fa20af2b865086e29aa9462a54",
+  "groundingRecordPath": "singularity/work-items/py-coversion/context/specification-gen2.json",
+  "groundingRecordSha256": "ed8ce8a7bbeee9e0f5eb1b8f28085a7240a23a3e1d92e0cddfdcbf6d20684d95",
+  "responses": [
+    {
+      "id": "Q-001",
+      "question": "Should the specification explicitly require conversion of these reference packages: core, cli, http, artifacts-fs, preset-local, preset-memory, store-sqlite, and testing?",
+      "answer": "Yes, all eight packages are in scope.",
+      "status": "answered",
+      "blocking": false
+    },
+    {
+      "id": "Q-002",
+      "question": "Should acceptance require porting and passing the reference project's existing test coverage, plus focused parity tests, rather than only a newly selected subset?",
+      "answer": "Yes, require full reference test coverage plus focused parity tests.",
+      "status": "answered",
+      "blocking": false
+    }
+  ],
+  "completed": true,
+  "recordedAt": "2026-09-30T03:45:21.067Z",
+  "recordedBy": {
+    "name": "Ashok Raj",
+    "email": "88361104+ashokraj2011@users.noreply.github.com",
+    "login": "ashokraj2011",
+    "githubLookup": "resolved"
+  },
+  "agent": "product-owner"
+}

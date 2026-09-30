@@ -1,0 +1,35 @@
+{
+  "artifact": {
+    "bytes": 14554,
+    "path": "singularity/work-items/py-coversion/artifacts/specification/spec.md",
+    "role": "document",
+    "sha256": "bfffb88f1a0a1b8486bdd5786b212944d14d50b87b779b35ef09a0db1483a0a7"
+  },
+  "configuration": {
+    "revision": "624378ede2d527abb475c75b6f09ec1490f051a3",
+    "sha256": "2ce4a29c11a99b96efaf8d9313e9df0685673df58c11fc5284006fc37fc20fe9"
+  },
+  "generation": 2,
+  "inputs": [],
+  "integritySha256": "ade73e5414ba9b1ef2e1a2c20e4888a6c084ef779469b7a3e18e57f83b237f0d",
+  "phase": "specification",
+  "producer": {
+    "actor": "88361104+ashokraj2011@users.noreply.github.com",
+    "agent": "product-owner",
+    "kind": "governed-agent"
+  },
+  "publication": {
+    "branch": "py-coversion",
+    "commit": null,
+    "publishedAt": "2026-09-30T03:46:09.903Z"
+  },
+  "schemaVersion": 1,
+  "subject": {
+    "id": "py-coversion",
+    "kind": "story"
+  },
+  "template": {
+    "path": "singularity/work-items/py-coversion/config/wfa/blobs/sha256/27424a624b1dab57323fd7482ac62708bd42d11ba42e41c102f94e15182fe485",
+    "sha256": "27424a624b1dab57323fd7482ac62708bd42d11ba42e41c102f94e15182fe485"
+  }
+}

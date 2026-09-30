@@ -2599,7 +2599,7 @@
       "rejectedAt": null,
       "rejectedBy": null,
       "rejectionReason": null,
-      "generation": 1,
+      "generation": 2,
       "generatedBy": {
         "name": "Ashok Raj",
         "email": "88361104+ashokraj2011@users.noreply.github.com",
@@ -2642,6 +2642,41 @@
           },
           "generation": 1,
           "publishedAt": "2026-09-30T03:42:11.366Z"
+        },
+        {
+          "schemaVersion": 1,
+          "producer": "governed-agent",
+          "channel": "copilot-host",
+          "actor": {
+            "name": "Ashok Raj",
+            "email": "88361104+ashokraj2011@users.noreply.github.com",
+            "login": "ashokraj2011",
+            "githubLookup": "resolved"
+          },
+          "governedAgentContext": {
+            "agentId": "product-owner"
+          },
+          "kernelModel": {
+            "invoked": false,
+            "status": "exact",
+            "invocationIds": []
+          },
+          "externalAiUse": {
+            "value": "unknown",
+            "status": "unavailable"
+          },
+          "changeOrigins": [
+            "copilot"
+          ],
+          "source": {
+            "kind": "in-place",
+            "filename": "spec.md",
+            "mediaType": "text/markdown",
+            "sha256": "69c2eda26dfaf9968fd76729b7d2dfa3aa0fee9bba6a766c3f59118756f9a91c",
+            "bytes": 10880
+          },
+          "generation": 2,
+          "publishedAt": "2026-09-30T03:46:09.903Z"
         }
       ],
       "usage": [
@@ -2665,6 +2700,27 @@
           "completedAt": "2026-09-30T03:42:11.366Z",
           "agent": "product-owner",
           "generation": 1
+        },
+        {
+          "status": "unavailable",
+          "source": "copilot-otel-unavailable",
+          "provider": null,
+          "model": null,
+          "requestedModel": null,
+          "resolvedModel": null,
+          "resolvedModelAssurance": "unavailable",
+          "inputTokens": null,
+          "outputTokens": null,
+          "cachedInputTokens": null,
+          "cacheWriteInputTokens": null,
+          "totalTokens": null,
+          "providerCost": null,
+          "costStatus": "unavailable",
+          "spans": null,
+          "startedAt": "2026-09-30T03:46:09.903Z",
+          "completedAt": "2026-09-30T03:46:09.903Z",
+          "agent": "product-owner",
+          "generation": 2
         }
       ],
       "telemetry": [
@@ -2672,6 +2728,14 @@
           "generation": 1,
           "path": "singularity/work-items/py-coversion/telemetry/specification-gen1.json",
           "sha256": "65cba64894310bddc4f298501fe6b0eabb2c7a536e3b98445519554614509316",
+          "status": "pending",
+          "models": [],
+          "providerCost": null
+        },
+        {
+          "generation": 2,
+          "path": "singularity/work-items/py-coversion/telemetry/specification-gen2.json",
+          "sha256": "8c4caaef626f7d234dd834bf98fd00d284cfa2df7d170ffccecb40273745fb2d",
           "status": "pending",
           "models": [],
           "providerCost": null
@@ -2691,6 +2755,19 @@
             "path": "singularity/work-items/py-coversion/context/generation-publications/specification-gen1.json",
             "sha256": "sha256:523b015c50862e8270c0a755f9a83590ffdaf6c90d0f1a6c1ea094e369ae2f47"
           }
+        },
+        {
+          "generation": 2,
+          "publishedAt": "2026-09-30T03:46:09.903Z",
+          "changeSetDigest": null,
+          "resultDigest": "sha256:28f86c706f5e5a9a8360191c4d9286f72c84e58bec4594acd210097225fefe16",
+          "resultDigestVersion": 3,
+          "architectureIntent": null,
+          "architectureDecision": null,
+          "record": {
+            "path": "singularity/work-items/py-coversion/context/generation-publications/specification-gen2.json",
+            "sha256": "sha256:910a721dfb6f1f424cd730bf8deee9e609010efa2a7f487f65513618f0921504"
+          }
         }
       ],
       "submissionArchitectureDecision": null,
@@ -2702,10 +2779,10 @@
           "kind": "document",
           "status": "pending",
           "exists": true,
-          "size": 10810,
-          "sha256": "9e281bad165fe26c344571ad2d56299ebc37c66711b289376aaa592ea843ebb6",
+          "size": 15461,
+          "sha256": "71ab561434c80622c132cbb3948928ddd124edc98340445496eefe91b87c9574",
           "registeredAt": "2026-09-30T03:42:10.321Z",
-          "updatedAt": "2026-09-30T03:42:11.402Z"
+          "updatedAt": "2026-09-30T03:46:09.938Z"
         }
       ],
       "checks": [],
@@ -2718,9 +2795,9 @@
       "remoteOutputs": [],
       "sidecars": [
         {
-          "path": "singularity/work-items/py-coversion/context/sidecars/specification-gen1-singularity-work-items-py-coversion-artifacts-specification-spec.md.json",
+          "path": "singularity/work-items/py-coversion/context/sidecars/specification-gen2-singularity-work-items-py-coversion-artifacts-specification-spec.md.json",
           "artifact": "singularity/work-items/py-coversion/artifacts/specification/spec.md",
-          "integritySha256": "4d5910cf8a753bc3bbf5d2aac8cece0de9f0220665fe044625d662c984b824fc"
+          "integritySha256": "ade73e5414ba9b1ef2e1a2c20e4888a6c084ef779469b7a3e18e57f83b237f0d"
         }
       ],
       "clarifications": [
@@ -2732,6 +2809,21 @@
           "responses": 4,
           "markers": [],
           "recordedAt": "2026-09-30T03:37:56.326Z",
+          "recordedBy": {
+            "name": "Ashok Raj",
+            "email": "88361104+ashokraj2011@users.noreply.github.com",
+            "login": "ashokraj2011",
+            "githubLookup": "resolved"
+          }
+        },
+        {
+          "generation": 2,
+          "path": "singularity/work-items/py-coversion/context/clarifications-specification-gen2.json",
+          "sha256": "4bc4021518e477b5f308ed0c67ab974d339c907ddf852303395778631ac79e16",
+          "promptSha256": "4ce197cea881fe47b58d18edd6603857e3e604fa20af2b865086e29aa9462a54",
+          "responses": 2,
+          "markers": [],
+          "recordedAt": "2026-09-30T03:45:21.067Z",
           "recordedBy": {
             "name": "Ashok Raj",
             "email": "88361104+ashokraj2011@users.noreply.github.com",
@@ -2751,9 +2843,20 @@
           "open": [],
           "findings": 0,
           "recordedAt": "2026-09-30T03:42:11.366Z"
+        },
+        {
+          "generation": 2,
+          "artifactPath": "singularity/work-items/py-coversion/artifacts/specification/spec.md",
+          "artifactSha256": "bfffb88f1a0a1b8486bdd5786b212944d14d50b87b779b35ef09a0db1483a0a7",
+          "policySha256": "f52b980ffcaf26cf59e2d5c7fb15b38c1bb7fef7e37f4a81603bdfe0b55006ab",
+          "markerMode": "block",
+          "qualityMode": "enforce",
+          "open": [],
+          "findings": 0,
+          "recordedAt": "2026-09-30T03:46:09.903Z"
         }
       ],
-      "sourceCommit": "6fc89b34524b86fbe86af21eb3639da26b906259",
+      "sourceCommit": "1ad04c71ff2fce7d2f3651edbdcad9f3cf6c1952",
       "artifactSet": {
         "schemaVersion": 1,
         "resultType": "artifact-set-catalog",
@@ -2780,23 +2883,27 @@
             "authority": "governed",
             "directory": false,
             "exists": true,
-            "sha256": "9e281bad165fe26c344571ad2d56299ebc37c66711b289376aaa592ea843ebb6",
-            "bytes": 10810,
+            "sha256": "71ab561434c80622c132cbb3948928ddd124edc98340445496eefe91b87c9574",
+            "bytes": 15461,
             "files": null
           }
         ],
-        "bundleSha256": "6cb26b17b738d8df67c74e3b701096d3b9ce596af571652ab01ad80d95690f89",
+        "bundleSha256": "654ee8e2d5c337f3cb289e3c41240bad21ba19f86a10b494e46cfbfec7ce4d8b",
         "missingRequired": [],
-        "generation": 1,
-        "preserved": [],
-        "changed": []
+        "generation": 2,
+        "preserved": [
+          "singularity/work-items/py-coversion/artifacts/specification/checklists/requirements.md"
+        ],
+        "changed": [
+          "singularity/work-items/py-coversion/artifacts/specification/spec.md"
+        ]
       },
       "specIndex": {
-        "generation": 1,
-        "path": "singularity/work-items/py-coversion/context/spec-indexes/specification-gen1.json",
-        "clauses": 15,
-        "indexSha256": "1a658135d7b591f99d49f17953048f4523f2f86bea3822ded1121a39321c9f1e",
-        "sourceSha256": "9e281bad165fe26c344571ad2d56299ebc37c66711b289376aaa592ea843ebb6"
+        "generation": 2,
+        "path": "singularity/work-items/py-coversion/context/spec-indexes/specification-gen2.json",
+        "clauses": 19,
+        "indexSha256": "d265a0e96a06040f1d87f3aea48623662fbc2f8e6e93025b5cd787a00f71419c",
+        "sourceSha256": "71ab561434c80622c132cbb3948928ddd124edc98340445496eefe91b87c9574"
       }
     },
     "planning": {
@@ -3271,38 +3378,38 @@
   "usage": {
     "mode": "exact-or-unavailable",
     "totalTokens": 0,
-    "records": 1,
+    "records": 2,
     "exactRecords": 0,
-    "unavailableRecords": 1,
+    "unavailableRecords": 2,
     "byPhase": {
       "specification": {
-        "records": 1,
+        "records": 2,
         "exactRecords": 0,
-        "unavailableRecords": 1,
+        "unavailableRecords": 2,
         "totalTokens": 0
       }
     },
     "byAgent": {
       "product-owner": {
-        "records": 1,
+        "records": 2,
         "exactRecords": 0,
-        "unavailableRecords": 1,
+        "unavailableRecords": 2,
         "totalTokens": 0
       }
     },
     "byWorkType": {
       "reference-driven-build": {
-        "records": 1,
+        "records": 2,
         "exactRecords": 0,
-        "unavailableRecords": 1,
+        "unavailableRecords": 2,
         "totalTokens": 0
       }
     },
     "byWorkItem": {
       "py-coversion": {
-        "records": 1,
+        "records": 2,
         "exactRecords": 0,
-        "unavailableRecords": 1,
+        "unavailableRecords": 2,
         "totalTokens": 0
       }
     }
@@ -3337,6 +3444,14 @@
       "event": "phase_generated",
       "phase": "specification",
       "detail": "generation 1"
+    },
+    {
+      "at": "2026-09-30T03:46:09.996Z",
+      "actor": "ashokraj2011",
+      "agent": "product-owner",
+      "event": "phase_generated",
+      "phase": "specification",
+      "detail": "generation 2"
     }
   ],
   "measurement": {
@@ -3559,6 +3674,105 @@
           }
         },
         "createdAt": "2026-09-30T03:42:10.359Z"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "event": {
+        "schemaVersion": 1,
+        "eventId": "303ac0b2-9d4d-4154-bfcb-469b01b5230f",
+        "type": "artifact-generated",
+        "subject": {
+          "kind": "story",
+          "id": "py-coversion",
+          "branch": "py-coversion"
+        },
+        "phaseId": "specification",
+        "generation": 2,
+        "actor": {
+          "name": "Ashok Raj",
+          "email": "88361104+ashokraj2011@users.noreply.github.com",
+          "login": "ashokraj2011",
+          "githubLookup": "resolved"
+        },
+        "agent": "product-owner",
+        "authorityGroup": null,
+        "payload": {
+          "decision": null,
+          "reviewPacketSha256": null
+        },
+        "sourceCommit": null,
+        "idempotencyKey": null,
+        "idempotencyHash": null,
+        "createdAt": "2026-09-30T03:46:08.896Z"
+      },
+      "ledgerIntent": {
+        "schemaVersion": 1,
+        "eventId": "303ac0b2-9d4d-4154-bfcb-469b01b5230f",
+        "eventType": "artifact-generated",
+        "capabilityId": "py-sfield",
+        "subject": {
+          "branch": "py-coversion",
+          "generation": 2,
+          "phase": "specification",
+          "workId": "py-coversion",
+          "workType": "reference-driven-build"
+        },
+        "actor": {
+          "name": "Ashok Raj",
+          "email": "88361104+ashokraj2011@users.noreply.github.com",
+          "githubLogin": "ashokraj2011",
+          "identityAssurance": "configured-local"
+        },
+        "agent": "product-owner",
+        "authorityGroup": null,
+        "payload": {
+          "capabilityMapSha256": "c82ea821bed0b2fcdd4ae68f9d7eefa0c6fff88fd60ab4b45228abf8e793f905",
+          "capabilityPolicy": {
+            "protectedPaths": [],
+            "qualityCommands": [],
+            "requiredAuthorityGroups": [],
+            "requiredChecks": [],
+            "requiredWorldModelViews": []
+          },
+          "configPath": "singularity/workflow.yml",
+          "configSha256": "2ce4a29c11a99b96efaf8d9313e9df0685673df58c11fc5284006fc37fc20fe9",
+          "lifecycleEventId": "303ac0b2-9d4d-4154-bfcb-469b01b5230f",
+          "lifecyclePayload": {
+            "decision": null,
+            "reviewPacketSha256": null
+          },
+          "templateSha256": "27424a624b1dab57323fd7482ac62708bd42d11ba42e41c102f94e15182fe485",
+          "lifecycleEvent": {
+            "schemaVersion": 1,
+            "eventId": "303ac0b2-9d4d-4154-bfcb-469b01b5230f",
+            "type": "artifact-generated",
+            "subject": {
+              "kind": "story",
+              "id": "py-coversion",
+              "branch": "py-coversion"
+            },
+            "phaseId": "specification",
+            "generation": 2,
+            "actor": {
+              "name": "Ashok Raj",
+              "email": "88361104+ashokraj2011@users.noreply.github.com",
+              "login": "ashokraj2011",
+              "githubLookup": "resolved"
+            },
+            "agent": "product-owner",
+            "authorityGroup": null,
+            "payload": {
+              "decision": null,
+              "reviewPacketSha256": null
+            },
+            "sourceCommit": null,
+            "idempotencyKey": null,
+            "idempotencyHash": null,
+            "createdAt": "2026-09-30T03:46:08.896Z"
+          }
+        },
+        "createdAt": "2026-09-30T03:46:08.901Z"
       }
     }
   ],

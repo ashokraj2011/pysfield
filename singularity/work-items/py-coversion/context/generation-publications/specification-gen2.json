@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 2,
+  "kind": "generation-publication",
+  "workId": "py-coversion",
+  "phase": "specification",
+  "generation": 2,
+  "generationIntentId": null,
+  "generationStart": null,
+  "changeSet": {
+    "path": null,
+    "digest": null
+  },
+  "resultDigest": "sha256:28f86c706f5e5a9a8360191c4d9286f72c84e58bec4594acd210097225fefe16",
+  "architectureIntent": null,
+  "architectureDecision": null,
+  "baseline": {
+    "commit": "1ad04c71ff2fce7d2f3651edbdcad9f3cf6c1952",
+    "tree": "9e124c6bbb10840c17f5fc2826724ec07f363b62"
+  },
+  "transactionId": "8918d57a-c21e-4096-8070-b7820a1a2163",
+  "eventId": "303ac0b2-9d4d-4154-bfcb-469b01b5230f",
+  "eventSha256": "sha256:f24d4b40f08a1012f7c3fabd51a0b7a5153e6f4ee82be38ffa3a319a95213783",
+  "commitBinding": {
+    "method": "containing-governed-transaction",
+    "commit": "$self",
+    "tree": "$self",
+    "parent": "1ad04c71ff2fce7d2f3651edbdcad9f3cf6c1952"
+  },
+  "publishedAt": "2026-09-30T03:46:09.903Z",
+  "recordSha256": "sha256:910a721dfb6f1f424cd730bf8deee9e609010efa2a7f487f65513618f0921504"
+}
