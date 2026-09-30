@@ -3237,20 +3237,182 @@
       "rejectedAt": null,
       "rejectedBy": null,
       "rejectionReason": null,
-      "generation": 0,
-      "generatedBy": null,
-      "generatedAgent": null,
-      "authorship": [],
-      "usage": [],
-      "telemetry": [],
+      "generation": 1,
+      "generatedBy": {
+        "name": "Ashok Raj",
+        "email": "88361104+ashokraj2011@users.noreply.github.com",
+        "login": "ashokraj2011",
+        "githubLookup": "resolved"
+      },
+      "generatedAgent": "architect",
+      "authorship": [
+        {
+          "schemaVersion": 1,
+          "producer": "governed-agent",
+          "channel": "copilot-host",
+          "actor": {
+            "name": "Ashok Raj",
+            "email": "88361104+ashokraj2011@users.noreply.github.com",
+            "login": "ashokraj2011",
+            "githubLookup": "resolved"
+          },
+          "governedAgentContext": {
+            "agentId": "architect"
+          },
+          "kernelModel": {
+            "invoked": false,
+            "status": "exact",
+            "invocationIds": []
+          },
+          "externalAiUse": {
+            "value": "unknown",
+            "status": "unavailable"
+          },
+          "changeOrigins": [
+            "copilot"
+          ],
+          "source": {
+            "kind": "in-place",
+            "filename": "plan.md",
+            "mediaType": "text/markdown",
+            "sha256": "04f05b3b383ad7d5ba0518efd666705cb2c24cb6ddfb0146bfe3c7dfca69e12a",
+            "bytes": 14562
+          },
+          "generation": 1,
+          "publishedAt": "2026-09-30T03:55:47.797Z"
+        }
+      ],
+      "usage": [
+        {
+          "status": "unavailable",
+          "source": "copilot-otel-unavailable",
+          "provider": null,
+          "model": null,
+          "requestedModel": null,
+          "resolvedModel": null,
+          "resolvedModelAssurance": "unavailable",
+          "inputTokens": null,
+          "outputTokens": null,
+          "cachedInputTokens": null,
+          "cacheWriteInputTokens": null,
+          "totalTokens": null,
+          "providerCost": null,
+          "costStatus": "unavailable",
+          "spans": null,
+          "startedAt": "2026-09-30T03:55:47.797Z",
+          "completedAt": "2026-09-30T03:55:47.797Z",
+          "agent": "architect",
+          "generation": 1
+        }
+      ],
+      "telemetry": [
+        {
+          "generation": 1,
+          "path": "singularity/work-items/py-coversion/telemetry/planning-gen1.json",
+          "sha256": "73f38d639639f4e65d2fc835311a2a3408503b36e39f7789208268b4421ff43a",
+          "status": "pending",
+          "models": [],
+          "providerCost": null
+        }
+      ],
       "approvals": [],
-      "generationPublications": [],
+      "generationPublications": [
+        {
+          "generation": 1,
+          "publishedAt": "2026-09-30T03:55:47.797Z",
+          "changeSetDigest": null,
+          "resultDigest": "sha256:0d8199e74b8c949b38f89db510fc90871eb10076177b2acb7e5e98add76787e7",
+          "resultDigestVersion": 3,
+          "architectureIntent": null,
+          "architectureDecision": null,
+          "record": {
+            "path": "singularity/work-items/py-coversion/context/generation-publications/planning-gen1.json",
+            "sha256": "sha256:2f2b06598f8df0b4339b775b5e7825ce9b5bcd840a84e343104060719e67db30"
+          }
+        }
+      ],
       "submissionArchitectureDecision": null,
       "designSourceSets": [],
       "artifactRegistrationRepairs": [],
-      "artifacts": [],
+      "artifacts": [
+        {
+          "path": "singularity/work-items/py-coversion/artifacts/planning/plan.md",
+          "kind": "document",
+          "status": "pending",
+          "exists": true,
+          "size": 29668,
+          "sha256": "3989f2fccf6bc4fadfe764a13119ea2c36f546f25e4b95c96fbd0a467788b1b8",
+          "registeredAt": "2026-09-30T03:55:46.729Z",
+          "updatedAt": "2026-09-30T03:55:47.834Z"
+        }
+      ],
       "checks": [],
-      "remoteOutputs": []
+      "remoteOutputs": [],
+      "authoringBaseline": {
+        "generation": 1,
+        "path": "artifacts/planning/plan.md",
+        "fingerprint": "sha256:eca39b0d8077e5b7de194ae212358f7d5206cf41025b13f708d495ef3138a277",
+        "bytes": 3081
+      },
+      "inputContext": {
+        "generation": 1,
+        "path": "singularity/work-items/py-coversion/context/inputs-planning-gen1.json",
+        "sha256": "c52191ecbe0c12f76b41d2dc76b68d3951c73d51c4cae49c39937eaac15d1350",
+        "renderedSha256": "6ead2aed87ef417b47ac4dc53ec71554ec5eff1bb8c0e95f2c8a5b4f772a17b0",
+        "mode": "enforce"
+      },
+      "sidecars": [
+        {
+          "path": "singularity/work-items/py-coversion/context/sidecars/planning-gen1-singularity-work-items-py-coversion-artifacts-planning-plan.md.json",
+          "artifact": "singularity/work-items/py-coversion/artifacts/planning/plan.md",
+          "integritySha256": "5bfc6436dc3d1f5211b46ca2498221230290a50795f0ea5d92575df9c98207dc"
+        }
+      ],
+      "sourceCommit": "4f3e98faf14d90603e26d490b735569618ab431a",
+      "artifactSet": {
+        "schemaVersion": 1,
+        "resultType": "artifact-set-catalog",
+        "setId": "spec-driven-planning",
+        "primary": "singularity/work-items/py-coversion/artifacts/planning/plan.md",
+        "members": [
+          {
+            "path": "singularity/work-items/py-coversion/artifacts/planning/plan.md",
+            "member": "plan.md",
+            "role": "implementation-plan",
+            "required": true,
+            "authority": "governed",
+            "directory": false,
+            "exists": true,
+            "sha256": "3989f2fccf6bc4fadfe764a13119ea2c36f546f25e4b95c96fbd0a467788b1b8",
+            "bytes": 29668,
+            "files": null
+          },
+          {
+            "path": "singularity/work-items/py-coversion/artifacts/planning/tasks.md",
+            "member": "tasks.md",
+            "role": "advisory-task-map",
+            "required": false,
+            "authority": "advisory",
+            "directory": false,
+            "exists": false,
+            "sha256": null,
+            "bytes": null,
+            "files": null
+          }
+        ],
+        "bundleSha256": "5004c864cc463911bfd4ba566c8e8e7d816d7cabddef3651c8849a03d406fc02",
+        "missingRequired": [],
+        "generation": 1,
+        "preserved": [],
+        "changed": []
+      },
+      "claimMaps": {
+        "planned": {
+          "generation": 1,
+          "path": "singularity/work-items/py-coversion/context/claims/planning-gen1-planned.json",
+          "sha256": "09f6d13e72271ab7e69199d11db218b5258bde7adceb60f9d5ea2bacb5752f04"
+        }
+      }
     },
     "implementation": {
       "id": "implementation",
@@ -3637,14 +3799,20 @@
   "usage": {
     "mode": "exact-or-unavailable",
     "totalTokens": 0,
-    "records": 2,
+    "records": 3,
     "exactRecords": 0,
-    "unavailableRecords": 2,
+    "unavailableRecords": 3,
     "byPhase": {
       "specification": {
         "records": 2,
         "exactRecords": 0,
         "unavailableRecords": 2,
+        "totalTokens": 0
+      },
+      "planning": {
+        "records": 1,
+        "exactRecords": 0,
+        "unavailableRecords": 1,
         "totalTokens": 0
       }
     },
@@ -3654,21 +3822,27 @@
         "exactRecords": 0,
         "unavailableRecords": 2,
         "totalTokens": 0
+      },
+      "architect": {
+        "records": 1,
+        "exactRecords": 0,
+        "unavailableRecords": 1,
+        "totalTokens": 0
       }
     },
     "byWorkType": {
       "reference-driven-build": {
-        "records": 2,
+        "records": 3,
         "exactRecords": 0,
-        "unavailableRecords": 2,
+        "unavailableRecords": 3,
         "totalTokens": 0
       }
     },
     "byWorkItem": {
       "py-coversion": {
-        "records": 2,
+        "records": 3,
         "exactRecords": 0,
-        "unavailableRecords": 2,
+        "unavailableRecords": 3,
         "totalTokens": 0
       }
     }
@@ -3727,6 +3901,14 @@
       "event": "phase_self_approved",
       "phase": "specification",
       "detail": "threshold reached; advanced to planning"
+    },
+    {
+      "at": "2026-09-30T03:55:47.902Z",
+      "actor": "ashokraj2011",
+      "agent": "architect",
+      "event": "phase_generated",
+      "phase": "planning",
+      "detail": "generation 1"
     }
   ],
   "measurement": {
@@ -4255,6 +4437,105 @@
           }
         },
         "createdAt": "2026-09-30T03:53:07.553Z"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "event": {
+        "schemaVersion": 1,
+        "eventId": "135ed39a-5ad9-4e2f-9115-a35c7df2678c",
+        "type": "artifact-generated",
+        "subject": {
+          "kind": "story",
+          "id": "py-coversion",
+          "branch": "py-coversion"
+        },
+        "phaseId": "planning",
+        "generation": 1,
+        "actor": {
+          "name": "Ashok Raj",
+          "email": "88361104+ashokraj2011@users.noreply.github.com",
+          "login": "ashokraj2011",
+          "githubLookup": "resolved"
+        },
+        "agent": null,
+        "authorityGroup": null,
+        "payload": {
+          "decision": null,
+          "reviewPacketSha256": null
+        },
+        "sourceCommit": null,
+        "idempotencyKey": null,
+        "idempotencyHash": null,
+        "createdAt": "2026-09-30T03:55:46.768Z"
+      },
+      "ledgerIntent": {
+        "schemaVersion": 1,
+        "eventId": "135ed39a-5ad9-4e2f-9115-a35c7df2678c",
+        "eventType": "artifact-generated",
+        "capabilityId": "py-sfield",
+        "subject": {
+          "branch": "py-coversion",
+          "generation": 1,
+          "phase": "planning",
+          "workId": "py-coversion",
+          "workType": "reference-driven-build"
+        },
+        "actor": {
+          "name": "Ashok Raj",
+          "email": "88361104+ashokraj2011@users.noreply.github.com",
+          "githubLogin": "ashokraj2011",
+          "identityAssurance": "configured-local"
+        },
+        "agent": null,
+        "authorityGroup": null,
+        "payload": {
+          "capabilityMapSha256": "c82ea821bed0b2fcdd4ae68f9d7eefa0c6fff88fd60ab4b45228abf8e793f905",
+          "capabilityPolicy": {
+            "protectedPaths": [],
+            "qualityCommands": [],
+            "requiredAuthorityGroups": [],
+            "requiredChecks": [],
+            "requiredWorldModelViews": []
+          },
+          "configPath": "singularity/workflow.yml",
+          "configSha256": "2ce4a29c11a99b96efaf8d9313e9df0685673df58c11fc5284006fc37fc20fe9",
+          "lifecycleEventId": "135ed39a-5ad9-4e2f-9115-a35c7df2678c",
+          "lifecyclePayload": {
+            "decision": null,
+            "reviewPacketSha256": null
+          },
+          "templateSha256": "e8af98405a723a55c572c705e34a5b2fc05a11b3efe632e169ba6becf6c1a04f",
+          "lifecycleEvent": {
+            "schemaVersion": 1,
+            "eventId": "135ed39a-5ad9-4e2f-9115-a35c7df2678c",
+            "type": "artifact-generated",
+            "subject": {
+              "kind": "story",
+              "id": "py-coversion",
+              "branch": "py-coversion"
+            },
+            "phaseId": "planning",
+            "generation": 1,
+            "actor": {
+              "name": "Ashok Raj",
+              "email": "88361104+ashokraj2011@users.noreply.github.com",
+              "login": "ashokraj2011",
+              "githubLookup": "resolved"
+            },
+            "agent": null,
+            "authorityGroup": null,
+            "payload": {
+              "decision": null,
+              "reviewPacketSha256": null
+            },
+            "sourceCommit": null,
+            "idempotencyKey": null,
+            "idempotencyHash": null,
+            "createdAt": "2026-09-30T03:55:46.768Z"
+          }
+        },
+        "createdAt": "2026-09-30T03:55:46.773Z"
       }
     }
   ],

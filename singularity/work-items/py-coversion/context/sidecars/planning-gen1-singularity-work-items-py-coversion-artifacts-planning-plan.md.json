@@ -1,0 +1,41 @@
+{
+  "artifact": {
+    "bytes": 28054,
+    "path": "singularity/work-items/py-coversion/artifacts/planning/plan.md",
+    "role": "document",
+    "sha256": "6b9707d24639e4dea7d5524d615c5c60dfcd3ffe876a70e04a96b4c505d2d9af"
+  },
+  "configuration": {
+    "revision": "624378ede2d527abb475c75b6f09ec1490f051a3",
+    "sha256": "2ce4a29c11a99b96efaf8d9313e9df0685673df58c11fc5284006fc37fc20fe9"
+  },
+  "generation": 1,
+  "inputs": [
+    {
+      "kind": null,
+      "path": "artifacts/specification/spec.md",
+      "sha256": null
+    }
+  ],
+  "integritySha256": "5bfc6436dc3d1f5211b46ca2498221230290a50795f0ea5d92575df9c98207dc",
+  "phase": "planning",
+  "producer": {
+    "actor": "88361104+ashokraj2011@users.noreply.github.com",
+    "agent": "architect",
+    "kind": "governed-agent"
+  },
+  "publication": {
+    "branch": "py-coversion",
+    "commit": null,
+    "publishedAt": "2026-09-30T03:55:47.797Z"
+  },
+  "schemaVersion": 1,
+  "subject": {
+    "id": "py-coversion",
+    "kind": "story"
+  },
+  "template": {
+    "path": "singularity/work-items/py-coversion/config/wfa/blobs/sha256/e8af98405a723a55c572c705e34a5b2fc05a11b3efe632e169ba6becf6c1a04f",
+    "sha256": "e8af98405a723a55c572c705e34a5b2fc05a11b3efe632e169ba6becf6c1a04f"
+  }
+}

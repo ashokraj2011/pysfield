@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 2,
+  "kind": "planned",
+  "recordedAt": "2026-09-30T03:55:47.849Z",
+  "claims": {
+    "PY-COVERSION:REQ-001": {
+      "expectedPaths": [
+        "docs/conversion-inventory.md",
+        "pyproject.toml",
+        "src/sfield/__init__.py"
+      ],
+      "tests": [
+        "tests/test_conversion_inventory.py",
+        "tests/test_packaging.py"
+      ],
+      "testDisposition": "applicable",
+      "testReason": null,
+      "deviation": null
+    },
+    "PY-COVERSION:REQ-002": {
+      "expectedPaths": [
+        "pyproject.toml"
+      ],
+      "tests": [
+        "tests/test_packaging.py"
+      ],
+      "testDisposition": "applicable",
+      "testReason": null,
+      "deviation": null
+    },
+    "PY-COVERSION:REQ-003": {
+      "expectedPaths": [
+        "src/sfield/artifacts_fs/__init__.py",
+        "src/sfield/cli/main.py",
+        "src/sfield/core/runtime.py",
+        "src/sfield/http/__init__.py",
+        "src/sfield/preset_local/__init__.py",
+        "src/sfield/preset_memory/__init__.py",
+        "src/sfield/store_sqlite/__init__.py",
+        "src/sfield/testing/__init__.py"
+      ],
+      "tests": [
+        "tests/parity/test_artifacts_fs_parity.py",
+        "tests/parity/test_cli_parity.py",
+        "tests/parity/test_core_parity.py",
+        "tests/parity/test_http_parity.py",
+        "tests/parity/test_preset_local_parity.py",
+        "tests/parity/test_preset_memory_parity.py",
+        "tests/parity/test_store_sqlite_parity.py",
+        "tests/parity/test_testing_parity.py"
+      ],
+      "testDisposition": "applicable",
+      "testReason": null,
+      "deviation": null
+    },
+    "PY-COVERSION:REQ-004": {
+      "expectedPaths": [
+        "src/sfield/artifacts_fs/__init__.py",
+        "src/sfield/core/runtime.py",
+        "src/sfield/http/__init__.py",
+        "src/sfield/store_sqlite/__init__.py"
+      ],
+      "tests": [
+        "tests/parity/test_success_failure_side_effects.py"
+      ],
+      "testDisposition": "applicable",
+      "testReason": null,
+      "deviation": null
+    },
+    "PY-COVERSION:REQ-005": {
+      "expectedPaths": [
+        "docs/conversion-inventory.md"
+      ],
+      "tests": [
+        "tests/test_conversion_inventory.py"
+      ],
+      "testDisposition": "applicable",
+      "testReason": null,
+      "deviation": null
+    },
+    "PY-COVERSION:REQ-006": {
+      "expectedPaths": [
+        "tests/parity/test_artifacts_fs_parity.py",
+        "tests/parity/test_cli_parity.py",
+        "tests/parity/test_core_parity.py",
+        "tests/parity/test_http_parity.py",
+        "tests/parity/test_preset_local_parity.py",
+        "tests/parity/test_preset_memory_parity.py",
+        "tests/parity/test_store_sqlite_parity.py",
+        "tests/parity/test_testing_parity.py"
+      ],
+      "tests": [
+        "tests/test_parity_inventory.py"
+      ],
+      "testDisposition": "applicable",
+      "testReason": null,
+      "deviation": null
+    },
+    "PY-COVERSION:REQ-007": {
+      "expectedPaths": [
+        "pyproject.toml"
+      ],
+      "tests": [
+        "tests/test_full_suite_contract.py"
+      ],
+      "testDisposition": "applicable",
+      "testReason": null,
+      "deviation": null
+    },
+    "PY-COVERSION:REQ-008": {
+      "expectedPaths": [
+        "pyproject.toml"
+      ],
+      "tests": [
+        "tests/test_full_suite_contract.py"
+      ],
+      "testDisposition": "applicable",
+      "testReason": null,
+      "deviation": null
+    },
+    "PY-COVERSION:REQ-009": {
+      "expectedPaths": [
+        "docs/conversion-inventory.md",
+        "pyproject.toml"
+      ],
+      "tests": [
+        "tests/test_conversion_inventory.py",
+        "tests/test_packaging.py"
+      ],
+      "testDisposition": "applicable",
+      "testReason": null,
+      "deviation": null
+    },
+    "PY-COVERSION:REQ-010": {
+      "expectedPaths": [
+        "pyproject.toml"
+      ],
+      "tests": [
+        "tests/test_full_suite_contract.py"
+      ],
+      "testDisposition": "applicable",
+      "testReason": null,
+      "deviation": null
+    },
+    "PY-COVERSION:REQ-011": {
+      "expectedPaths": [
+        "pyproject.toml"
+      ],
+      "tests": [
+        "tests/test_packaging.py"
+      ],
+      "testDisposition": "applicable",
+      "testReason": null,
+      "deviation": null
+    },
+    "PY-COVERSION:REQ-012": {
+      "expectedPaths": [
+        "src/sfield/artifacts_fs/__init__.py",
+        "src/sfield/cli/__init__.py",
+        "src/sfield/core/__init__.py",
+        "src/sfield/http/__init__.py",
+        "src/sfield/preset_local/__init__.py",
+        "src/sfield/preset_memory/__init__.py",
+        "src/sfield/store_sqlite/__init__.py",
+        "src/sfield/testing/__init__.py"
+      ],
+      "tests": [
+        "tests/test_conversion_inventory.py"
+      ],
+      "testDisposition": "applicable",
+      "testReason": null,
+      "deviation": null
+    },
+    "PY-COVERSION:REQ-013": {
+      "expectedPaths": [
+        "tests/ported/test_artifacts_fs.py",
+        "tests/ported/test_cli.py",
+        "tests/ported/test_core.py",
+        "tests/ported/test_http.py",
+        "tests/ported/test_preset_local.py",
+        "tests/ported/test_preset_memory.py",
+        "tests/ported/test_store_sqlite.py",
+        "tests/ported/test_testing_e2e.py"
+      ],
+      "tests": [
+        "tests/test_full_suite_contract.py",
+        "tests/test_ported_suite_inventory.py"
+      ],
+      "testDisposition": "applicable",
+      "testReason": null,
+      "deviation": null
+    },
+    "PY-COVERSION:REQ-014": {
+      "expectedPaths": [
+        "docs/conversion-inventory.md",
+        "src/sfield/cli/main.py"
+      ],
+      "tests": [
+        "tests/parity/test_cli_parity.py",
+        "tests/test_conversion_inventory.py"
+      ],
+      "testDisposition": "applicable",
+      "testReason": null,
+      "deviation": null
+    },
+    "PY-COVERSION:AC-001": {
+      "expectedPaths": [
+        "pyproject.toml",
+        "src/sfield/__init__.py"
+      ],
+      "tests": [
+        "tests/test_conversion_inventory.py",
+        "tests/test_packaging.py"
+      ],
+      "testDisposition": "applicable",
+      "testReason": null,
+      "deviation": null
+    },
+    "PY-COVERSION:AC-002": {
+      "expectedPaths": [
+        "src/sfield/artifacts_fs/__init__.py",
+        "src/sfield/cli/main.py",
+        "src/sfield/core/runtime.py",
+        "src/sfield/http/__init__.py",
+        "src/sfield/preset_local/__init__.py",
+        "src/sfield/preset_memory/__init__.py",
+        "src/sfield/store_sqlite/__init__.py",
+        "src/sfield/testing/__init__.py"
+      ],
+      "tests": [
+        "tests/parity/test_success_failure_side_effects.py",
+        "tests/test_full_suite_contract.py"
+      ],
+      "testDisposition": "applicable",
+      "testReason": null,
+      "deviation": null
+    },
+    "PY-COVERSION:AC-003": {
+      "expectedPaths": [
+        "docs/conversion-inventory.md"
+      ],
+      "tests": [
+        "tests/test_conversion_inventory.py"
+      ],
+      "testDisposition": "applicable",
+      "testReason": null,
+      "deviation": null
+    },
+    "PY-COVERSION:AC-004": {
+      "expectedPaths": [
+        "tests/ported/test_artifacts_fs.py",
+        "tests/ported/test_cli.py",
+        "tests/ported/test_core.py",
+        "tests/ported/test_http.py",
+        "tests/ported/test_preset_local.py",
+        "tests/ported/test_preset_memory.py",
+        "tests/ported/test_store_sqlite.py",
+        "tests/ported/test_testing_e2e.py"
+      ],
+      "tests": [
+        "tests/test_parity_inventory.py",
+        "tests/test_ported_suite_inventory.py"
+      ],
+      "testDisposition": "applicable",
+      "testReason": null,
+      "deviation": null
+    },
+    "PY-COVERSION:AC-005": {
+      "expectedPaths": [
+        "pyproject.toml"
+      ],
+      "tests": [
+        "tests/test_full_suite_contract.py"
+      ],
+      "testDisposition": "applicable",
+      "testReason": null,
+      "deviation": null
+    }
+  },
+  "workId": "py-coversion",
+  "phase": "planning",
+  "generation": 1,
+  "source": {
+    "path": "singularity/work-items/py-coversion/artifacts/planning/plan.md",
+    "sha256": "3989f2fccf6bc4fadfe764a13119ea2c36f546f25e4b95c96fbd0a467788b1b8",
+    "bytes": 29668
+  }
+}

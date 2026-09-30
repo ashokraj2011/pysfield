@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 2,
+  "workId": "py-coversion",
+  "workType": "reference-driven-build",
+  "phase": "planning",
+  "generation": 1,
+  "mode": "enforce",
+  "recordedAt": "2026-09-30T03:55:47.758Z",
+  "renderedSha256": "6ead2aed87ef417b47ac4dc53ec71554ec5eff1bb8c0e95f2c8a5b4f772a17b0",
+  "warnings": [],
+  "inputs": [
+    {
+      "phase": "specification",
+      "path": "artifacts/specification/spec.md",
+      "repositoryPath": "singularity/work-items/py-coversion/artifacts/specification/spec.md",
+      "optional": false,
+      "maxBytes": null,
+      "status": "captured",
+      "producerStatus": "approved",
+      "producerGeneration": 2,
+      "approvedAt": "2026-09-30T03:53:08.463Z",
+      "approvedBy": "ashokraj2011",
+      "approvedSha256": "85cf81670690d0e4147a00046ee22d92801edc5cdf8b1c229be6430767b02ead",
+      "sha256": "85cf81670690d0e4147a00046ee22d92801edc5cdf8b1c229be6430767b02ead",
+      "bytes": 18103,
+      "source": {
+        "path": "singularity/work-items/py-coversion/artifacts/specification/spec.md",
+        "rawSha256": "sha256:85cf81670690d0e4147a00046ee22d92801edc5cdf8b1c229be6430767b02ead"
+      },
+      "representation": {
+        "kind": "full",
+        "sha256": "sha256:69c2eda26dfaf9968fd76729b7d2dfa3aa0fee9bba6a766c3f59118756f9a91c",
+        "bytes": 10880,
+        "complete": true,
+        "expansionHandle": "sfref:v1:story:py-coversion:408bc64b783caed6740f74874442604675e48d39f76317e7a6a7aa71d8a62ad4"
+      },
+      "injectedBytes": 10880,
+      "truncated": false,
+      "authoredBytes": 10880,
+      "managedBytesExcluded": 7223,
+      "projection": {
+        "kind": "full"
+      }
+    }
+  ]
+}
