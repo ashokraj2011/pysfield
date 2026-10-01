@@ -102,14 +102,14 @@ ledger:
   enabled: true
   branch: state
   remote: origin
+  publication: warn
   behind: warn
   enforcement: shadow
-  maxRetries: 4
-  pinTransport: refs
-  publication: warn
-  retentionDays: 2555
   signing: off
   trustTier: T0
+  maxRetries: 4
+  pinTransport: refs
+  retentionDays: 2555
 templatesRoot: singularity/templates
 noModel:
   unknownExternalCommands: warn
@@ -258,10 +258,10 @@ spec:
   mode: record
   coverage: record
   acceptance: presence
+  conformanceRows: qualified
   compositionCache: local
   testCommands: {}
   excludes: []
-  conformanceRows: qualified
 faultRepair:
   enabled: true
   maxAttempts: 3
@@ -1160,6 +1160,10 @@ workTypes:
       - convergence
       - verification
       - release
+    documents:
+      allowedPhases:
+        - specification
+        - planning
     spec:
       mode: enforce
     plannedClaims:
@@ -1193,15 +1197,21 @@ workTypes:
       release:
         inputs:
           - verification
-    documents:
-      allowedPhases:
-        - specification
-        - planning
   spec-driven-standard:
     label: Spec-Driven Standard
     spec:
       mode: enforce
       coverage: enforce
+    sourceReview:
+      mode: enforce
+      phases:
+        - specification
+        - planning
+      reviewerAgent: sflow-source-reviewer
+    documents:
+      allowedPhases:
+        - specification
+        - planning
     plannedClaims:
       mode: required
       clausePhases:
@@ -1356,16 +1366,6 @@ workTypes:
             maximumSummaryBytes: 24576
             expansion: hash-bound-reference
             fallback: block
-    sourceReview:
-      mode: enforce
-      phases:
-        - specification
-        - planning
-      reviewerAgent: sflow-source-reviewer
-    documents:
-      allowedPhases:
-        - specification
-        - planning
 phases:
   intake:
     label: Intake
