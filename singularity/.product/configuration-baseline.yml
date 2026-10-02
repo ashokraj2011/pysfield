@@ -1,7 +1,7 @@
 format: singularity-flow-configuration-baseline/v1
 product:
   version: 0.9.0
-  revision: a609a48ff6c9d40a8ac720373a842ffa3ef180a9
+  revision: 7899ab90448be5be4a2844b66ce7124e68187299
 workflow:
   version: 2
   inputsMode: enforce
@@ -2693,6 +2693,7 @@ ownership:
       poc-workflow: framework
       reference-driven-build: framework
       spec-driven-standard: framework
+      my-anlysis: repository
     phases:
       intake: framework
       requirements: framework
@@ -2726,6 +2727,7 @@ ownership:
       planning: framework
       convergence: framework
       release: framework
+      analysis: repository
     artifactSets:
       spec-driven-specification: framework
       spec-driven-planning: framework
