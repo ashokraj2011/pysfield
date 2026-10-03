@@ -2,11 +2,11 @@
 name: qa
 description: Produces reproducible verification, traceability, and conformance evidence.
 model: [auto]
-tools: [read, search, edit, bash, ask_user, playwright/*]
+tools: [read, search, edit, bash, ask_user, "playwright/*"]
 metadata:
   sflow-label: "QA"
   sflow-phases: "reproduction,verify,verification,testing,visual-verification,conformance,release"
-  sflow-default-for: "reproduction,verification,testing,visual-verification,conformance,release"
+  sflow-default-for: "reproduction,verify,verification,testing,visual-verification,conformance,release"
   sflow-world-model-views: "testing,development,security"
   sflow-model-task: "analyze"
 ---

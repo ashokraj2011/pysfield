@@ -102,14 +102,14 @@ ledger:
   enabled: true
   branch: state
   remote: origin
+  publication: warn
   behind: warn
   enforcement: shadow
-  maxRetries: 4
-  pinTransport: refs
-  publication: warn
-  retentionDays: 2555
   signing: off
   trustTier: T0
+  maxRetries: 4
+  pinTransport: refs
+  retentionDays: 2555
 templatesRoot: singularity/templates
 noModel:
   unknownExternalCommands: warn
@@ -258,10 +258,10 @@ spec:
   mode: record
   coverage: record
   acceptance: presence
+  conformanceRows: qualified
   compositionCache: local
   testCommands: {}
   excludes: []
-  conformanceRows: qualified
 faultRepair:
   enabled: true
   maxAttempts: 3
@@ -555,6 +555,9 @@ workTypes:
     templateOverrides:
       intake: chore/intake.md
     phaseOverrides:
+      intake:
+        artifact:
+          kind: requirements
       implementation:
         inputs:
           - intake
@@ -572,9 +575,6 @@ workTypes:
             - implementation
             - verification
             - conformance
-      intake:
-        artifact:
-          kind: requirements
   figma-mobile:
     label: Figma export to mobile app
     phases:
@@ -686,14 +686,10 @@ workTypes:
       owners:
         implement: intake
     templateOverrides:
+      intake: quick-fix/intake.md
       implement: quick-fix/implement.md
       verify: quick-fix/verify.md
-      intake: quick-fix/intake.md
     phaseOverrides:
-      verify:
-        inputs:
-          - intake
-          - implement
       intake:
         label: Scope and plan
         artifact:
@@ -714,6 +710,10 @@ workTypes:
       implement:
         inputs:
           - intake
+      verify:
+        inputs:
+          - intake
+          - implement
   classic-delivery:
     label: Classic delivery
     description: Intake, code, testing, and code checking with committed test
@@ -909,6 +909,11 @@ workTypes:
       - poc-lite-act
       - poc-lite-verify
       - poc-lite-finalize
+    omits:
+      - responsibility: scope
+        reason: POC Lite demonstrates the governed lifecycle on one bounded local change
+          and defines no requirement clauses.
+        authority: quality-reviewers
     intelligence:
       worldModel: off
       ast: off
@@ -931,11 +936,6 @@ workTypes:
           - poc-lite-plan
           - poc-lite-act
           - poc-lite-verify
-    omits:
-      - responsibility: scope
-        reason: POC Lite demonstrates the governed lifecycle on one bounded local change
-          and defines no requirement clauses.
-        authority: quality-reviewers
   benchmarking-a:
     label: Benchmark A — governed intelligence
     description: Measures governed world-model, bounded AST, and approval-bound
@@ -1189,6 +1189,10 @@ workTypes:
       - convergence
       - verification
       - release
+    documents:
+      allowedPhases:
+        - specification
+        - planning
     spec:
       mode: enforce
     plannedClaims:
@@ -1222,15 +1226,21 @@ workTypes:
       release:
         inputs:
           - verification
-    documents:
-      allowedPhases:
-        - specification
-        - planning
   spec-driven-standard:
     label: Spec-Driven Standard
     spec:
       mode: enforce
       coverage: enforce
+    sourceReview:
+      mode: enforce
+      phases:
+        - specification
+        - planning
+      reviewerAgent: sflow-source-reviewer
+    documents:
+      allowedPhases:
+        - specification
+        - planning
     plannedClaims:
       mode: required
       clausePhases:
@@ -1385,22 +1395,6 @@ workTypes:
             maximumSummaryBytes: 24576
             expansion: hash-bound-reference
             fallback: block
-    sourceReview:
-      mode: enforce
-      phases:
-        - specification
-        - planning
-      reviewerAgent: sflow-source-reviewer
-    documents:
-      allowedPhases:
-        - specification
-        - planning
-  my-anlysis:
-    label: my-anlysis
-    description: analysis
-    phases:
-      - intake
-      - analysis
 phases:
   intake:
     label: Intake
@@ -2476,22 +2470,6 @@ phases:
           - diff
           - --check
         modelPolicy: never
-  analysis:
-    label: Analysis
-    artifact:
-      path: artifacts/analysis/analysis.md
-      kind: analysis
-      minimumBytes: 200
-    defaultTemplate: common/analysis.md
-    writeScope: artifact-only
-    approval:
-      authorities:
-        - product-approvers
-      minimum: 1
-    generation:
-      task: analyze
-    inputs:
-      - intake
 governance:
   requireAcceptanceCriteriaTags: true
   protectedPaths:
