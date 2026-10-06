@@ -3,15 +3,15 @@
   "layout": "canonical-paths",
   "source": {
     "branch": "sflow/config",
-    "commit": "071f1330a011604044561527ddafb638730f543f"
+    "commit": "690bb41f88c641212d961e21eaf1359fb4072864"
   },
   "history": {
-    "branch": "sflow/config-history/071f1330a011604044561527ddafb638730f543f",
-    "commit": "071f1330a011604044561527ddafb638730f543f"
+    "branch": "sflow/config-history/690bb41f88c641212d961e21eaf1359fb4072864",
+    "commit": "690bb41f88c641212d961e21eaf1359fb4072864"
   },
   "product": {
     "version": "0.9.0",
-    "revision": "a5253bca5a4fc675e6872d97fd3e2da1f2051351"
+    "revision": "899f8a5bc2241d0cb19b852a0e6b4cc7c5a781a6"
   },
   "files": {
     ".github/agents/analysit.agent.md": "aad8bf804dcd94598b32f26f79b62ae75ce153147e9ed36683624582e7a8fe65",
